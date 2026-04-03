@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "bookmarklet",
-  "exported_at": "2026-04-03T21:35:59+09:00",
+  "exported_at": "2026-04-03T21:39:21+09:00",
   "player": {
     "crew_id": "32474862",
     "player_name": "えば",
@@ -6914,6 +6914,28 @@
           "clear_count": 11,
           "updated_at": "2026-02-20 19:29:02",
           "nice_play_rank": 10
+        }
+      ]
+    },
+    {
+      "music_id": "15253f66586a620f780968beee5577d9",
+      "music_title": "while (screen is blue)",
+      "diffs": [
+        {
+          "diff": "inf",
+          "level": 13,
+          "ar": 9931,
+          "clear_status": "success",
+          "high_score": 663329,
+          "maxcombo": 1365,
+          "combo_rank": 7,
+          "score_rank": 8,
+          "play_count": 6,
+          "perfect_clear_count": 0,
+          "full_combo_count": 0,
+          "clear_count": 6,
+          "updated_at": "2026-02-20 19:43:44",
+          "nice_play_rank": 28
         }
       ]
     }
