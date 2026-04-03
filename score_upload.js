@@ -84,51 +84,29 @@ window.run_score_upload = async function () {
   };
 
   const request_common_data = async ($) => {
-    const patterns = [
-      {
-        url: '../json/common_getdata.html',
-        type: 'POST',
-        data: {
-          service_kind: 'music_data',
-          pdata_kind: 'music_data'
-        }
-      },
-      {
-        url: './json/common_getdata.html',
-        type: 'POST',
-        data: {
-          service_kind: 'music_data',
-          pdata_kind: 'music_data'
-        }
-      },
-      {
-        url: '../json/common_getdata.html',
-        type: 'GET',
-        data: {}
-      },
-      {
-        url: './json/common_getdata.html',
-        type: 'GET',
-        data: {}
-      }
+    const urls = [
+      '../json/common_getdata.html',
+      './json/common_getdata.html'
     ];
 
     let last_error = null;
 
-    for (const pattern of patterns) {
+    for (const url of urls) {
       try {
         const res = await $.ajax({
-          url: pattern.url,
-          type: pattern.type,
+          url: url,
+          type: 'POST',
           dataType: 'json',
-          data: pattern.data
+          data: {
+            service_kind: 'music_list'
+          }
         });
 
-        console.log('common_getdata success:', pattern.url, pattern.type, res);
+        console.log('common_getdata success:', url, res);
         return res;
       } catch (error) {
         last_error = error;
-        console.log('common_getdata failed:', pattern.url, pattern.type, error);
+        console.log('common_getdata failed:', url, error);
       }
     }
 
@@ -193,49 +171,13 @@ window.run_score_upload = async function () {
   };
 
   const extract_common_music_list = (common_res) => {
-    const data = common_res?.data || {};
-
-    const direct_candidates = [
-      data.music_list,
-      data.music_data,
-      data.music,
-      data.mdb,
-      data.master_music,
-      data.music_data_list,
-      data.list
-    ];
-
-    for (const candidate of direct_candidates) {
-      const arr = to_array(candidate);
-      if (arr.length) {
-        return arr;
-      }
-    }
-
-    for (const key of Object.keys(data)) {
-      const value = data[key];
-      const arr = to_array(value);
-
-      if (!arr.length) continue;
-
-      const first = arr[0];
-      if (
-        first &&
-        typeof first === 'object' &&
-        (
-          first.music_id != null ||
-          first.id != null ||
-          first.name != null ||
-          first.chart_list != null ||
-          first.chart != null
-        )
-      ) {
-        console.log('common_music detected key:', key);
-        return arr;
-      }
-    }
-
-    return [];
+    return to_array(
+      common_res?.data?.musiclist?.music ||
+      common_res?.data?.music_list ||
+      common_res?.data?.music_data ||
+      common_res?.data?.music ||
+      []
+    );
   };
 
   const build_music_payload = (music_list) => {
