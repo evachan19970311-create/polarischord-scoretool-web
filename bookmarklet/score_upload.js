@@ -5,10 +5,10 @@ javascript:(async function () {
 
   const DIFF_MAP = {
     0: 'easy',
-    1: 'nml',
+    1: 'normal',
     2: 'hard',
     3: 'inf',
-    4: 'plr'
+    4: 'polar'
   };
 
   const CLEAR_MAP = {
@@ -37,22 +37,37 @@ javascript:(async function () {
     Number(play_info.local_matching_play_count || 0) +
     Number(play_info.global_matching_play_count || 0);
 
-  const post_json = async (payload) => {
-    const res = await fetch(GAS_WEBAPP_URL, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'text/plain;charset=utf-8'
-      },
-      body: JSON.stringify(payload)
+  const post_json = (payload) => {
+    return new Promise((resolve) => {
+        const iframe_name = `gas_post_iframe_${Date.now()}`;
+
+        const iframe = document.createElement('iframe');
+        iframe.name = iframe_name;
+        iframe.style.display = 'none';
+        document.body.appendChild(iframe);
+
+        const form = document.createElement('form');
+        form.method = 'POST';
+        form.action = GAS_WEBAPP_URL;
+        form.target = iframe_name;
+        form.style.display = 'none';
+
+        const input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = 'payload';
+        input.value = JSON.stringify(payload);
+
+        form.appendChild(input);
+        document.body.appendChild(form);
+
+        form.submit();
+
+        setTimeout(() => {
+        form.remove();
+        iframe.remove();
+        resolve({ ok: true });
+        }, 1500);
     });
-
-    const text = await res.text();
-
-    try {
-      return JSON.parse(text);
-    } catch (_) {
-      return { ok: false, raw: text };
-    }
   };
 
   const get_profile = () => {
@@ -90,6 +105,16 @@ javascript:(async function () {
     const music_map = {};
     const music_list = music_res?.data?.score_data?.usr_music_highscore?.music || [];
 
+    const format_jst = (date = new Date()) => {
+      const y = date.getFullYear();
+      const m = String(date.getMonth() + 1).padStart(2, '0');
+      const d = String(date.getDate()).padStart(2, '0');
+      const h = String(date.getHours()).padStart(2, '0');
+      const mi = String(date.getMinutes()).padStart(2, '0');
+      const s = String(date.getSeconds()).padStart(2, '0');
+      return `${y}-${m}-${d}T${h}:${mi}:${s}+09:00`;
+    };
+
     $(music_list).each(function () {
       const music_id = this.music_id;
       const music_title = this.name;
@@ -125,7 +150,7 @@ javascript:(async function () {
     const payload = {
       version: 1,
       source: 'bookmarklet',
-      exported_at: new Date().toISOString(),
+      exported_at: format_jst(),
       player: {
         crew_id: String(play_data.crew_id || ''),
         player_name: usr_profile.usr_name || '',
@@ -142,6 +167,7 @@ javascript:(async function () {
     }
 
     const result = await post_json(payload);
+    alert(`送信を実行しました\ncrew_id: ${payload.player.crew_id}\n結果はスプレッドシートまたはGitHubを確認してください`);
 
     if (result.ok) {
       alert(`送信成功\ncrew_id: ${payload.player.crew_id}\n保存先: ${result.path || 'unknown'}`);
