@@ -92,6 +92,38 @@ window.run_score_upload = async function () {
     });
   };
 
+  const request_common_data = async ($) => {
+    const urls = [
+      '../json/common_getdata.html',
+      './json/common_getdata.html'
+    ];
+
+    let last_error = null;
+
+    const try_next = async (index) => {
+      if (index >= urls.length) {
+        throw last_error || new Error('common_getdata.html へのアクセスに失敗しました');
+      }
+
+      try {
+        return await $.ajax({
+          url: urls[index],
+          type: 'POST',
+          dataType: 'json',
+          data: {
+            service_kind: 'music_data',
+            pdata_kind: 'music_data'
+          }
+        });
+      } catch (error) {
+        last_error = error;
+        return try_next(index + 1);
+      }
+    };
+
+    return try_next(0);
+  };
+
   const request_pdata = ($, data) => {
     const urls = [
       '../json/pdata_getdata.html',
@@ -157,7 +189,7 @@ window.run_score_upload = async function () {
   try {
     const $ = await ensure_jquery();
 
-    const [profile_res, music_res] = await Promise.all([
+    const [profile_res, music_res, common_res] = await Promise.all([
       request_pdata($, {
         service_kind: 'profile',
         pdata_kind: 'profile'
@@ -165,7 +197,8 @@ window.run_score_upload = async function () {
       request_pdata($, {
         service_kind: 'music_data',
         pdata_kind: 'music_data'
-      })
+      }),
+      request_common_data($)
     ]);
 
     const play_data = profile_res?.data?.play_data || {};
@@ -173,6 +206,10 @@ window.run_score_upload = async function () {
     const usr_nametag = play_data?.usr_nametag || {};
     const usr_play_info = play_data?.usr_play_info || {};
     const music_list = music_res?.data?.score_data?.usr_music_highscore?.music || [];
+    const common_music =
+      common_res?.data?.music_list ||
+      common_res?.data?.music_data ||
+      [];
 
     const payload = {
       version: 1,
@@ -186,7 +223,8 @@ window.run_score_upload = async function () {
         pa_class: usr_profile.pa_class != null ? Number(usr_profile.pa_class) : null,
         play_count: get_total_play_count(usr_play_info)
       },
-      music: build_music_payload(music_list)
+      music: build_music_payload(music_list),
+      common_music: Array.isArray(common_music) ? common_music : [common_music]
     };
 
     if (!payload.player.crew_id) {
