@@ -84,21 +84,51 @@ window.run_score_upload = async function () {
   };
 
   const request_common_data = async ($) => {
-    const urls = [
-      '../json/common_getdata.html',
-      './json/common_getdata.html'
+    const patterns = [
+      {
+        url: '../json/common_getdata.html',
+        type: 'POST',
+        data: {
+          service_kind: 'music_data',
+          pdata_kind: 'music_data'
+        }
+      },
+      {
+        url: './json/common_getdata.html',
+        type: 'POST',
+        data: {
+          service_kind: 'music_data',
+          pdata_kind: 'music_data'
+        }
+      },
+      {
+        url: '../json/common_getdata.html',
+        type: 'GET',
+        data: {}
+      },
+      {
+        url: './json/common_getdata.html',
+        type: 'GET',
+        data: {}
+      }
     ];
 
     let last_error = null;
 
-    for (const url of urls) {
+    for (const pattern of patterns) {
       try {
-        return await request_json($, url, {
-          service_kind: 'music_data',
-          pdata_kind: 'music_data'
+        const res = await $.ajax({
+          url: pattern.url,
+          type: pattern.type,
+          dataType: 'json',
+          data: pattern.data
         });
+
+        console.log('common_getdata success:', pattern.url, pattern.type, res);
+        return res;
       } catch (error) {
         last_error = error;
+        console.log('common_getdata failed:', pattern.url, pattern.type, error);
       }
     }
 
@@ -163,12 +193,49 @@ window.run_score_upload = async function () {
   };
 
   const extract_common_music_list = (common_res) => {
-    return to_array(
-      common_res?.data?.music_list ||
-      common_res?.data?.music_data ||
-      common_res?.data?.music ||
-      []
-    );
+    const data = common_res?.data || {};
+
+    const direct_candidates = [
+      data.music_list,
+      data.music_data,
+      data.music,
+      data.mdb,
+      data.master_music,
+      data.music_data_list,
+      data.list
+    ];
+
+    for (const candidate of direct_candidates) {
+      const arr = to_array(candidate);
+      if (arr.length) {
+        return arr;
+      }
+    }
+
+    for (const key of Object.keys(data)) {
+      const value = data[key];
+      const arr = to_array(value);
+
+      if (!arr.length) continue;
+
+      const first = arr[0];
+      if (
+        first &&
+        typeof first === 'object' &&
+        (
+          first.music_id != null ||
+          first.id != null ||
+          first.name != null ||
+          first.chart_list != null ||
+          first.chart != null
+        )
+      ) {
+        console.log('common_music detected key:', key);
+        return arr;
+      }
+    }
+
+    return [];
   };
 
   const build_music_payload = (music_list) => {
@@ -218,7 +285,10 @@ window.run_score_upload = async function () {
     console.log('music_list length:', music_list.length);
     console.log('common_music length:', common_music.length);
     console.log('music_res sample:', music_res);
-    console.log('common_res sample:', common_res);
+    console.log('common_res raw:', common_res);
+    console.log('common_res keys:', Object.keys(common_res || {}));
+    console.log('common_res.data keys:', Object.keys((common_res && common_res.data) || {}));
+    console.log('common_res.data:', common_res && common_res.data);
 
     const payload = {
       version: 1,
