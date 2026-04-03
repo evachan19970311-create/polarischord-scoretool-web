@@ -1,4 +1,4 @@
-window.run_polaris_uploader = async function () {
+window.run_score_upload = async function () {
   'use strict';
 
   const GAS_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxPXzlMOJzizzx9vZTpxO5t7hf-FCwGPm-JQ451fIL_XRq3raZeJZXYRxtIs4-DWdbC/exec';
