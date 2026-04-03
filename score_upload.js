@@ -128,5 +128,8 @@ window.run_score_upload = async function () {
 
   await post_json(payload);
 
-  alert('送信完了');
+  alert(
+    '送信を実行しました\n' +
+    `crew_id: ${payload.player.crew_id}\n` 
+  );
 };
