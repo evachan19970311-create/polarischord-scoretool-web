@@ -121,12 +121,18 @@ window.run_score_upload = async function () {
     return try_next(0);
   };
 
+  const to_array = (value) => {
+    if (Array.isArray(value)) return value;
+    if (value == null) return [];
+    return [value];
+  };
+
   const build_music_payload = (music_list) => {
-    return (music_list || []).map((music) => {
+    return to_array(music_list).map((music) => {
       return {
         music_id: music.music_id,
         music_title: music.name || '',
-        diffs: (music.chart_list?.chart || []).map((chart) => {
+        diffs: to_array(music.chart_list?.chart).map((chart) => {
           return {
             diff: DIFF_MAP[chart.chart_difficulty_type] ?? String(chart.chart_difficulty_type),
             level: chart.difficult != null ? Number(chart.difficult) : null,
