@@ -12,28 +12,6 @@
   },
   "music": [
     {
-      "music_id": "77b0f98b7f247b0251da420959ed4717",
-      "music_title": "Crossfade",
-      "diffs": [
-        {
-          "diff": "inf",
-          "level": 11,
-          "ar": 10000,
-          "clear_status": "perfect",
-          "high_score": 430442,
-          "maxcombo": 1162,
-          "combo_rank": 8,
-          "score_rank": 8,
-          "play_count": 1,
-          "perfect_clear_count": 1,
-          "full_combo_count": 1,
-          "clear_count": 1,
-          "updated_at": "2025-06-21 12:16:21",
-          "nice_play_rank": 0
-        }
-      ]
-    },
-    {
       "music_id": "8cf4ddbdc70fd5fbd9bc93a0afd0ec07",
       "music_title": "ぐしゃ",
       "diffs": [
