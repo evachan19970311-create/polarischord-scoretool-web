@@ -2,15 +2,8 @@ window.run_score_upload = async function () {
   'use strict';
 
   const EXPECTED_URL = 'https://p.eagate.573.jp/game/polarischord/pc/playdata/index.html';
-
-  if (!location.href.startsWith(EXPECTED_URL)) {
-    alert('このページでは実行できません。ポラリスコード公式サイトへ移動します。');
-    location.href = EXPECTED_URL;
-    return;
-  }
-
+  const PROFILE_URL_BASE = 'https://yew-kilt-23986518.figma.site/profile?id=';
   const GAS_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxPXzlMOJzizzx9vZTpxO5t7hf-FCwGPm-JQ451fIL_XRq3raZeJZXYRxtIs4-DWdbC/exec';
-  const WEBSITE_URL = 'https://yew-kilt-23986518.figma.site/profile';
 
   const DIFF_MAP = {
     0: 'easy',
@@ -190,8 +183,9 @@ window.run_score_upload = async function () {
   };
 
   const build_music_payload = (music_list) => {
-    return to_array(music_list).map((music) => {
+    return to_array(music_list).map((music, index) => {
       return {
+        data_index: index,
         music_id: music.music_id,
         music_title: music.name || music.music_title || '',
         diffs: to_array(music?.chart_list?.chart).map((chart) => {
@@ -217,6 +211,12 @@ window.run_score_upload = async function () {
   };
 
   try {
+    if (!location.href.startsWith(EXPECTED_URL)) {
+      alert('このページでは実行できません。プレイデータページへ移動します。');
+      location.href = EXPECTED_URL;
+      return;
+    }
+
     const $ = await ensure_jquery();
 
     const [profile_res, music_res, common_res] = await Promise.all([
@@ -273,9 +273,23 @@ window.run_score_upload = async function () {
       `common_music: ${payload.common_music.length}件`
     );
 
-    location.href = `${WEBSITE_URL}?id=${encodeURIComponent(payload.player.crew_id)}`;
+    location.href = PROFILE_URL_BASE + encodeURIComponent(payload.player.crew_id);
   } catch (error) {
     console.error(error);
     alert('score_upload の実行に失敗しました: ' + (error && error.message ? error.message : error));
   }
 };
+
+(function () {
+  'use strict';
+
+  if (window.__score_upload_booted__) return;
+  window.__score_upload_booted__ = true;
+
+  if (typeof window.run_score_upload !== 'function') {
+    alert('run_score_upload が見つかりません');
+    return;
+  }
+
+  window.run_score_upload();
+})();
