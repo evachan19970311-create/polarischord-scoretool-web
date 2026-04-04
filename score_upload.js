@@ -273,7 +273,9 @@ window.run_score_upload = async function () {
       `common_music: ${payload.common_music.length}件`
     );
 
-    location.href = PROFILE_URL_BASE + encodeURIComponent(payload.player.crew_id);
+    setTimeout(function () {
+      location.href = PROFILE_URL_BASE + encodeURIComponent(payload.player.crew_id);
+    }, 3000); // ← 3秒（調整OK）
   } catch (error) {
     console.error(error);
     alert('score_upload の実行に失敗しました: ' + (error && error.message ? error.message : error));
