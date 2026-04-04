@@ -1,7 +1,16 @@
 window.run_score_upload = async function () {
   'use strict';
 
+  const EXPECTED_URL = 'https://p.eagate.573.jp/game/polarischord/pc/playdata/index.html';
+
+  if (!location.href.startsWith(EXPECTED_URL)) {
+    alert('このページでは実行できません。ポラリスコード公式サイトへ移動します。');
+    location.href = EXPECTED_URL;
+    return;
+  }
+
   const GAS_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxPXzlMOJzizzx9vZTpxO5t7hf-FCwGPm-JQ451fIL_XRq3raZeJZXYRxtIs4-DWdbC/exec';
+  const WEBSITE_URL = 'https://yew-kilt-23986518.figma.site/profile';
 
   const DIFF_MAP = {
     0: 'easy',
@@ -263,6 +272,8 @@ window.run_score_upload = async function () {
       `music: ${payload.music.length}件\n` +
       `common_music: ${payload.common_music.length}件`
     );
+
+    location.href = `${WEBSITE_URL}?id=${encodeURIComponent(payload.player.crew_id)}`;
   } catch (error) {
     console.error(error);
     alert('score_upload の実行に失敗しました: ' + (error && error.message ? error.message : error));
