@@ -1,37 +1,5 @@
 [
   {
-    "data_index": 0,
-    "music_id": "77b0f98b7f247b0251da420959ed4717",
-    "music_title": "Crossfade",
-    "composer": "La prière",
-    "diffs": [
-      {
-        "diff": "inf",
-        "level": 11,
-        "music_const": 11.2,
-        "difficulty_ap": 2
-      },
-      {
-        "diff": "hard",
-        "level": 8,
-        "music_const": 8,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "nml",
-        "level": 6,
-        "music_const": 6,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "easy",
-        "level": 3,
-        "music_const": 3,
-        "difficulty_ap": 0
-      }
-    ]
-  },
-  {
     "data_index": 1,
     "music_id": "8cf4ddbdc70fd5fbd9bc93a0afd0ec07",
     "music_title": "ぐしゃ",
