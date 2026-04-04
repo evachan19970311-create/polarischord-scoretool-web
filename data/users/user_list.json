@@ -1,5 +1,15 @@
 [
   {
+    "exported_at": "2026-04-04T23:24:54+09:00",
+    "crew_id": "68207041",
+    "player_name": "さまよい",
+    "title_name": "伝説級PA",
+    "pa_skill": 16.01,
+    "pa_class": 346,
+    "play_count": 1013,
+    "paskill_average_top30": 16.0134
+  },
+  {
     "exported_at": "2026-04-04T23:16:46+09:00",
     "crew_id": "32071900",
     "player_name": "ー＜ＴｓｕｋａｎＡ＞ー",
@@ -18,15 +28,5 @@
     "pa_class": 283,
     "play_count": 573,
     "paskill_average_top30": 15.8994
-  },
-  {
-    "exported_at": "2026-04-04T18:48:06+09:00",
-    "crew_id": "68207041",
-    "player_name": "さまよい",
-    "title_name": "伝説級PA",
-    "pa_skill": 16,
-    "pa_class": 346,
-    "play_count": 1011,
-    "paskill_average_top30": 16.0031
   }
 ]
