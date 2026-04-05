@@ -1,5 +1,15 @@
 [
   {
+    "exported_at": "2026-04-05T15:36:57+09:00",
+    "crew_id": "32474862",
+    "player_name": "えば",
+    "title_name": "Hello, Hologram LOVE！！！",
+    "pa_skill": 15.89,
+    "pa_class": 283,
+    "play_count": 573,
+    "paskill_average_top30": 15.8994
+  },
+  {
     "exported_at": "2026-04-05T13:44:11+09:00",
     "crew_id": "68207041",
     "player_name": "さまよい",
@@ -8,16 +18,6 @@
     "pa_class": 346,
     "play_count": 1013,
     "paskill_average_top30": 16.0134
-  },
-  {
-    "exported_at": "2026-04-05T00:11:01+09:00",
-    "crew_id": "32474862",
-    "player_name": "えば",
-    "title_name": "Hello, Hologram LOVE！！！",
-    "pa_skill": 15.89,
-    "pa_class": 283,
-    "play_count": 573,
-    "paskill_average_top30": 15.8994
   },
   {
     "exported_at": "2026-04-04T23:16:46+09:00",
