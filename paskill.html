@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PASKILL TOP30 Local Preview</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700;800;900&family=Orbitron:wght@600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at top left, rgba(0, 255, 255, 0.08), transparent 30%),
+        radial-gradient(circle at top right, rgba(255, 0, 255, 0.08), transparent 30%),
+        linear-gradient(180deg, #090d1b 0%, #101731 45%, #161d3f 100%);
+      color: #fff;
+      font-family: "Exo 2", sans-serif;
+    }
+
+    .wrap {
+      width: min(96vw, 1700px);
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .title {
+      margin: 0;
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 900;
+      background: linear-gradient(90deg, #00ffff, #ff00ff, #00d4ff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      font-family: "Orbitron", sans-serif;
+    }
+
+    .subtitle {
+      margin-top: 8px;
+      color: #aab8ff;
+      font-size: 14px;
+    }
+
+    .toolbar {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      border: none;
+      border-radius: 14px;
+      padding: 12px 18px;
+      color: white;
+      font-weight: 800;
+      cursor: pointer;
+      font-family: "Exo 2", sans-serif;
+      background: linear-gradient(90deg, #7b2cff, #ff00c8);
+      box-shadow: 0 8px 24px rgba(255, 0, 200, 0.25);
+    }
+
+    button:hover {
+      transform: translateY(-1px);
+    }
+
+    .panel {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(180, 0, 255, 0.25);
+      border-radius: 24px;
+      padding: 16px;
+      overflow: auto;
+      backdrop-filter: blur(14px);
+    }
+
+    canvas {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .note {
+      margin-top: 16px;
+      padding: 14px 16px;
+      border-radius: 18px;
+      color: #d7deff;
+      background: rgba(0, 212, 255, 0.08);
+      border: 1px solid rgba(0, 255, 255, 0.18);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .status {
+      text-align: center;
+      margin-bottom: 14px;
+      color: #9fb3ff;
+      font-size: 14px;
+      min-height: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <h1 class="title">PASKILL TOP30 LOCAL PREVIEW</h1>
+      <div class="subtitle">実データJSON fetch確認用</div>
+    </div>
+
+    <div class="toolbar">
+      <button id="renderBtn">再取得して再描画</button>
+      <button id="downloadBtn">PNGを保存</button>
+    </div>
+
+    <div id="status" class="status">初期化中...</div>
+
+    <div class="panel">
+      <canvas id="paskillCanvas"></canvas>
+    </div>
+
+    <div class="note">
+      このHTMLは実データJSONのfetch確認用です。<br />
+      JSON URLは <code>draw_paskill.js</code> 内の <code>SUMMARY_DATA_URL</code> を変更してください。<br />
+      ジャケット画像URLは <code>getJacketUrl(musicId)</code> を本番用に差し替えてください。
+    </div>
+  </div>
+
+  <script src="./draw_paskill.js"></script>
+</body>
+</html>
