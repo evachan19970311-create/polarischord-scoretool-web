@@ -210,7 +210,68 @@ window.run_score_upload = async function () {
     });
   };
 
+  const create_loading_overlay = () => {
+  const overlay = document.createElement('div');
+  overlay.id = 'score-upload-loading';
+
+  overlay.innerHTML = `
+    <div class="loading-box">
+      <div class="spinner"></div>
+      <div class="text">スコア送信中...</div>
+    </div>
+  `;
+
+  const style = document.createElement('style');
+    style.innerHTML = `
+      #score-upload-loading {
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.5);
+        z-index: 999999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .loading-box {
+        background: #fff;
+        padding: 24px 32px;
+        border-radius: 16px;
+        text-align: center;
+        box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+        font-family: sans-serif;
+      }
+
+      .spinner {
+        width: 32px;
+        height: 32px;
+        border: 4px solid #ddd;
+        border-top: 4px solid #4c64ae;
+        border-radius: 50%;
+        margin: 0 auto 12px;
+        animation: spin 1s linear infinite;
+      }
+
+      .text {
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+      }
+
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    `;
+
+    document.head.appendChild(style);
+    document.body.appendChild(overlay);
+
+    return overlay;
+  };
+
   try {
+    const loading_overlay = create_loading_overlay();
+
     if (!location.href.startsWith(EXPECTED_URL)) {
       alert('このページでは実行できません。プレイデータページへ移動します。');
       location.href = EXPECTED_URL;
@@ -265,6 +326,8 @@ window.run_score_upload = async function () {
     }
 
     await post_json_by_form(payload);
+
+    loading_overlay.remove();
 
     alert(
       '送信を実行しました\n' +
