@@ -347,6 +347,10 @@ window.run_score_upload = async function () {
 
     await post_json_by_form(payload);
 
+    setTimeout(function () {
+      location.href = PROFILE_URL_BASE + encodeURIComponent(payload.player.crew_id);
+    }, 10000); // ← 10秒（調整OK）
+
     const spinner = document.getElementById('loading-spinner');
     const text = document.getElementById('loading-text');
     const result = document.getElementById('loading-result');
@@ -365,9 +369,6 @@ window.run_score_upload = async function () {
 
     window.__score_upload_running__ = false;
 
-    setTimeout(function () {
-      location.href = PROFILE_URL_BASE + encodeURIComponent(payload.player.crew_id);
-    }, 3000); // ← 3秒（調整OK）
   } catch (error) {
     console.error(error);
     const spinner = document.getElementById('loading-spinner');
