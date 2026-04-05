@@ -1,6 +1,17 @@
 window.run_score_upload = async function () {
   'use strict';
 
+  if (window.__score_upload_running__) {
+    const text = document.getElementById('loading-text');
+    if (text) {
+      text.textContent = 'すでに実行中です';
+    } else {
+      alert('すでに実行中です');
+    }
+    return;
+  }
+  window.__score_upload_running__ = true;
+
   const EXPECTED_URL = 'https://p.eagate.573.jp/game/polarischord/pc/playdata/index.html';
   const PROFILE_URL_BASE = 'https://yew-kilt-23986518.figma.site/profile?id=';
   const GAS_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxPXzlMOJzizzx9vZTpxO5t7hf-FCwGPm-JQ451fIL_XRq3raZeJZXYRxtIs4-DWdbC/exec';
@@ -216,8 +227,9 @@ window.run_score_upload = async function () {
 
   overlay.innerHTML = `
     <div class="loading-box">
-      <div class="spinner"></div>
-      <div class="text">スコア送信中...</div>
+      <div class="spinner" id="loading-spinner"></div>
+      <div class="text" id="loading-text">スコア送信中...</div>
+      <div class="result" id="loading-result" style="display:none;"></div>
     </div>
   `;
 
@@ -256,6 +268,14 @@ window.run_score_upload = async function () {
         font-size: 14px;
         font-weight: bold;
         color: #333;
+      }
+
+      .result {
+        margin-top: 12px;
+        font-size: 13px;
+        color: #333;
+        line-height: 1.6;
+        white-space: pre-line;
       }
 
       @keyframes spin {
@@ -327,21 +347,42 @@ window.run_score_upload = async function () {
 
     await post_json_by_form(payload);
 
-    loading_overlay.remove();
+    const spinner = document.getElementById('loading-spinner');
+    const text = document.getElementById('loading-text');
+    const result = document.getElementById('loading-result');
 
-    alert(
-      '送信を実行しました\n' +
-      `crew_id: ${payload.player.crew_id}\n` +
-      `music: ${payload.music.length}件\n` +
-      `common_music: ${payload.common_music.length}件`
-    );
+    if (spinner) spinner.style.display = 'none';
+    if (text) text.textContent = '送信完了！';
+
+    if (result) {
+      result.style.display = 'block';
+      result.textContent =
+        '送信を実行しました\n' +
+        `crew_id: ${payload.player.crew_id}\n` +
+        `music: ${payload.music.length}件\n` +
+        `common_music: ${payload.common_music.length}件`;
+    }
+
+    window.__score_upload_running__ = false;
 
     setTimeout(function () {
       location.href = PROFILE_URL_BASE + encodeURIComponent(payload.player.crew_id);
     }, 3000); // ← 3秒（調整OK）
   } catch (error) {
     console.error(error);
-    alert('score_upload の実行に失敗しました: ' + (error && error.message ? error.message : error));
+    const spinner = document.getElementById('loading-spinner');
+    const text = document.getElementById('loading-text');
+    const result = document.getElementById('loading-result');
+
+    if (spinner) spinner.style.display = 'none';
+    if (text) text.textContent = 'エラーが発生しました';
+
+    if (result) {
+      result.style.display = 'block';
+      result.textContent = error.message || error;
+    }
+
+    window.__score_upload_running__ = false;
   }
 };
 
