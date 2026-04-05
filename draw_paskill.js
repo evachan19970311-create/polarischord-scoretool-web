@@ -114,6 +114,13 @@ function drawPaskillValue(ctx, { text, x, y, font, align = "right", base = "top"
   else if (align === "center") lx = x - tw / 2;
   else lx = x;
 
+  if (style.isRainbow) {
+      ctx.shadowColor = "rgba(255,255,255,0.6)";
+    } else {
+      ctx.shadowColor = style.glowColor;
+  }
+  ctx.shadowBlur = 6;   ;
+
   // ── 本体テキストのみ ─────────────────────────────
   if (style.isRainbow) {
     const g = ctx.createLinearGradient(lx, y, lx + tw, y);
@@ -471,13 +478,20 @@ function drawHeader(ctx, W, data, shibadgeImages) {
   nameUlG.addColorStop(1, "rgba(255,255,255,0)");
   ctx.strokeStyle = nameUlG;
   ctx.lineWidth = 1.5;
-  ctx.beginPath();
+  ctx.beginPath(); 
   ctx.moveTo(nameUlX, nameUlY);
   ctx.lineTo(col2X, nameUlY);
   ctx.stroke();
   ctx.restore();
 
   let shibadgeW = 0;
+  const avgVal = typeof data.paskill_average_top30 === "number"
+    ? data.paskill_average_top30.toFixed(4)
+    : "-";
+  const avgFont = "900 64px 'M PLUS Rounded 1c', sans-serif";
+
+  const avgPaskill = Number(avgVal);
+  const avgStyle = getPaskillStyle(avgPaskill);
 
     // シバッジ描画
   if (shibadgeImages?.badge) {
@@ -502,15 +516,17 @@ function drawHeader(ctx, W, data, shibadgeImages) {
       ctx.drawImage(shibadgeImages.star, starX, starY, starW, starH);
     }
 
+    if (avgStyle.isRainbow) {
+        ctx.shadowColor = "rgba(255,255,255,0.6)";
+    } else {
+        ctx.shadowColor = avgStyle.glowColor;
+    }
+    ctx.shadowBlur = 12;
+
     ctx.drawImage(shibadgeImages.badge, badgeX, badgeY, badgeW, badgeH);
 
     ctx.restore();
   }
-
-  const avgVal = typeof data.paskill_average_top30 === "number"
-    ? data.paskill_average_top30.toFixed(4)
-    : "-";
-  const avgFont = "900 64px 'M PLUS Rounded 1c', sans-serif";
 
   drawPaskillValue(ctx, {
     text: avgVal,
