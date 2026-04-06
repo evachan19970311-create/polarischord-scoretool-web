@@ -349,7 +349,7 @@ window.run_score_upload = async function () {
 
     setTimeout(function () {
       location.href = PROFILE_URL_BASE + encodeURIComponent(payload.player.crew_id);
-    }, 10000); // ← 10秒（調整OK）
+    }, 5000); // ← 5秒（調整OK）
 
     const spinner = document.getElementById('loading-spinner');
     const text = document.getElementById('loading-text');
@@ -364,7 +364,8 @@ window.run_score_upload = async function () {
         '送信を実行しました\n' +
         `crew_id: ${payload.player.crew_id}\n` +
         `music: ${payload.music.length}件\n` +
-        `common_music: ${payload.common_music.length}件`;
+        `common_music: ${payload.common_music.length}件\n\n` +
+        '5秒後に自動でプロフィールページへ移動します...';
     }
 
     window.__score_upload_running__ = false;
