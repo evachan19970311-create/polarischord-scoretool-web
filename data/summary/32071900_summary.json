@@ -1,10 +1,10 @@
 {
   "crew_id": "32071900",
-  "player_name": "ー＜ＴｓｕｋａｎＡ＞ー",
+  "player_name": "Ｔｓｕｋａｎａ",
   "title_name": "while (screen is blue) LOVE！！！",
   "pa_skill": 16.05,
   "paskill_average_top30": 16.0572,
-  "updated_at": "2026-04-06T15:40:06+09:00",
+  "updated_at": "2026-04-06T22:47:22+09:00",
   "top_paskill_charts": [
     {
       "music_id": "8db9fbb60222f3820fed97b3a789be5d",
@@ -16,7 +16,7 @@
       "high_score": 1343683,
       "music_const": 14.4,
       "paskill": 16.664,
-      "play_count": 393
+      "play_count": 395
     },
     {
       "music_id": "0a9507336a68c90bb187ec43b2a11df3",
@@ -28,7 +28,7 @@
       "high_score": 1515627,
       "music_const": 14.3,
       "paskill": 16.558,
-      "play_count": 58
+      "play_count": 59
     },
     {
       "music_id": "974361e4cc8917618f8ac17a77b1385f",
@@ -64,7 +64,7 @@
       "high_score": 1293158,
       "music_const": 14,
       "paskill": 16.294,
-      "play_count": 104
+      "play_count": 106
     },
     {
       "music_id": "cb5a4d5c12b810c080f1b4a35f1914e0",
@@ -136,7 +136,7 @@
       "high_score": 1216421,
       "music_const": 13.8,
       "paskill": 16.1,
-      "play_count": 254
+      "play_count": 255
     },
     {
       "music_id": "48cf5fac9f5ee82c0fd1d940e22a3ba6",
@@ -172,7 +172,7 @@
       "high_score": 1503833,
       "music_const": 13.8,
       "paskill": 16.1,
-      "play_count": 40
+      "play_count": 41
     },
     {
       "music_id": "b28055aa19e02e24c0f4f1495cdd1d88",
@@ -196,7 +196,7 @@
       "high_score": 942392,
       "music_const": 13.8,
       "paskill": 16.1,
-      "play_count": 22
+      "play_count": 23
     },
     {
       "music_id": "1f7a0fd828a0e31c30299acacc519749",
@@ -208,7 +208,7 @@
       "high_score": 1602910,
       "music_const": 13.7,
       "paskill": 16,
-      "play_count": 202
+      "play_count": 203
     },
     {
       "music_id": "3f215352b939c692ca537c1d76665a66",
@@ -232,7 +232,7 @@
       "high_score": 1278886,
       "music_const": 13.7,
       "paskill": 16,
-      "play_count": 19
+      "play_count": 20
     },
     {
       "music_id": "9be4e8f44047873589be14bcda8e45df",
