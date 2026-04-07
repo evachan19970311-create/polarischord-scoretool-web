@@ -9,7 +9,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.2,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -41,7 +41,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -73,7 +73,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -105,7 +105,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.1,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -163,7 +163,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -221,7 +221,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.2,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -253,7 +253,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.3,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -285,7 +285,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.5,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -317,7 +317,7 @@
         "diff": "inf",
         "level": 9,
         "music_const": 9,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -349,7 +349,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.1,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -459,7 +459,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -491,7 +491,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -523,7 +523,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -555,7 +555,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -587,7 +587,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -645,7 +645,7 @@
         "diff": "inf",
         "level": 9,
         "music_const": 9,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -677,7 +677,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.6,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -709,7 +709,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -741,7 +741,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.2,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -773,7 +773,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.5,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -805,7 +805,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -915,7 +915,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -947,7 +947,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1005,7 +1005,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1037,7 +1037,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1095,7 +1095,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.8,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1127,7 +1127,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1159,7 +1159,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.6,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1191,7 +1191,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1223,7 +1223,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.6,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1307,7 +1307,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.6,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1391,7 +1391,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1449,7 +1449,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.1,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1481,7 +1481,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.5,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1513,7 +1513,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.5,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1545,7 +1545,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.9,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1577,7 +1577,7 @@
         "diff": "inf",
         "level": 9,
         "music_const": 9,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1609,7 +1609,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.8,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1641,7 +1641,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1673,7 +1673,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.3,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1705,7 +1705,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1737,7 +1737,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1769,7 +1769,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1801,7 +1801,7 @@
         "diff": "inf",
         "level": 9,
         "music_const": 9,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1833,7 +1833,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -1995,7 +1995,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2027,7 +2027,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.3,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2059,7 +2059,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.3,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2091,7 +2091,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2123,7 +2123,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2155,7 +2155,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2187,7 +2187,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2219,7 +2219,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.8,
-        "difficulty_ap": 13
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2251,7 +2251,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.3,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2283,7 +2283,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2315,7 +2315,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.3,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2347,7 +2347,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.5,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2379,7 +2379,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.2,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2411,7 +2411,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.5,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2443,7 +2443,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2475,7 +2475,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2507,7 +2507,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.1,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2617,7 +2617,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.3,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2649,7 +2649,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2733,7 +2733,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.2,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2765,7 +2765,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.8,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2823,7 +2823,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.2,
-        "difficulty_ap": 11
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2855,7 +2855,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2887,7 +2887,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2919,7 +2919,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.2,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -2951,7 +2951,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.5,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3035,7 +3035,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3067,7 +3067,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3099,7 +3099,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.9,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3131,7 +3131,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.1,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3163,7 +3163,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3195,7 +3195,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3227,7 +3227,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.8,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3259,7 +3259,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3291,7 +3291,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3323,7 +3323,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3355,7 +3355,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3387,7 +3387,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3419,7 +3419,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.5,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3451,7 +3451,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3483,7 +3483,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.6,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3515,7 +3515,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3547,7 +3547,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.3,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3579,7 +3579,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3611,7 +3611,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.2,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3643,7 +3643,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.1,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3675,7 +3675,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.6,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3707,7 +3707,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.6,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3739,7 +3739,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3771,7 +3771,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3803,7 +3803,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3835,7 +3835,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3867,7 +3867,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3899,7 +3899,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.3,
-        "difficulty_ap": 12
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3931,7 +3931,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.8,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3963,7 +3963,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -3995,7 +3995,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.6,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4027,7 +4027,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4059,7 +4059,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.6,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4091,7 +4091,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.2,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4123,7 +4123,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.1,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4155,7 +4155,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.9,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4187,7 +4187,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4219,7 +4219,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.7,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4251,7 +4251,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4283,7 +4283,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.3,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4315,7 +4315,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4347,7 +4347,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4379,7 +4379,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.4,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4411,7 +4411,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4443,7 +4443,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4475,7 +4475,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.1,
-        "difficulty_ap": 11
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4507,7 +4507,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.9,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4539,7 +4539,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4571,7 +4571,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.6,
-        "difficulty_ap": 12
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4603,7 +4603,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4635,7 +4635,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4667,7 +4667,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4699,7 +4699,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.6,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4731,7 +4731,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.3,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4763,7 +4763,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.8,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4795,7 +4795,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.6,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4827,7 +4827,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4859,7 +4859,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.5,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4891,7 +4891,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4923,7 +4923,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.8,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4955,7 +4955,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.5,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -4987,7 +4987,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.9,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5019,7 +5019,7 @@
         "diff": "inf",
         "level": 9,
         "music_const": 9,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5051,7 +5051,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5083,7 +5083,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.8,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5115,7 +5115,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.2,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5147,7 +5147,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.3,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5179,7 +5179,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.3,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5211,7 +5211,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5243,7 +5243,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5275,7 +5275,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5307,7 +5307,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.1,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5339,7 +5339,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.3,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5371,7 +5371,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5403,7 +5403,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5435,7 +5435,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5467,7 +5467,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.8,
-        "difficulty_ap": 13
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5499,7 +5499,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.3,
-        "difficulty_ap": 12
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5531,7 +5531,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13,
-        "difficulty_ap": 11
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5563,7 +5563,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5595,7 +5595,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5627,7 +5627,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5659,7 +5659,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5691,7 +5691,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.3,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5723,7 +5723,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.2,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5755,7 +5755,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5787,7 +5787,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.6,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5819,7 +5819,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5851,7 +5851,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.2,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5883,7 +5883,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.1,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5915,7 +5915,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5947,7 +5947,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.3,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -5979,7 +5979,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.6,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6011,7 +6011,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6043,7 +6043,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.3,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6075,7 +6075,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6107,7 +6107,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6139,7 +6139,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6171,7 +6171,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6203,7 +6203,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.8,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6235,7 +6235,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6267,7 +6267,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6299,7 +6299,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6331,7 +6331,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.6,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6363,7 +6363,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6395,7 +6395,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6427,7 +6427,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6459,7 +6459,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.2,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6491,7 +6491,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.2,
-        "difficulty_ap": 11
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6523,7 +6523,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6555,7 +6555,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6587,7 +6587,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6619,7 +6619,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.5,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6651,7 +6651,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6683,7 +6683,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.5,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6715,7 +6715,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6747,7 +6747,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6779,7 +6779,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6811,7 +6811,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6843,7 +6843,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6875,7 +6875,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6907,7 +6907,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6939,7 +6939,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -6971,7 +6971,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.7,
-        "difficulty_ap": 13
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7003,7 +7003,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.8,
-        "difficulty_ap": 13
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7035,7 +7035,7 @@
         "diff": "inf",
         "level": 14,
         "music_const": 14.4,
-        "difficulty_ap": 15
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7067,7 +7067,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7099,7 +7099,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7131,7 +7131,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7163,7 +7163,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7195,7 +7195,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7227,7 +7227,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7259,7 +7259,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.4,
-        "difficulty_ap": 12
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7291,7 +7291,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7323,7 +7323,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7355,7 +7355,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7387,7 +7387,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7419,7 +7419,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7451,7 +7451,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.8,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7483,7 +7483,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7515,7 +7515,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.3,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7547,7 +7547,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.3,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7579,7 +7579,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7611,7 +7611,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7643,7 +7643,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.2,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7675,7 +7675,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7707,7 +7707,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.3,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7739,7 +7739,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7771,7 +7771,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7803,7 +7803,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7835,7 +7835,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.4,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7867,7 +7867,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7899,7 +7899,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.2,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7931,7 +7931,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7963,7 +7963,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.6,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -7995,7 +7995,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8027,7 +8027,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.5,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8059,7 +8059,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.6,
-        "difficulty_ap": 11
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8091,7 +8091,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8123,7 +8123,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8155,7 +8155,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8187,7 +8187,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8219,7 +8219,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8251,7 +8251,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.1,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8283,7 +8283,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8315,7 +8315,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8347,7 +8347,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.3,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8379,7 +8379,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.5,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8411,7 +8411,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8443,7 +8443,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8475,7 +8475,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8507,7 +8507,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8539,7 +8539,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8571,7 +8571,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8603,7 +8603,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8635,7 +8635,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8667,7 +8667,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8699,7 +8699,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.5,
-        "difficulty_ap": 13
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8731,7 +8731,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8763,7 +8763,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8795,7 +8795,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8827,7 +8827,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8859,7 +8859,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.6,
-        "difficulty_ap": 11
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8891,7 +8891,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8923,7 +8923,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8955,7 +8955,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.8,
-        "difficulty_ap": 12
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -8987,7 +8987,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9019,7 +9019,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9051,7 +9051,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9083,7 +9083,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9115,7 +9115,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9147,7 +9147,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.5,
-        "difficulty_ap": 12
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9179,7 +9179,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.8,
-        "difficulty_ap": 13
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9211,7 +9211,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9243,7 +9243,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9275,7 +9275,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9307,7 +9307,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9339,7 +9339,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9371,7 +9371,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.4,
-        "difficulty_ap": 12
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9403,7 +9403,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.8,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9435,7 +9435,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9467,7 +9467,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.9,
-        "difficulty_ap": 14
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9499,7 +9499,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9531,7 +9531,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9563,7 +9563,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9595,7 +9595,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.4,
-        "difficulty_ap": 11
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9627,7 +9627,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 11
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9659,7 +9659,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9691,7 +9691,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9723,7 +9723,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.5,
-        "difficulty_ap": 12
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9755,7 +9755,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.6,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9787,7 +9787,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9819,7 +9819,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.6,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9851,7 +9851,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9883,7 +9883,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.8,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9915,7 +9915,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.8,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9947,7 +9947,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -9979,7 +9979,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10011,7 +10011,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.7,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10043,7 +10043,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10075,7 +10075,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.8,
-        "difficulty_ap": 13
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10107,7 +10107,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10139,7 +10139,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10171,7 +10171,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.6,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10203,7 +10203,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.4,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10235,7 +10235,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10267,7 +10267,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10299,7 +10299,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10331,7 +10331,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10363,7 +10363,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10395,7 +10395,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10427,7 +10427,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.7,
-        "difficulty_ap": 12
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10459,7 +10459,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10491,7 +10491,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.6,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10523,7 +10523,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10555,7 +10555,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.5,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10587,7 +10587,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10619,7 +10619,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.5,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10651,7 +10651,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 8
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10683,7 +10683,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10715,7 +10715,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.5,
-        "difficulty_ap": 12
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10747,7 +10747,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.8,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10779,7 +10779,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10811,7 +10811,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10843,7 +10843,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.8,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10875,7 +10875,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.6,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10907,7 +10907,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10939,7 +10939,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.8,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -10971,7 +10971,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11003,7 +11003,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11035,7 +11035,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11067,7 +11067,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.8,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11099,7 +11099,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.5,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11131,7 +11131,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.6,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11163,7 +11163,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.8,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11195,7 +11195,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11227,7 +11227,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.3,
-        "difficulty_ap": 13
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11259,7 +11259,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.6,
-        "difficulty_ap": 13
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11291,7 +11291,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.8,
-        "difficulty_ap": 14
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11323,7 +11323,7 @@
         "diff": "inf",
         "level": 14,
         "music_const": 14,
-        "difficulty_ap": 14
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11355,7 +11355,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.5,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11387,7 +11387,7 @@
         "diff": "inf",
         "level": 14,
         "music_const": 14,
-        "difficulty_ap": 13
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11419,7 +11419,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11451,7 +11451,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.3,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11483,7 +11483,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.2,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11515,7 +11515,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.8,
-        "difficulty_ap": 2
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11547,7 +11547,7 @@
         "diff": "inf",
         "level": 10,
         "music_const": 10.8,
-        "difficulty_ap": 1
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11579,7 +11579,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.9,
-        "difficulty_ap": 14
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11611,7 +11611,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11643,7 +11643,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 9
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11675,7 +11675,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.9,
-        "difficulty_ap": 10
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11707,13 +11707,13 @@
         "diff": "plr",
         "level": 14,
         "music_const": 14,
-        "difficulty_ap": 12
+        "difficulty_ap": 0
       },
       {
         "diff": "inf",
         "level": 13,
         "music_const": 13.3,
-        "difficulty_ap": 11
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11745,7 +11745,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.7,
-        "difficulty_ap": 13
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11777,7 +11777,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11809,7 +11809,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.7,
-        "difficulty_ap": 13
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11841,7 +11841,7 @@
         "diff": "inf",
         "level": 14,
         "music_const": 14.3,
-        "difficulty_ap": 15
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11873,7 +11873,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.9,
-        "difficulty_ap": 14
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11905,7 +11905,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.1,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11937,7 +11937,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11,
-        "difficulty_ap": 3
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -11969,7 +11969,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 4
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -12001,7 +12001,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.9,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -12033,7 +12033,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.6,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -12065,7 +12065,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.4,
-        "difficulty_ap": 12
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -12097,7 +12097,7 @@
         "diff": "inf",
         "level": 13,
         "music_const": 13.8,
-        "difficulty_ap": 14
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -12129,7 +12129,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.7,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -12161,7 +12161,7 @@
         "diff": "inf",
         "level": 11,
         "music_const": 11.8,
-        "difficulty_ap": 5
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -12193,7 +12193,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.4,
-        "difficulty_ap": 7
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
@@ -12225,7 +12225,7 @@
         "diff": "inf",
         "level": 12,
         "music_const": 12.5,
-        "difficulty_ap": 6
+        "difficulty_ap": 0
       },
       {
         "diff": "hard",
