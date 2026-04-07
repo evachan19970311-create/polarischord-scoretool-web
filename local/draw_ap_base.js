@@ -10,7 +10,7 @@ const CREW_ID = "32474862";
 const USER_MUSIC_DATA_FILE = `${CREW_ID}.json`;
 const USER_MUSIC_JSON = `https://raw.githubusercontent.com/evachan19970311-create/polarischord-scoretool-web/${GITHUB_REF}/data/users/${USER_MUSIC_DATA_FILE}`;
 
-const LOCAL_JACKET_DIR = "images/jacket";
+const LOCAL_JACKET_DIR = "../images/jacket";
 const REMOTE_JACKET_BASE_URL = "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html";
 const REMOTE_JACKET_URL = id => `${REMOTE_JACKET_BASE_URL}?c=${id}`;
 const TARGET_DIFF = ["INF"]; // "PLR","HRD","NML","ESY"

@@ -3,7 +3,7 @@
   "updated_at": "2026-04-07T17:01:42+09:00",
   "updated_by": "bookmarklet",
   "data_public": {
-    "crew_id": true,
+    "crew_id": false,
     "music_data": true,
     "paskill": true
   },
