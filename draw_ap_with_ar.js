@@ -6,6 +6,10 @@ const GITHUB_REF = "refs/heads/main";
 const MUSIC_DATA_FILE = "pc_apdiff_data.json";
 const MUSIC_JSON = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_REF}/${MUSIC_DATA_FILE}`;
 
+const CREW_ID = "32474862";
+const USER_MUSIC_DATA_FILE = `${CREW_ID}.json`;
+const USER_MUSIC_JSON = `https://raw.githubusercontent.com/evachan19970311-create/polarischord-scoretool-web/${GITHUB_REF}/data/users/${USER_MUSIC_DATA_FILE}`;
+
 const LOCAL_JACKET_DIR = "images/jacket";
 const REMOTE_JACKET_BASE_URL = "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html";
 const REMOTE_JACKET_URL = id => `${REMOTE_JACKET_BASE_URL}?c=${id}`;
@@ -47,6 +51,13 @@ const LEVEL_COLOR = {
   "10+": 'rgb(0, 255, 0)',
   10: 'rgb(0, 192, 0)',
   9: 'rgb(0, 0, 255)',
+};
+
+const CLEAR_STATUS_COLOR = {
+  perfect: '#ffd85c',
+  full: '#eda2ff',
+  success: '#74dafa',
+  null: '#808080'
 };
 
 const jacketCache = new Map();
@@ -156,6 +167,7 @@ async function loadJacket(id) {
   return img;
 }
 
+// 楽曲データ取得
 async function fetchMusicData() {
   const response = await fetch(MUSIC_JSON, { cache: 'no-store' });
   if (!response.ok) {
@@ -184,8 +196,41 @@ async function fetchMusicData() {
   };
 }
 
+// スコアデータ取得
+async function fetchUserMusicMap() {
+  const response = await fetch(USER_MUSIC_JSON, { cache: 'no-store' });
+  if (!response.ok) {
+    throw new Error(`Failed to fetch user music data: ${response.status} ${response.statusText}`);
+  }
+
+  const json = await response.json();
+
+  if (!json || typeof json !== 'object' || !Array.isArray(json.music)) {
+    throw new Error('User music JSON root is invalid.');
+  }
+
+  const musicMap = new Map();
+
+  for (const musicItem of json.music) {
+    const music_id = musicItem.music_id;
+    const diffs = Array.isArray(musicItem.diffs) ? musicItem.diffs : [];
+
+    for (const diffItem of diffs) {
+      const diff = normalizeDiffName(diffItem.diff);
+      const key = `${music_id}__${diff}`;
+
+      musicMap.set(key, {
+        ar: diffItem.ar,
+        clear_status: diffItem.clear_status
+      });
+    }
+  }
+
+  return musicMap;
+}
+
 // データフィルタリングとソート
-function filterAndSortMusic(music) {
+function filterAndSortMusic(music, userMusicMap = new Map()) {
   const filtered = [];
 
   for (const item of music) {
@@ -195,6 +240,9 @@ function filterAndSortMusic(music) {
     if (!TARGET_DIFF.includes(diff) || difficulty_ap === 0) {
       continue;
     }
+
+    const mergeKey = `${item.music_id}__${diff}`;
+    const userMusic = userMusicMap.get(mergeKey) ?? {};
 
     filtered.push({
       data_index: Number(item.data_index ?? 0),
@@ -207,6 +255,8 @@ function filterAndSortMusic(music) {
       level_value: Number(item.level_value ?? 0),
       plus_flag: Number(item.plus_flag ?? 0),
       difficulty_ap,
+      ar: userMusic.ar ?? null,
+      clear_status: userMusic.clear_status ?? null,
     });
   }
 
@@ -328,131 +378,11 @@ function drawDifficultyFrames(ctx, counted, diffApYOffsets) {
   }
 }
 
-function getLevelTextX(x, level) {
-  if (level >= 10) {
-    if (level === 11) {
-      return x + 2 + JACKET_SIZE / 8;
-    }
-    return x + JACKET_SIZE / 8;
-  }
-  return x + 2 + JACKET_SIZE / 8;
-}
-
-function drawLevelText(ctx, o, x, y) {
-  const LEVEL_FONT_SIZE = 20;
-  const PLUS_FONT_SIZE = LEVEL_FONT_SIZE * 2 / 3;
-
-  ctx.fillStyle = LEVEL_COLOR[o.level] ?? 'rgb(255, 255, 255)';
-  ctx.font = `700 ${LEVEL_FONT_SIZE}px copperplate gothic bold`;
-  ctx.textAlign = "center";
-  ctx.textBaseline = "middle";
-
-  const levelText = String(o.level_base);
-  const levelX = getLevelTextX(x, o.level_base);
-  const levelY = y - 1 + JACKET_SIZE / 8;
-  const levelMetrics = ctx.measureText(levelText);
-  ctx.fillText(levelText, levelX, levelY);
-
-  if (o.plus_flag === 1) {
-    const levelRight = o.level_base === 11
-      ? levelX + (levelMetrics.actualBoundingBoxRight ?? levelMetrics.width / 2)
-      : levelX + (levelMetrics.actualBoundingBoxRight ?? levelMetrics.width / 2) - 2;
-    const levelTop = y + 1;
-
-    ctx.font = `700 ${PLUS_FONT_SIZE}px copperplate gothic bold`;
-    ctx.textAlign = "left";
-    ctx.textBaseline = "top";
-    ctx.fillText("+", levelRight, levelTop);
-  }
-}
-
-function drawMusicTitle(ctx, o, x, y) {
-  const boxX = x + 2;
-  const boxY = y + JACKET_SIZE * 2 / 3 + 2;
-  const boxWidth = JACKET_SIZE - 4;
-  const boxHeight = JACKET_SIZE / 3 - 4;
-
-  // 背景描画
-  ctx.fillStyle = "#000";
-  ctx.fillRect(x, y + (JACKET_SIZE * 2) / 3, JACKET_SIZE, JACKET_SIZE / 3);
-  ctx.fillStyle = "#fff";
-  ctx.fillRect(boxX, boxY, boxWidth, boxHeight);
-
-  // 設定
-  const MAX_FONT_SIZE = 20;
-  const MIN_FONT_SIZE = 6; // これより小さくなるなら折り返しを検討
-  const fontFamily = "copperplate gothic bold";
-  const titleText = String(o.title);
-
-  ctx.fillStyle = "#000";
-  ctx.textAlign = "center";
-  ctx.textBaseline = "middle";
-
-  // --- 改行ロジック関数 ---
-  function getLines(text, maxWidth, fontSize) {
-    ctx.font = `700 ${fontSize}px ${fontFamily}`;
-    const words = text.split(""); // 1文字ずつ分割（日本語対応）
-    let lines = [];
-    let currentLine = words[0];
-
-    for (let i = 1; i < words.length; i++) {
-      let word = words[i];
-      let width = ctx.measureText(currentLine + word).width;
-      if (width < maxWidth - 2) {
-        currentLine += word;
-      } else {
-        lines.push(currentLine);
-        currentLine = word;
-      }
-    }
-    lines.push(currentLine);
-    return lines;
-  }
-
-  // --- 最適なサイズと行数を計算 ---
-  let fontSize = MAX_FONT_SIZE;
-  let lines = [];
-
-  while (fontSize >= MIN_FONT_SIZE) {
-    lines = getLines(titleText, boxWidth, fontSize);
-    const totalHeight = lines.length * fontSize * 1.2; // 行間を1.2倍で計算
-    if (totalHeight <= boxHeight) {
-      break; // 収まったら終了
-    }
-    fontSize -= 0.5;
-  }
-
-  // --- 描画実行 ---
-  const lineHeight = fontSize * 1.1;
-  const totalContentHeight = lines.length * lineHeight;
-  const startY = boxY + boxHeight / 2 - totalContentHeight / 2 + lineHeight / 2;
-
-  lines.forEach((line, index) => {
-    ctx.font = `700 ${fontSize}px ${fontFamily}`;
-    ctx.fillText(line, x + JACKET_SIZE / 2, startY + index * lineHeight);
-  });
-}
-
-// ジャケットとレベル描画
-function drawJacketAndLevel(ctx, jacket, o, x, y) {
-  if (jacket) {
-    ctx.drawImage(jacket, x, y, JACKET_SIZE, JACKET_SIZE);
-  }
-
-  const width = o.plus_flag === 1 ? JACKET_SIZE * 5 / 16 : JACKET_SIZE / 4;
-
-  ctx.fillStyle = "#000";
-  ctx.fillRect(x + 2, y + 2, width, JACKET_SIZE / 4);
-
-  drawLevelText(ctx, o, x, y);
-
-  if (o.is_same_jacket_flag === 1) drawMusicTitle(ctx, o, x, y);
-}
-
 // データ読み込み＆描画
 async function loadAndDraw() {
   const music = await fetchMusicData();
-  const filtered = filterAndSortMusic(music.music_data);
+  const userMusicMap = await fetchUserMusicMap();
+  const filtered = filterAndSortMusic(music.music_data, userMusicMap);
   console.log(filtered);
 
   const { counted, diffApYOffsets } = calculateDifficultyData(filtered);
@@ -469,28 +399,8 @@ async function loadAndDraw() {
   drawBackgroundAndBorders(ctx, WIDTH, HEIGHT);
   drawDifficultyFrames(ctx, counted, diffApYOffsets);
 
-  const uniqueMusicIds = [...new Set(filtered.map(o => o.music_id))];
-  await Promise.all(uniqueMusicIds.map(id => loadJacket(id)));
-
-  const baseX = DIFF_AP_ALIGN_LEFT_OUTSIDE_BLANK +
-    DIFF_AP_WIDTH +
-    DIFF_AP_ALIGN_RIGHT_OUTSIDE_BLANK +
-    BODY_ALIGN_LEFT_OUTSIDE_BLANK +
-    JACKET_ALIGN_OUTSIDE_BLANK;
-
-  const difficultyRenderIndex = new Map();
-
-  for (const o of filtered) {
-    const currentIndex = difficultyRenderIndex.get(o.difficulty_ap) ?? 0;
-    difficultyRenderIndex.set(o.difficulty_ap, currentIndex + 1);
-
-    const x = baseX + (currentIndex % MAX_OF_COL) * (JACKET_SIZE + JACKET_ALIGN_INSIDE_BLANK);
-    const y = diffApYOffsets.get(o.difficulty_ap) + JACKET_VERTICAL_OUTSIDE_BLANK +
-      Math.floor(currentIndex / MAX_OF_COL) * (JACKET_SIZE + JACKET_VERTICAL_INSIDE_BLANK);
-
-    const jacket = jacketCache.get(o.music_id);
-    drawJacketAndLevel(ctx, jacket, o, x, y);
-  }
+  // ここでジャケット画像は読み込まない
+  // ここでジャケット / AR / レベル / 曲名は描画しない
 
   await drawHeader(ctx, filtered, music.ver, music.date);
 }
@@ -549,14 +459,16 @@ async function drawHeader(ctx, filtered, ver, date) {
     logoimg.onload = r;
     logoimg.onerror = r;
   });
-  const logo_w = 400;
-  const logo_h = (logo_w * logoimg.height) / logoimg.width;
-  const logo_x = text_x;
-  const logo_y = (HEADER_HEIGHT - logo_h) / 2;
 
-  ctx.drawImage(logoimg, logo_x, logo_y, logo_w, logo_h);
+  if (logoimg.width > 0 && logoimg.height > 0) {
+    const logo_w = 400;
+    const logo_h = (logo_w * logoimg.height) / logoimg.width;
+    const logo_x = text_x;
+    const logo_y = (HEADER_HEIGHT - logo_h) / 2;
 
-  text_x += logo_w + HEADER_ALIGN_OUTSIDE_BLANK;
+    ctx.drawImage(logoimg, logo_x, logo_y, logo_w, logo_h);
+    text_x += logo_w + HEADER_ALIGN_OUTSIDE_BLANK;
+  }
 
   // TITLE
   ctx.font = "bold 40px copperplate gothic bold";
@@ -592,7 +504,6 @@ async function drawHeader(ctx, filtered, ver, date) {
 
   // ASSISTANT
   ctx.font = "bold 30px copperplate gothic bold";
-
   const assistant_label_width = ctx.measureText(assistant_label).width;
   const assistant_value_width = ctx.measureText(assistant_value).width;
   const assistant_width = Math.max(assistant_label_width, assistant_value_width);
