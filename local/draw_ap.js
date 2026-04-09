@@ -202,9 +202,11 @@ function filterAndSortMusic(music) {
       title: item.music_title,
       diff,
       is_same_jacket_flag: Number(item.is_same_jacket_flag ?? ""),
-      level_base: Number(item.level_base ?? 0),
       level: item.level ?? 0,
-      level_value: Number(item.level_value ?? 0),
+      level_disp: item.level_disp ?? 0,
+      level_sort_value: item.plus_flag === 1
+        ? Number(item.level ?? 0) + 0.5
+        : Number(item.level ?? 0),
       plus_flag: Number(item.plus_flag ?? 0),
       difficulty_ap,
     });
@@ -212,7 +214,7 @@ function filterAndSortMusic(music) {
 
   filtered.sort((a, b) =>
     b.difficulty_ap - a.difficulty_ap ||
-    a.level_value - b.level_value ||
+    a.level_sort_value - b.level_sort_value ||
     a.data_index - b.data_index
   );
 
@@ -342,19 +344,19 @@ function drawLevelText(ctx, o, x, y) {
   const LEVEL_FONT_SIZE = 20;
   const PLUS_FONT_SIZE = LEVEL_FONT_SIZE * 2 / 3;
 
-  ctx.fillStyle = LEVEL_COLOR[o.level] ?? 'rgb(255, 255, 255)';
+  ctx.fillStyle = LEVEL_COLOR[o.level_disp] ?? 'rgb(255, 255, 255)';
   ctx.font = `700 ${LEVEL_FONT_SIZE}px copperplate gothic bold`;
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
 
-  const levelText = String(o.level_base);
-  const levelX = getLevelTextX(x, o.level_base);
+  const levelText = String(o.level);
+  const levelX = getLevelTextX(x, o.level);
   const levelY = y - 1 + JACKET_SIZE / 8;
   const levelMetrics = ctx.measureText(levelText);
   ctx.fillText(levelText, levelX, levelY);
 
   if (o.plus_flag === 1) {
-    const levelRight = o.level_base === 11
+    const levelRight = o.level === 11
       ? levelX + (levelMetrics.actualBoundingBoxRight ?? levelMetrics.width / 2)
       : levelX + (levelMetrics.actualBoundingBoxRight ?? levelMetrics.width / 2) - 2;
     const levelTop = y + 1;

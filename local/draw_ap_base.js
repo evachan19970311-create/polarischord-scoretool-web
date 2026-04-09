@@ -6,13 +6,6 @@ const GITHUB_REF = "refs/heads/main";
 const MUSIC_DATA_FILE = "pc_apdiff_data.json";
 const MUSIC_JSON = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_REF}/${MUSIC_DATA_FILE}`;
 
-const CREW_ID = "32474862";
-const USER_MUSIC_DATA_FILE = `${CREW_ID}.json`;
-const USER_MUSIC_JSON = `https://raw.githubusercontent.com/evachan19970311-create/polarischord-scoretool-web/${GITHUB_REF}/data/users/${USER_MUSIC_DATA_FILE}`;
-
-const LOCAL_JACKET_DIR = "../images/jacket";
-const REMOTE_JACKET_BASE_URL = "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html";
-const REMOTE_JACKET_URL = id => `${REMOTE_JACKET_BASE_URL}?c=${id}`;
 const TARGET_DIFF = ["INF"]; // "PLR","HRD","NML","ESY"
 
 const BG_COLOR = 'rgb(58, 58, 58)';
@@ -35,48 +28,17 @@ const AP_DIFF_COLOR = {
   1: 'rgb(0, 0, 255)'
 };
 
-const DIFF_COLOR = {
-  ESY: "rgba(0, 198, 255,.8)", NML: "rgba(0,191,105,.8)", HRD: "rgba(255, 168, 0,.8)",
-  INF: "rgba(255, 85, 172,.8)", PLR: "rgba(200,62,249,.8)"
-};
-
-const LEVEL_COLOR = {
-  14: 'rgb(255, 255, 255)',
-  "13+": 'rgb(255, 0, 255)',
-  13: 'rgb(192, 0, 192)',
-  "12+": 'rgb(255, 0, 128)',
-  12: 'rgb(255, 0, 0)',
-  "11+": 'rgb(255, 192, 0)',
-  11: 'rgb(255, 255, 0)',
-  "10+": 'rgb(0, 255, 0)',
-  10: 'rgb(0, 192, 0)',
-  9: 'rgb(0, 0, 255)',
-};
-
-const CLEAR_STATUS_COLOR = {
-  perfect: '#ffd85c',
-  full: '#eda2ff',
-  success: '#74dafa',
-  null: '#808080'
-};
-
-const jacketCache = new Map();
-
 const MAX_OF_COL = 20;
 const MAX_DIFFCULTY_NUM = 15;
 
 const HEADER_HEIGHT = 200;
 const HEADER_ALIGN_OUTSIDE_BLANK = 50;
 const HEADER_VERTICAL_OUTSIDE_BLANK = 0;
-const LOGO_WIDTH = 300;
-const LOGO_HEIGHT = 90;
 
-const DIFF_AP_HEIGHT = 100;
 const DIFF_AP_WIDTH = 100;
 const LINE_WIDTH = 10;
 const DIFF_AP_ALIGN_LEFT_OUTSIDE_BLANK = 50;
 const DIFF_AP_ALIGN_RIGHT_OUTSIDE_BLANK = 30;
-const DIFF_AP_VERTICAL_OUTSIDE_BLANK = 30;
 
 const JACKET_SIZE = 100;
 const JACKET_ALIGN_OUTSIDE_BLANK = 10;
@@ -136,37 +98,6 @@ function normalizeDiffName(value) {
   return String(value ?? '').trim().toUpperCase();
 }
 
-async function loadImage(src, options = {}) {
-  const { crossOrigin = null } = options;
-
-  return new Promise(resolve => {
-    const img = new Image();
-    if (crossOrigin) {
-      img.crossOrigin = crossOrigin;
-    }
-    img.decoding = 'async';
-    img.onload = () => resolve(img);
-    img.onerror = () => resolve(null);
-    img.src = src;
-  });
-}
-
-// ジャケット画像ロード
-async function loadJacket(id) {
-  if (!id) return null;
-  if (jacketCache.has(id)) return jacketCache.get(id);
-
-  const remoteUrl = REMOTE_JACKET_URL(id);
-
-  let img = await loadImage(remoteUrl);
-  if (!img) {
-    console.warn(`Jacket image not found in official sources: ${id}`);
-  }
-
-  jacketCache.set(id, img);
-  return img;
-}
-
 // 楽曲データ取得
 async function fetchMusicData() {
   const response = await fetch(MUSIC_JSON, { cache: 'no-store' });
@@ -196,41 +127,8 @@ async function fetchMusicData() {
   };
 }
 
-// スコアデータ取得
-async function fetchUserMusicMap() {
-  const response = await fetch(USER_MUSIC_JSON, { cache: 'no-store' });
-  if (!response.ok) {
-    throw new Error(`Failed to fetch user music data: ${response.status} ${response.statusText}`);
-  }
-
-  const json = await response.json();
-
-  if (!json || typeof json !== 'object' || !Array.isArray(json.music)) {
-    throw new Error('User music JSON root is invalid.');
-  }
-
-  const musicMap = new Map();
-
-  for (const musicItem of json.music) {
-    const music_id = musicItem.music_id;
-    const diffs = Array.isArray(musicItem.diffs) ? musicItem.diffs : [];
-
-    for (const diffItem of diffs) {
-      const diff = normalizeDiffName(diffItem.diff);
-      const key = `${music_id}__${diff}`;
-
-      musicMap.set(key, {
-        ar: diffItem.ar,
-        clear_status: diffItem.clear_status
-      });
-    }
-  }
-
-  return musicMap;
-}
-
 // データフィルタリングとソート
-function filterAndSortMusic(music, userMusicMap = new Map()) {
+function filterAndSortMusic(music) {
   const filtered = [];
 
   for (const item of music) {
@@ -241,29 +139,13 @@ function filterAndSortMusic(music, userMusicMap = new Map()) {
       continue;
     }
 
-    const mergeKey = `${item.music_id}__${diff}`;
-    const userMusic = userMusicMap.get(mergeKey) ?? {};
-
     filtered.push({
-      data_index: Number(item.data_index ?? 0),
-      music_id: item.music_id,
-      title: item.music_title,
-      diff,
-      is_same_jacket_flag: Number(item.is_same_jacket_flag ?? ""),
-      level_base: Number(item.level_base ?? 0),
-      level: item.level ?? 0,
-      level_value: Number(item.level_value ?? 0),
-      plus_flag: Number(item.plus_flag ?? 0),
       difficulty_ap,
-      ar: userMusic.ar ?? null,
-      clear_status: userMusic.clear_status ?? null,
     });
   }
 
   filtered.sort((a, b) =>
-    b.difficulty_ap - a.difficulty_ap ||
-    a.level_value - b.level_value ||
-    a.data_index - b.data_index
+    b.difficulty_ap - a.difficulty_ap
   );
 
   return filtered;
@@ -308,10 +190,10 @@ function calculateDifficultyData(filtered) {
 
 // キャンバスサイズ計算
 function calculateCanvasSize(counted) {
-  const SUM_DIFF_AP_HEIGHT = counted.reduce((sum, item) => sum + item.diff_ap_height, 0);
-  const SUM_LINE_WIDTH_HEIGHT = counted.length * LINE_WIDTH * 2;
+  const sum_diff_ap_height = counted.reduce((sum, item) => sum + item.diff_ap_height, 0);
+  const sum_line_width_height = counted.length * LINE_WIDTH * 2;
 
-  const WIDTH = DIFF_AP_ALIGN_LEFT_OUTSIDE_BLANK +
+  const width = DIFF_AP_ALIGN_LEFT_OUTSIDE_BLANK +
     DIFF_AP_WIDTH +
     DIFF_AP_ALIGN_RIGHT_OUTSIDE_BLANK +
     BODY_ALIGN_LEFT_OUTSIDE_BLANK +
@@ -320,51 +202,51 @@ function calculateCanvasSize(counted) {
     (MAX_OF_COL - 1) * JACKET_ALIGN_INSIDE_BLANK +
     BODY_ALIGN_RIGHT_OUTSIDE_BLANK;
 
-  const HEIGHT = HEADER_VERTICAL_OUTSIDE_BLANK * 2 +
+  const height = HEADER_VERTICAL_OUTSIDE_BLANK * 2 +
     HEADER_HEIGHT +
     BODY_VERTICAL_OUTSIDE_BLANK * 2 +
-    SUM_DIFF_AP_HEIGHT +
+    sum_diff_ap_height +
     BODY_VERTICAL_INSIDE_BLANK * (counted.length - 1) +
-    SUM_LINE_WIDTH_HEIGHT;
+    sum_line_width_height;
 
-  return { WIDTH, HEIGHT };
+  return { width, height };
 }
 
 // 背景とボーダー描画
-function drawBackgroundAndBorders(ctx, WIDTH, HEIGHT) {
+function drawBackgroundAndBorders(ctx, width, height) {
   ctx.fillStyle = BG_COLOR;
-  ctx.fillRect(0, 0, WIDTH, HEIGHT);
+  ctx.fillRect(0, 0, width, height);
 
   ctx.strokeStyle = 'rgb(199, 199, 199)';
   ctx.lineWidth = 3;
 
   ctx.beginPath();
   ctx.moveTo(0, 0);
-  ctx.lineTo(WIDTH, 0);
+  ctx.lineTo(width, 0);
   ctx.stroke();
-  ctx.strokeRect(0, 0, WIDTH, HEIGHT);
+  ctx.strokeRect(0, 0, width, height);
 
   ctx.beginPath();
   ctx.moveTo(0, HEADER_HEIGHT);
-  ctx.lineTo(WIDTH, HEADER_HEIGHT);
+  ctx.lineTo(width, HEADER_HEIGHT);
   ctx.stroke();
 }
 
 // AP難易度フレーム描画
-function drawDifficultyFrames(ctx, counted, diffApYOffsets) {
+function drawDifficultyFrames(ctx, counted, diff_ap_y_offsets) {
   for (let i = 0; i < counted.length; i++) {
-    const o = counted[i];
+    const item = counted[i];
     const ap_diff_color = AP_DIFF_COLOR[counted.length - i];
-    const ap_diff_num = o.difficulty_ap;
+    const ap_diff_num = item.difficulty_ap;
 
     const x_difficulty_ap = DIFF_AP_ALIGN_LEFT_OUTSIDE_BLANK;
-    const y_difficulty_ap = diffApYOffsets.get(ap_diff_num);
+    const y_difficulty_ap = diff_ap_y_offsets.get(ap_diff_num);
 
     ctx.fillStyle = BG_COLOR;
     ctx.strokeStyle = ap_diff_color;
     ctx.lineWidth = LINE_WIDTH;
 
-    strokeRoundRect(ctx, x_difficulty_ap, y_difficulty_ap, DIFF_AP_WIDTH, o.diff_ap_height, 10);
+    strokeRoundRect(ctx, x_difficulty_ap, y_difficulty_ap, DIFF_AP_WIDTH, item.diff_ap_height, 10);
 
     // AP難易度（数字）描画
     ctx.font = "700 70px copperplate gothic bold";
@@ -372,35 +254,31 @@ function drawDifficultyFrames(ctx, counted, diffApYOffsets) {
     ctx.textBaseline = "middle";
     ctx.fillStyle = 'rgb(255, 255, 0)';
 
-    const textX = x_difficulty_ap + DIFF_AP_WIDTH / 2 + (ap_diff_num >= 10 ? -3 : 0);
-    const textY = y_difficulty_ap + o.diff_ap_height / 2 - LINE_WIDTH;
-    ctx.fillText(ap_diff_num, textX, textY);
+    const text_x = x_difficulty_ap + DIFF_AP_WIDTH / 2 + (ap_diff_num >= 10 ? -3 : 0);
+    const text_y = y_difficulty_ap + item.diff_ap_height / 2 - LINE_WIDTH;
+    ctx.fillText(ap_diff_num, text_x, text_y);
   }
 }
 
 // データ読み込み＆描画
 async function loadAndDraw() {
   const music = await fetchMusicData();
-  const userMusicMap = await fetchUserMusicMap();
-  const filtered = filterAndSortMusic(music.music_data, userMusicMap);
+  const filtered = filterAndSortMusic(music.music_data);
   console.log(filtered);
 
   const { counted, diffApYOffsets } = calculateDifficultyData(filtered);
   console.log(counted);
 
-  const { WIDTH, HEIGHT } = calculateCanvasSize(counted);
-  console.log(`Canvas Size: 縦${HEIGHT}x横${WIDTH}`);
+  const { width, height } = calculateCanvasSize(counted);
+  console.log(`Canvas Size: 縦${height}x横${width}`);
 
   const cv = document.getElementById("cv");
-  cv.width = WIDTH;
-  cv.height = HEIGHT;
+  cv.width = width;
+  cv.height = height;
   const ctx = cv.getContext("2d");
 
-  drawBackgroundAndBorders(ctx, WIDTH, HEIGHT);
+  drawBackgroundAndBorders(ctx, width, height);
   drawDifficultyFrames(ctx, counted, diffApYOffsets);
-
-  // ここでジャケット画像は読み込まない
-  // ここでジャケット / AR / レベル / 曲名は描画しない
 
   await drawHeader(ctx, filtered, music.ver, music.date);
 }
@@ -463,10 +341,9 @@ async function drawHeader(ctx, filtered, ver, date) {
   if (logoimg.width > 0 && logoimg.height > 0) {
     const logo_w = 400;
     const logo_h = (logo_w * logoimg.height) / logoimg.width;
-    const logo_x = text_x;
     const logo_y = (HEADER_HEIGHT - logo_h) / 2;
 
-    ctx.drawImage(logoimg, logo_x, logo_y, logo_w, logo_h);
+    ctx.drawImage(logoimg, text_x, logo_y, logo_w, logo_h);
     text_x += logo_w + HEADER_ALIGN_OUTSIDE_BLANK;
   }
 
@@ -544,8 +421,6 @@ async function drawHeader(ctx, filtered, ver, date) {
   ctx.fillStyle = 'rgb(233, 113, 50)';
   ctx.fillText(ver_label, text_x, text_y_1);
   ctx.fillText(ver_value, text_x, text_y_2);
-
-  text_x += ver_width / 2 + HEADER_ALIGN_OUTSIDE_BLANK;
 }
 
 function strokeRoundRect(ctx, x, y, w, h, r) {
