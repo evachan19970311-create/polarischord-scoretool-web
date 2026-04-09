@@ -13,7 +13,7 @@ window.run_score_upload = async function () {
   window.__score_upload_running__ = true;
 
   const EXPECTED_URL = 'https://p.eagate.573.jp/game/polarischord/pc/playdata/index.html';
-  const PROFILE_URL_BASE = 'https://yew-kilt-23986518.figma.site/profile?id=';
+  const PROFILE_URL_BASE = 'http://pc-scoretool-web.com/profile?id=';
   const GAS_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxPXzlMOJzizzx9vZTpxO5t7hf-FCwGPm-JQ451fIL_XRq3raZeJZXYRxtIs4-DWdbC/exec';
 
   const DIFF_MAP = {

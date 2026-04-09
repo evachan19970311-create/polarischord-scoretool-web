@@ -6,7 +6,6 @@ const GITHUB_REF = "refs/heads/main";
 const MUSIC_DATA_FILE = "pc_apdiff_data.json";
 const MUSIC_JSON = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_REF}/${MUSIC_DATA_FILE}`;
 
-const LOCAL_JACKET_DIR = "images/jacket";
 const REMOTE_JACKET_BASE_URL = "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html";
 const REMOTE_JACKET_URL = id => `${REMOTE_JACKET_BASE_URL}?c=${id}`;
 const TARGET_DIFF = ["INF"]; // "PLR","HRD","NML","ESY"
@@ -37,16 +36,16 @@ const DIFF_COLOR = {
 };
 
 const LEVEL_COLOR = {
-  14: 'rgb(255, 255, 255)',
+  "14": 'rgb(255, 255, 255)',
   "13+": 'rgb(255, 0, 255)',
-  13: 'rgb(192, 0, 192)',
+  "13": 'rgb(192, 0, 192)',
   "12+": 'rgb(255, 0, 128)',
-  12: 'rgb(255, 0, 0)',
+  "12": 'rgb(255, 0, 0)',
   "11+": 'rgb(255, 192, 0)',
-  11: 'rgb(255, 255, 0)',
+  "11": 'rgb(255, 255, 0)',
   "10+": 'rgb(0, 255, 0)',
-  10: 'rgb(0, 192, 0)',
-  9: 'rgb(0, 0, 255)',
+  "10": 'rgb(0, 192, 0)',
+  "9": 'rgb(0, 0, 255)',
 };
 
 const jacketCache = new Map();
@@ -57,8 +56,6 @@ const MAX_DIFFCULTY_NUM = 15;
 const HEADER_HEIGHT = 200;
 const HEADER_ALIGN_OUTSIDE_BLANK = 50;
 const HEADER_VERTICAL_OUTSIDE_BLANK = 0;
-const LOGO_WIDTH = 300;
-const LOGO_HEIGHT = 90;
 
 const DIFF_AP_HEIGHT = 100;
 const DIFF_AP_WIDTH = 100;
@@ -108,18 +105,18 @@ async function loadFonts() {
 }
 
 (async () => {
-  await loadFonts();
+  try {
+    await loadFonts();
 
-  console.log(document.fonts.check("700 100px 'copperplate gothic bold'"));
-  console.log(document.fonts.check("700 100px 'Zen Maru Gothic'"));
-  console.log(document.fonts.check("400 100px 'Zen Maru Gothic'"));
+    console.log(document.fonts.check("700 100px 'copperplate gothic bold'"));
+    console.log(document.fonts.check("700 100px 'Zen Maru Gothic'"));
+    console.log(document.fonts.check("400 100px 'Zen Maru Gothic'"));
 
-  start();
+    await loadAndDraw();
+  } catch (error) {
+    console.error("Draw failed:", error);
+  }
 })();
-
-async function start() {
-  await loadAndDraw();
-}
 
 function normalizeDiffName(value) {
   return String(value ?? '').trim().toUpperCase();
@@ -296,9 +293,10 @@ function drawBackgroundAndBorders(ctx, WIDTH, HEIGHT) {
   ctx.stroke();
   ctx.strokeRect(0, 0, WIDTH, HEIGHT);
 
+  const headerBottomY = HEADER_VERTICAL_OUTSIDE_BLANK + HEADER_HEIGHT;
   ctx.beginPath();
-  ctx.moveTo(0, HEADER_HEIGHT);
-  ctx.lineTo(WIDTH, HEADER_HEIGHT);
+  ctx.moveTo(0, headerBottomY);
+  ctx.lineTo(WIDTH, headerBottomY);
   ctx.stroke();
 }
 
@@ -306,7 +304,7 @@ function drawBackgroundAndBorders(ctx, WIDTH, HEIGHT) {
 function drawDifficultyFrames(ctx, counted, diffApYOffsets) {
   for (let i = 0; i < counted.length; i++) {
     const o = counted[i];
-    const ap_diff_color = AP_DIFF_COLOR[counted.length - i];
+    const ap_diff_color = AP_DIFF_COLOR[o.difficulty_ap] ?? 'rgb(255, 255, 255)';
     const ap_diff_num = o.difficulty_ap;
 
     const x_difficulty_ap = DIFF_AP_ALIGN_LEFT_OUTSIDE_BLANK;
@@ -368,6 +366,28 @@ function drawLevelText(ctx, o, x, y) {
   }
 }
 
+function getWrappedLines(ctx, text, maxWidth, fontSize, fontFamily) {
+  ctx.font = `700 ${fontSize}px ${fontFamily}`;
+  const chars = String(text).split("");
+  if (chars.length === 0) return [""];
+
+  const lines = [];
+  let currentLine = chars[0];
+
+  for (let i = 1; i < chars.length; i++) {
+    const nextLine = currentLine + chars[i];
+    if (ctx.measureText(nextLine).width < maxWidth - 2) {
+      currentLine = nextLine;
+    } else {
+      lines.push(currentLine);
+      currentLine = chars[i];
+    }
+  }
+
+  lines.push(currentLine);
+  return lines;
+}
+
 function drawMusicTitle(ctx, o, x, y) {
   const boxX = x + 2;
   const boxY = y + JACKET_SIZE * 2 / 3 + 2;
@@ -382,7 +402,7 @@ function drawMusicTitle(ctx, o, x, y) {
 
   // 設定
   const MAX_FONT_SIZE = 20;
-  const MIN_FONT_SIZE = 6; // これより小さくなるなら折り返しを検討
+  const MIN_FONT_SIZE = 6;
   const fontFamily = "copperplate gothic bold";
   const titleText = String(o.title);
 
@@ -390,36 +410,15 @@ function drawMusicTitle(ctx, o, x, y) {
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
 
-  // --- 改行ロジック関数 ---
-  function getLines(text, maxWidth, fontSize) {
-    ctx.font = `700 ${fontSize}px ${fontFamily}`;
-    const words = text.split(""); // 1文字ずつ分割（日本語対応）
-    let lines = [];
-    let currentLine = words[0];
-
-    for (let i = 1; i < words.length; i++) {
-      let word = words[i];
-      let width = ctx.measureText(currentLine + word).width;
-      if (width < maxWidth - 2) {
-        currentLine += word;
-      } else {
-        lines.push(currentLine);
-        currentLine = word;
-      }
-    }
-    lines.push(currentLine);
-    return lines;
-  }
-
   // --- 最適なサイズと行数を計算 ---
   let fontSize = MAX_FONT_SIZE;
   let lines = [];
 
   while (fontSize >= MIN_FONT_SIZE) {
-    lines = getLines(titleText, boxWidth, fontSize);
-    const totalHeight = lines.length * fontSize * 1.2; // 行間を1.2倍で計算
+    lines = getWrappedLines(ctx, titleText, boxWidth, fontSize, fontFamily);
+    const totalHeight = lines.length * fontSize * 1.2;
     if (totalHeight <= boxHeight) {
-      break; // 収まったら終了
+      break;
     }
     fontSize -= 0.5;
   }
@@ -429,10 +428,10 @@ function drawMusicTitle(ctx, o, x, y) {
   const totalContentHeight = lines.length * lineHeight;
   const startY = boxY + boxHeight / 2 - totalContentHeight / 2 + lineHeight / 2;
 
-  lines.forEach((line, index) => {
+  for (let index = 0; index < lines.length; index++) {
     ctx.font = `700 ${fontSize}px ${fontFamily}`;
-    ctx.fillText(line, x + JACKET_SIZE / 2, startY + index * lineHeight);
-  });
+    ctx.fillText(lines[index], x + JACKET_SIZE / 2, startY + index * lineHeight);
+  }
 }
 
 // ジャケットとレベル描画
@@ -448,7 +447,9 @@ function drawJacketAndLevel(ctx, jacket, o, x, y) {
 
   drawLevelText(ctx, o, x, y);
 
-  if (o.is_same_jacket_flag === 1) drawMusicTitle(ctx, o, x, y);
+  if (o.is_same_jacket_flag === 1) {
+    drawMusicTitle(ctx, o, x, y);
+  }
 }
 
 // データ読み込み＆描画
@@ -464,9 +465,17 @@ async function loadAndDraw() {
   console.log(`Canvas Size: 縦${HEIGHT}x横${WIDTH}`);
 
   const cv = document.getElementById("cv");
+  if (!(cv instanceof HTMLCanvasElement)) {
+    throw new Error('Canvas element "#cv" was not found.');
+  }
+
   cv.width = WIDTH;
   cv.height = HEIGHT;
+
   const ctx = cv.getContext("2d");
+  if (!ctx) {
+    throw new Error('2D context could not be created.');
+  }
 
   drawBackgroundAndBorders(ctx, WIDTH, HEIGHT);
   drawDifficultyFrames(ctx, counted, diffApYOffsets);
@@ -545,20 +554,16 @@ async function drawHeader(ctx, filtered, ver, date) {
   text_x += date_width / 2 + HEADER_ALIGN_OUTSIDE_BLANK;
 
   // ロゴ描画
-  const logoimg = new Image();
-  logoimg.src = "images/logo.png";
-  await new Promise(r => {
-    logoimg.onload = r;
-    logoimg.onerror = r;
-  });
-  const logo_w = 400;
-  const logo_h = (logo_w * logoimg.height) / logoimg.width;
-  const logo_x = text_x;
-  const logo_y = (HEADER_HEIGHT - logo_h) / 2;
+  const logoimg = await loadImage("images/logo.png");
+  if (logoimg) {
+    const logo_w = 400;
+    const logo_h = (logo_w * logoimg.height) / logoimg.width;
+    const logo_x = text_x;
+    const logo_y = (HEADER_HEIGHT - logo_h) / 2;
+    ctx.drawImage(logoimg, logo_x, logo_y, logo_w, logo_h);
+  }
 
-  ctx.drawImage(logoimg, logo_x, logo_y, logo_w, logo_h);
-
-  text_x += logo_w + HEADER_ALIGN_OUTSIDE_BLANK;
+  text_x += 400 + HEADER_ALIGN_OUTSIDE_BLANK;
 
   // TITLE
   ctx.font = "bold 40px copperplate gothic bold";
