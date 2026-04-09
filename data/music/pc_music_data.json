@@ -6,13 +6,6 @@
     "composer": "La prière",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -48,13 +41,6 @@
     "music_title": "ぐしゃ",
     "composer": "ポラリスピー",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -92,13 +78,6 @@
     "composer": "YOASOBI",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -134,13 +113,6 @@
     "music_title": "神っぽいな",
     "composer": "ピノキオピー",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -178,20 +150,6 @@
     "composer": "Yukopi",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 8,
         "level_disp": "8",
@@ -220,13 +178,6 @@
     "music_title": "エイリアンエイリアン (富士葵 Cover)",
     "composer": "ナユタン星人",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -264,20 +215,6 @@
     "composer": "すとぷり",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 6,
         "level_disp": "6",
@@ -306,13 +243,6 @@
     "music_title": "ホイホイ☆幻想ホロイズム",
     "composer": "COOL&CREATE × 宝鐘マリン with ホロイズムファンタジー",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -350,13 +280,6 @@
     "composer": "メガテラ・ゼロ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -392,13 +315,6 @@
     "music_title": "インドア系ならトラックメイカー",
     "composer": "Yunomi & nicamoq",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -436,13 +352,6 @@
     "composer": "湊あくあ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 9,
         "level_disp": "9",
@@ -478,13 +387,6 @@
     "music_title": "放課後ストライド",
     "composer": "Last Note.",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -522,20 +424,6 @@
     "composer": "Kanaria",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 8,
         "level_disp": "8",
@@ -564,20 +452,6 @@
     "music_title": "エゴロック",
     "composer": "すりぃ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "hard",
         "level": 7,
@@ -608,20 +482,6 @@
     "composer": "みきとP",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 8,
         "level_disp": "8",
@@ -650,13 +510,6 @@
     "music_title": "ロストワンの号哭",
     "composer": "Neru",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -694,13 +547,6 @@
     "composer": "HIMEHINA",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -736,13 +582,6 @@
     "music_title": "Hello, Hologram",
     "composer": "HIMEHINA",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -780,13 +619,6 @@
     "composer": "田中ヒメ(HIMEHINA)",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -822,13 +654,6 @@
     "music_title": "Raise your voice!",
     "composer": "鈴木ヒナ(HIMEHINA)",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -866,20 +691,6 @@
     "composer": "みきとP",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 8,
         "level_disp": "8",
@@ -908,13 +719,6 @@
     "music_title": "シアワセうさぎ・ぺこみこマリン",
     "composer": "COOL&CREATE × 兎田ぺこら、さくらみこ、宝鐘マリン",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 9,
@@ -952,13 +756,6 @@
     "composer": "COOL&CREATE × 宝鐘マリン",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -994,13 +791,6 @@
     "music_title": "イヤホンロマンス",
     "composer": "COOL&CREATE × 宝鐘マリン",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -1038,13 +828,6 @@
     "composer": "COOL&CREATE × 宝鐘マリン feat.不知火フレア",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -1080,13 +863,6 @@
     "music_title": "Help me, ERINNNNNN!! #幻想郷ホロイズムver.",
     "composer": "COOL&CREATE × 宝鐘マリンと愉快な仲間たち",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -1124,13 +900,6 @@
     "composer": "HIMEHINA",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -1167,20 +936,6 @@
     "composer": "月詠み",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 8,
         "level_disp": "8",
@@ -1209,20 +964,6 @@
     "music_title": "ラヴィット",
     "composer": "ピノキオピー",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "hard",
         "level": 9,
@@ -1253,20 +994,6 @@
     "composer": "ミカヅキBIGWAVE feat. somunia",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 9,
         "level_disp": "9",
@@ -1295,13 +1022,6 @@
     "music_title": "UMenity",
     "composer": "涼海ネモ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -1339,13 +1059,6 @@
     "composer": "茜音カンナ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -1382,20 +1095,6 @@
     "composer": "-",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 8,
         "level_disp": "8",
@@ -1424,13 +1123,6 @@
     "music_title": "What an amazing swing",
     "composer": "角巻わため",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -1468,13 +1160,6 @@
     "composer": "DECO*27",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -1511,20 +1196,6 @@
     "composer": "cosMo＠暴走P",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 10,
         "level_disp": "10+",
@@ -1553,13 +1224,6 @@
     "music_title": "エゴロック (すりぃ Cover)",
     "composer": "すりぃ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -1597,13 +1261,6 @@
     "composer": "みきとP",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -1639,13 +1296,6 @@
     "music_title": "シンクロニティ",
     "composer": "おめがシスターズ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -1683,13 +1333,6 @@
     "composer": "缶缶",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -1725,13 +1368,6 @@
     "music_title": "魔法少女とチョコレゐト (絲依とい Cover)",
     "composer": "ピノキオピー",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -1769,20 +1405,6 @@
     "composer": "ピノキオピー",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 7,
         "level_disp": "7",
@@ -1812,20 +1434,6 @@
     "composer": "みきとP",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 8,
         "level_disp": "8",
@@ -1854,13 +1462,6 @@
     "music_title": "ラグトレイン",
     "composer": "稲葉曇",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -1898,20 +1499,6 @@
     "composer": "ろーある",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 10,
         "level_disp": "10+",
@@ -1941,20 +1528,6 @@
     "composer": "ENDOG",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 9,
         "level_disp": "9",
@@ -1983,13 +1556,6 @@
     "music_title": "#病みカワ",
     "composer": "La prière x 森羅万象",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -2027,20 +1593,6 @@
     "composer": "La prière x 森羅万象",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 10,
         "level_disp": "10+",
@@ -2069,13 +1621,6 @@
     "music_title": "粛聖!! ロリ神レクイエム☆",
     "composer": "しぐれうい (9さい)",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -2113,13 +1658,6 @@
     "composer": "花奏かのん",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -2155,13 +1693,6 @@
     "music_title": "バタフライエフェクト",
     "composer": "宗谷いちか",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -2199,13 +1730,6 @@
     "composer": "龍ヶ崎リン",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 10,
         "level_disp": "10+",
@@ -2241,13 +1765,6 @@
     "music_title": "レクイエム (feat. 星街すいせい)",
     "composer": "Kanaria",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 9,
@@ -2285,13 +1802,6 @@
     "composer": "豚乙女",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 10,
         "level_disp": "10+",
@@ -2327,13 +1837,6 @@
     "music_title": "待チ人ハ来ズ。",
     "composer": "豚乙女",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -2371,13 +1874,6 @@
     "composer": "豚乙女",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -2413,13 +1909,6 @@
     "music_title": "チルノのパーフェクトさんすう教室",
     "composer": "ARM + 夕野ヨシミ feat. miko",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -2457,13 +1946,6 @@
     "composer": "七条レタスグループ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -2499,13 +1981,6 @@
     "music_title": "魔理沙は大変なものを盗んでいきました",
     "composer": "ARM + 夕野ヨシミ feat. 藤咲かりん",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -2543,13 +2018,6 @@
     "composer": "キョンシーのCiちゃん",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 9,
         "level_disp": "9",
@@ -2585,13 +2053,6 @@
     "music_title": "モンスターカミング",
     "composer": "おめがシスターズ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -2629,20 +2090,6 @@
     "composer": "すとぷり",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 9,
         "level_disp": "9",
@@ -2671,20 +2118,6 @@
     "music_title": "Streamer",
     "composer": "すとぷり",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "hard",
         "level": 9,
@@ -2715,20 +2148,6 @@
     "composer": "すとぷり",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 7,
         "level_disp": "7",
@@ -2757,20 +2176,6 @@
     "music_title": "ストロベリー☆プラネット！",
     "composer": "すとぷり",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "hard",
         "level": 10,
@@ -2801,20 +2206,6 @@
     "composer": "すとぷり",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 8,
         "level_disp": "8",
@@ -2843,13 +2234,6 @@
     "music_title": "唱",
     "composer": "Ado",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -2887,13 +2271,6 @@
     "composer": "角巻わため",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -2929,13 +2306,6 @@
     "music_title": "My song",
     "composer": "角巻わため",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -2973,13 +2343,6 @@
     "composer": "角巻わため",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -3015,13 +2378,6 @@
     "music_title": "れすきゅぅうぅぅ",
     "composer": "花丸はれる",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -3059,13 +2415,6 @@
     "composer": "wotaku",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -3101,13 +2450,6 @@
     "music_title": "可惜夜の残り火",
     "composer": "餅屋羽乃",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -3145,13 +2487,6 @@
     "composer": "モリモリあつし",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13+",
@@ -3187,13 +2522,6 @@
     "music_title": "めうめうぺったんたん！！",
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -3231,13 +2559,6 @@
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -3273,13 +2594,6 @@
     "music_title": "チョコレートスマイル",
     "composer": "日向美ビタースイーツ♪ & ここなつ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -3317,13 +2631,6 @@
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -3359,13 +2666,6 @@
     "music_title": "ポラリスノウタ",
     "composer": "ここなつ2.0",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -3403,13 +2703,6 @@
     "composer": "PIKASONIC & Tatsunoshin ft.NEONA",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -3445,13 +2738,6 @@
     "music_title": "Let’s Ghost",
     "composer": "暁Records",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -3489,13 +2775,6 @@
     "composer": "暁Records",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -3531,13 +2810,6 @@
     "music_title": "トランスダンスアナーキー",
     "composer": "暁Records",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -3575,20 +2847,6 @@
     "composer": "森羅万象",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 8,
         "level_disp": "8",
@@ -3617,20 +2875,6 @@
     "music_title": "悪戯センセーション",
     "composer": "森羅万象",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "hard",
         "level": 9,
@@ -3661,20 +2905,6 @@
     "composer": "森羅万象",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 10,
         "level_disp": "10+",
@@ -3703,13 +2933,6 @@
     "music_title": "Blossom",
     "composer": "Synthion",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -3747,13 +2970,6 @@
     "composer": "Synthion",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -3790,20 +3006,6 @@
     "composer": "ピノキオピー",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 8,
         "level_disp": "8",
@@ -3833,20 +3035,6 @@
     "composer": "ビートまりおとまろん",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 10,
         "level_disp": "10+",
@@ -3875,13 +3063,6 @@
     "music_title": "さよならトリップ ～夏陽 EDM edition～",
     "composer": "東雲夏陽",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -3919,13 +3100,6 @@
     "composer": "東雲心菜",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 10,
         "level_disp": "10+",
@@ -3962,20 +3136,6 @@
     "composer": "La prière",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 9,
         "level_disp": "9",
@@ -4004,13 +3164,6 @@
     "music_title": "conflict",
     "composer": "siromaru+cranky",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -4048,13 +3201,6 @@
     "composer": "DECO*27",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -4090,13 +3236,6 @@
     "music_title": "Prince",
     "composer": "すとぷり",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -4134,13 +3273,6 @@
     "composer": "すとぷり",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -4176,13 +3308,6 @@
     "music_title": "ルマ",
     "composer": "莉犬",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -4220,20 +3345,6 @@
     "composer": "さとみ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 8,
         "level_disp": "8",
@@ -4263,20 +3374,6 @@
     "composer": "すとぷり",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
-        "diff": "inf",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "hard",
         "level": 7,
         "level_disp": "7",
@@ -4305,13 +3402,6 @@
     "music_title": "地方創生☆チクワクティクス",
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -4349,13 +3439,6 @@
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -4391,13 +3474,6 @@
     "music_title": "neko＊neko",
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -4435,13 +3511,6 @@
     "composer": "Lime",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -4477,13 +3546,6 @@
     "music_title": "I.R.O",
     "composer": "おめがシスターズ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -4521,13 +3583,6 @@
     "composer": "おめがシスターズ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -4563,13 +3618,6 @@
     "music_title": "周回軌道",
     "composer": "おめがシスターズ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -4607,13 +3655,6 @@
     "composer": "おめがシスターズ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -4649,13 +3690,6 @@
     "music_title": "Who are you...?",
     "composer": "BPM15Q",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -4693,13 +3727,6 @@
     "composer": "うみろ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -4735,13 +3762,6 @@
     "music_title": "パ→ピ→プ→Yeah! (大海嘯オルカ Cover)",
     "composer": "ヒゲドライバー join. shully & Nimo",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -4779,13 +3799,6 @@
     "composer": "ピノキオP",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -4821,13 +3834,6 @@
     "music_title": "エゴロック (宿木鷹臣 Cover)",
     "composer": "すりぃ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -4865,13 +3871,6 @@
     "composer": "キミのね",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -4907,13 +3906,6 @@
     "music_title": "ビビデバ",
     "composer": "星街すいせい",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -4951,13 +3943,6 @@
     "composer": "豚乙女",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -4993,13 +3978,6 @@
     "music_title": "HELLOHELL",
     "composer": "暁Records",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -5037,13 +4015,6 @@
     "composer": "ビートまりお",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -5079,13 +4050,6 @@
     "music_title": "DUCTFOOD",
     "composer": "yowanecity",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -5123,13 +4087,6 @@
     "composer": "宝鐘マリン & Kobo Kanaeru",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -5165,13 +4122,6 @@
     "music_title": "Pixel Galaxy",
     "composer": "Snail's House",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -5209,13 +4159,6 @@
     "composer": "ARM feat. miko + 山本椛",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -5251,13 +4194,6 @@
     "music_title": "三妖精SAY YA!!!",
     "composer": "森羅万象",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -5295,13 +4231,6 @@
     "composer": "SOUND HOLIC feat. Nana Takahashi",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -5337,13 +4266,6 @@
     "music_title": "INFINITE WORLD",
     "composer": "SOUND HOLIC feat. Nana Takahashi",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -5381,13 +4303,6 @@
     "composer": "cosMo＠暴走P",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -5423,13 +4338,6 @@
     "music_title": "ダーリン",
     "composer": "MARETU",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -5467,13 +4375,6 @@
     "composer": "cosMo＠暴走P",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13",
@@ -5509,13 +4410,6 @@
     "music_title": "ちくわパフェだよ☆ＣＫＰ",
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -5553,13 +4447,6 @@
     "composer": "ここなつ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -5595,13 +4482,6 @@
     "music_title": "楔",
     "composer": "涼海ネモ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -5639,13 +4519,6 @@
     "composer": "HHH×MM×ST",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -5681,13 +4554,6 @@
     "music_title": "Q",
     "composer": "Mori Calliope, Gawr Gura",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -5725,13 +4591,6 @@
     "composer": "HIMEHINA",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -5767,13 +4626,6 @@
     "music_title": "愛包ダンスホール",
     "composer": "HIMEHINA",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -5811,13 +4663,6 @@
     "composer": "ピノキオピー",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 10,
         "level_disp": "10+",
@@ -5853,13 +4698,6 @@
     "music_title": "人マニア",
     "composer": "原口沙輔",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -5897,13 +4735,6 @@
     "composer": "すとぷり",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 10,
         "level_disp": "10+",
@@ -5939,13 +4770,6 @@
     "music_title": "スキスキ星人",
     "composer": "すとぷり",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -5983,13 +4807,6 @@
     "composer": "すとぷり",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -6025,13 +4842,6 @@
     "music_title": "ベリベリラブ",
     "composer": "すとぷり",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -6069,13 +4879,6 @@
     "composer": "すとぷり",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -6111,13 +4914,6 @@
     "music_title": "きゅんきゅんみこきゅんきゅん♡",
     "composer": "さくらみこ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -6155,13 +4951,6 @@
     "composer": "Hylen",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -6197,13 +4986,6 @@
     "music_title": "HOLOGRAPHY",
     "composer": "RYOQUCHA",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -6241,13 +5023,6 @@
     "composer": "momocaca (月乃×Capchii)",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13",
@@ -6283,13 +5058,6 @@
     "music_title": "風呂入るプロファイル",
     "composer": "もちうつね",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -6327,13 +5095,6 @@
     "composer": "kemu",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -6369,13 +5130,6 @@
     "music_title": "QUATTUORUX",
     "composer": "打打だいず Vs. Tanchiky Vs. からめる",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -6413,13 +5167,6 @@
     "composer": "常闇トワ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -6455,13 +5202,6 @@
     "music_title": "FACT",
     "composer": "常闇トワ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -6499,13 +5239,6 @@
     "composer": "常闇トワ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -6541,13 +5274,6 @@
     "music_title": "響縁",
     "composer": "豚乙女",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -6585,13 +5311,6 @@
     "composer": "暁Records",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -6627,13 +5346,6 @@
     "music_title": "超々キューカンバー",
     "composer": "岸田教団＆THE明星ロケッツ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -6671,13 +5383,6 @@
     "composer": "SOUND HOLIC feat. Nana Takahashi",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 10,
         "level_disp": "10",
@@ -6713,13 +5418,6 @@
     "music_title": "閉塞的フレーション",
     "composer": "Pizuya's Cell VS BEMANI Sound Team \"dj TAKA\"",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -6757,13 +5455,6 @@
     "composer": "SOUND HOLIC Vs. BEMANI Sound Team \"KE!JU\" feat. Nana Takahashi",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -6799,13 +5490,6 @@
     "music_title": "弾幕信仰",
     "composer": "豚乙女×BEMANI Sound Team \"PON\"",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -6843,13 +5527,6 @@
     "composer": "Amateras Records vs BEMANI Sound Team \"TATSUYA\" feat. miko",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -6885,13 +5562,6 @@
     "music_title": "LA VIE EN ROSE (Tatsunoshin Remix)",
     "composer": "Amateras Records feat. miko",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -6929,13 +5599,6 @@
     "composer": "DiGiTAL WiNG with. 空音",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 10,
         "level_disp": "10+",
@@ -6971,13 +5634,6 @@
     "music_title": "Yearning",
     "composer": "FELT",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 9,
@@ -7015,13 +5671,6 @@
     "composer": "サツキ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -7057,13 +5706,6 @@
     "music_title": "スターチューン (和乙葉ぺぺた Cover)",
     "composer": "コバヤシユウヤ(IOSYS) feat.まるもこ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -7101,13 +5743,6 @@
     "composer": "Gardens",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13",
@@ -7143,13 +5778,6 @@
     "music_title": "MilK",
     "composer": "モリモリあつし",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -7187,13 +5815,6 @@
     "composer": "吉田夜世",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -7229,13 +5850,6 @@
     "music_title": "ランカーキラーガール",
     "composer": "中島由貴 × いちか",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -7273,13 +5887,6 @@
     "composer": "BEMANI Sound Team \"Qrispy Joybox\" feat.いちか",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -7315,13 +5922,6 @@
     "music_title": "狂水一華",
     "composer": "BEMANI Sound Team \"HuΣeR Vs. SYUNN\" feat.いちか",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -7359,13 +5959,6 @@
     "composer": "EasyPop",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -7401,13 +5994,6 @@
     "music_title": "いーあるふぁんくらぶ",
     "composer": "みきとP",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -7445,13 +6031,6 @@
     "composer": "164",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -7487,13 +6066,6 @@
     "music_title": "初音ミクの消失",
     "composer": "cosMo@暴走P",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -7531,13 +6103,6 @@
     "composer": "Last Note.",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -7573,13 +6138,6 @@
     "music_title": "神威",
     "composer": "TJ.hangneil",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -7617,13 +6175,6 @@
     "composer": "EBIMAYO",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13",
@@ -7659,13 +6210,6 @@
     "music_title": "星界のアルペジオ",
     "composer": "yuichi NAGAO",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -7703,13 +6247,6 @@
     "composer": "ビートまりお×まろん",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -7745,13 +6282,6 @@
     "music_title": "㋰責任集合体",
     "composer": "マサラダ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -7789,13 +6319,6 @@
     "composer": "いちか",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -7831,13 +6354,6 @@
     "music_title": "ラブキラ☆スプラッシュ",
     "composer": "BEMANI Sound Team \"Sota F.\" feat.いちか",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -7875,13 +6391,6 @@
     "composer": "Kai",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -7917,13 +6426,6 @@
     "music_title": "凛として咲く花の如く (大神ミオ Cover)",
     "composer": "紅色リトマス",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -7961,13 +6463,6 @@
     "composer": "アンジュ・カトリーナ、戌亥とこ、リゼ・ヘルエスタ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -8003,13 +6498,6 @@
     "music_title": "みつぼしパレード",
     "composer": "アンジュ・カトリーナ、戌亥とこ、リゼ・ヘルエスタ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -8047,13 +6535,6 @@
     "composer": "戌亥とこ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -8089,13 +6570,6 @@
     "music_title": "藍嵐",
     "composer": "Ibuki",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -8133,13 +6607,6 @@
     "composer": "Ibuki",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -8175,13 +6642,6 @@
     "music_title": "Hastur",
     "composer": "USAO",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -8219,13 +6679,6 @@
     "composer": "P*Light",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -8261,13 +6714,6 @@
     "music_title": "カラフルミニッツ",
     "composer": "Qrispy Joybox feat.mao",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -8305,13 +6751,6 @@
     "composer": "ヒゲドライバー join. SELEN",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -8347,13 +6786,6 @@
     "music_title": "ハッピーエンドをはじめから",
     "composer": "リゼ・ヘルエスタ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -8391,13 +6823,6 @@
     "composer": "Verseus",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -8433,13 +6858,6 @@
     "music_title": "If",
     "composer": "Pa's Lam System",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -8477,13 +6895,6 @@
     "composer": "Gowrock",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -8519,13 +6930,6 @@
     "music_title": "Mr.REAPER",
     "composer": "eksΩ feat.ロクナナハチ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -8563,13 +6967,6 @@
     "composer": "アンジュ・カトリーナ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -8605,13 +7002,6 @@
     "music_title": "N3XTAGE",
     "composer": "Srav3R",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -8649,13 +7039,6 @@
     "composer": "ARM feat. とろ美",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -8691,13 +7074,6 @@
     "music_title": "超最終鬼畜妹フランドール・S",
     "composer": "ビートまりお×まろん",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -8735,13 +7111,6 @@
     "composer": "森羅万象",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -8777,13 +7146,6 @@
     "music_title": "Heartquake Super Shock",
     "composer": "SOUND HOLIC feat. Nana Takahashi",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -8821,13 +7183,6 @@
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -8863,13 +7218,6 @@
     "music_title": "けもののおうじゃ★めうめう",
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -8907,13 +7255,6 @@
     "composer": "Remixed by BEMANI Sound Team \"ZAQUVA\"",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13",
@@ -8949,13 +7290,6 @@
     "music_title": "Last Twilight",
     "composer": "cosMo＠暴走P",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -8993,13 +7327,6 @@
     "composer": "ARM (IOSYS) × パプリカ (豚乙女)",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -9035,13 +7362,6 @@
     "music_title": "n番目の女",
     "composer": "ヒゲドライVAN",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -9079,13 +7399,6 @@
     "composer": "sasakure.UK",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -9121,13 +7434,6 @@
     "music_title": "ヒバナ (緋月ゆい Cover)",
     "composer": "DECO*27",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -9165,13 +7471,6 @@
     "composer": "星街すいせい",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -9207,13 +7506,6 @@
     "music_title": "美少女無罪♡パイレーツ",
     "composer": "宝鐘マリン",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -9251,13 +7543,6 @@
     "composer": "博衣こより",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -9293,13 +7578,6 @@
     "music_title": "水鏡 (日下育彦 Cover)",
     "composer": "PON",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -9337,13 +7615,6 @@
     "composer": "あべにゅうぷろじぇくと feat.佐倉紗織 produced by ave;new",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -9379,13 +7650,6 @@
     "music_title": "Wow Wow VENUS (乾セナ Cover)",
     "composer": "VENUS",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -9423,13 +7687,6 @@
     "composer": "富士葵",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -9465,13 +7722,6 @@
     "music_title": "Re：End of a Dream",
     "composer": "uma vs. モリモリあつし",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -9509,13 +7759,6 @@
     "composer": "削除",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -9551,13 +7794,6 @@
     "music_title": "ライアーダンサー",
     "composer": "マサラダ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -9595,13 +7831,6 @@
     "composer": "RoughSketch",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13+",
@@ -9637,13 +7866,6 @@
     "music_title": "DISTORDER",
     "composer": "DJ Myosuke",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -9681,13 +7903,6 @@
     "composer": "Laur",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 14,
         "level_disp": "14",
@@ -9723,13 +7938,6 @@
     "music_title": "Extra No.3",
     "composer": "Srav3R",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -9767,13 +7975,6 @@
     "composer": "原口沙輔",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -9809,13 +8010,6 @@
     "music_title": "FLVSH OUT",
     "composer": "Getty",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -9853,13 +8047,6 @@
     "composer": "aran",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -9895,13 +8082,6 @@
     "music_title": "Bad Apple!! feat. nomico",
     "composer": "Alstroemeria Records",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -9939,13 +8119,6 @@
     "composer": "ak+q",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -9981,13 +8154,6 @@
     "music_title": "What's up? Pop!",
     "composer": "Capchii feat. 初音ミク",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -10025,13 +8191,6 @@
     "composer": "irucaice feat. 初音ミク",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -10067,13 +8226,6 @@
     "music_title": "ONESELF",
     "composer": "Twinfield feat. 初音ミク",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -10111,13 +8263,6 @@
     "composer": "ビートまりお",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -10153,13 +8298,6 @@
     "music_title": "ちくわパフェだよ☆ＣＫＰ (Yvya Remix)",
     "composer": "Remixed by BEMANI Sound Team \"Yvya\"",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -10197,13 +8335,6 @@
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -10239,13 +8370,6 @@
     "music_title": "恋とキングコング",
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -10283,13 +8407,6 @@
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -10325,13 +8442,6 @@
     "music_title": "CROWD NINE",
     "composer": "キョンシーのCiちゃん",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -10369,13 +8479,6 @@
     "composer": "白玖ウタノ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -10411,13 +8514,6 @@
     "music_title": "B.B.K.K.B.K.K.",
     "composer": "nora2r",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -10455,13 +8551,6 @@
     "composer": "Tanchiky",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -10497,13 +8586,6 @@
     "music_title": "HYPER LOVE",
     "composer": "EmoCosine",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -10541,13 +8623,6 @@
     "composer": "Tatsunoshin x 藍良あれれ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -10583,13 +8658,6 @@
     "music_title": "おにけもだんす",
     "composer": "いろはにほへっと あやふぶみ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -10627,13 +8695,6 @@
     "composer": "不知火建設",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -10669,13 +8730,6 @@
     "music_title": "イケ贄",
     "composer": "さくらみこ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -10713,13 +8767,6 @@
     "composer": "Yukopi",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -10755,13 +8802,6 @@
     "music_title": "恋繋エピローグ",
     "composer": "Amateras Records feat. KUMI(ヲタみん)",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -10799,13 +8839,6 @@
     "composer": "DiGiTAL WiNG feat. 花たん",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -10841,13 +8874,6 @@
     "music_title": "crescent moon",
     "composer": "FELT",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -10885,13 +8911,6 @@
     "composer": "ひとしずく×やま△",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -10927,13 +8946,6 @@
     "music_title": "クノイチでも恋がしたい",
     "composer": "みきとP",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -10971,13 +8983,6 @@
     "composer": "宗谷いちか",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -11013,13 +9018,6 @@
     "music_title": "羊のような雲はどこまで",
     "composer": "宗谷いちか",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -11057,13 +9055,6 @@
     "composer": "OSTER project",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13",
@@ -11099,13 +9090,6 @@
     "music_title": "爆なな☆てすとロイヤー",
     "composer": "ARM feat.ななひら",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -11143,13 +9127,6 @@
     "composer": "SOUND HOLIC feat. Nana Takahashi",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -11185,13 +9162,6 @@
     "music_title": "それは花火のような恋",
     "composer": "夏色バーニングラブ☆Prim",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -11229,13 +9199,6 @@
     "composer": "大漠波新",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -11271,13 +9234,6 @@
     "music_title": "ヒミツダイヤル",
     "composer": "ここなつ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -11315,13 +9271,6 @@
     "composer": "ここなつ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 10,
         "level_disp": "10",
@@ -11357,13 +9306,6 @@
     "music_title": "ムラサキグルマ",
     "composer": "ここなつ Produced by はるなば",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -11401,13 +9343,6 @@
     "composer": "ここなつ Produced by lapix",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -11443,13 +9378,6 @@
     "music_title": "ロマンシングエスケープ",
     "composer": "ここなつ2.0",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -11487,13 +9415,6 @@
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -11529,13 +9450,6 @@
     "music_title": "3 A.M. ディテクティブ・ゲーム",
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -11573,13 +9487,6 @@
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -11615,13 +9522,6 @@
     "music_title": "雪の雫・雨の音",
     "composer": "天遊 feat. 東京塔",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -11659,13 +9559,6 @@
     "composer": "肥塚良彦",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -11701,13 +9594,6 @@
     "music_title": "Synchronize",
     "composer": "Sota Fujimori",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -11745,13 +9631,6 @@
     "composer": "dj TAKA feat. Nana Takahashi",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -11787,13 +9666,6 @@
     "music_title": "Welcome!!",
     "composer": "kors k",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -11831,13 +9703,6 @@
     "composer": "AliA",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -11873,13 +9738,6 @@
     "music_title": "感情ディシーブ (福來羽留 Cover)",
     "composer": "ろーある",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -11917,13 +9775,6 @@
     "composer": "uma",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13",
@@ -11959,13 +9810,6 @@
     "music_title": "Maple",
     "composer": "Srav3R",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -12003,13 +9847,6 @@
     "composer": "Getty",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -12045,13 +9882,6 @@
     "music_title": "Big Daddy",
     "composer": "USAO",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -12089,13 +9919,6 @@
     "composer": "Zekk",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -12131,13 +9954,6 @@
     "music_title": "Elemental Creation",
     "composer": "dj TAKA meets DJ YOSHITAKA",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -12175,13 +9991,6 @@
     "composer": "Mutsuhiko Izumi & S-C-U",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -12217,13 +10026,6 @@
     "music_title": "晴天Bon Voyage",
     "composer": "TOMOSUKE × seiya-murai feat. ALT",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -12261,13 +10063,6 @@
     "composer": "MAX MAXIMIZER VS DJ TOTTO",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13+",
@@ -12303,13 +10098,6 @@
     "music_title": "虹色の花",
     "composer": "Akhuta y OJ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -12347,13 +10135,6 @@
     "composer": "大日本鉄倶楽部【あさき＆９６】",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -12389,13 +10170,6 @@
     "music_title": "創世ノート",
     "composer": "PON+wac",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -12433,13 +10207,6 @@
     "composer": "TAG×U1-ASAMi",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -12475,13 +10242,6 @@
     "music_title": "Empathetic",
     "composer": "Sota÷Des",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -12519,13 +10279,6 @@
     "composer": "猫叉L.E.D.Master+",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13",
@@ -12561,13 +10314,6 @@
     "music_title": "L",
     "composer": "Ice",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -12605,13 +10351,6 @@
     "composer": "Mwk feat. 巡音ルカ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -12647,13 +10386,6 @@
     "music_title": "VALLIS-NERIA",
     "composer": "DJ YOSHITAKA",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -12691,13 +10423,6 @@
     "composer": "柊マグネタイト",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -12733,13 +10458,6 @@
     "music_title": "PON☆PON☆PARADE",
     "composer": "キノシタ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -12777,13 +10495,6 @@
     "composer": "Somari",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -12819,13 +10530,6 @@
     "music_title": "プラネットヒーロー",
     "composer": "打打だいず＋irucaice",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -12863,13 +10567,6 @@
     "composer": "Endorfin.",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -12905,13 +10602,6 @@
     "music_title": "Prayer",
     "composer": "ぺのれり",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -12949,13 +10639,6 @@
     "composer": "かめりあ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13+",
@@ -12991,13 +10674,6 @@
     "music_title": "カルマ",
     "composer": "ユプシロン",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -13035,13 +10711,6 @@
     "composer": "Silver Forest",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -13077,13 +10746,6 @@
     "music_title": "ウラボス",
     "composer": "鬱P",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -13121,13 +10783,6 @@
     "composer": "Tatsunoshin x Juggernaut.",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13",
@@ -13163,13 +10818,6 @@
     "music_title": "量子の海のリントヴルム",
     "composer": "黒猫ダンジョン",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -13207,13 +10855,6 @@
     "composer": "S-C-U",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -13249,13 +10890,6 @@
     "music_title": "I'm so Happy",
     "composer": "Ryu☆",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -13293,13 +10927,6 @@
     "composer": "DJ YOSHITAKA",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13",
@@ -13335,13 +10962,6 @@
     "music_title": "ギャ・ギャ・ギャ・ギャラクシー！",
     "composer": "つきみぐー、",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -13379,13 +10999,6 @@
     "composer": "マキシウキョウ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -13421,13 +11034,6 @@
     "music_title": "フラッフィー・アドベンチャー！",
     "composer": "みーに feat. まより",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -13465,13 +11071,6 @@
     "composer": "Shu",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -13507,13 +11106,6 @@
     "music_title": "あおばの足音",
     "composer": "駄菓子O型",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -13551,13 +11143,6 @@
     "composer": "ナユタン星人",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -13593,13 +11178,6 @@
     "music_title": "エクスプロウル",
     "composer": "晴いちばん",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -13637,13 +11215,6 @@
     "composer": "雪乃イト",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -13679,13 +11250,6 @@
     "music_title": "Ha･lle･lu･jah",
     "composer": "SOUND HOLIC feat. Nana Takahashi",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -13723,13 +11287,6 @@
     "composer": "Alkome",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -13765,13 +11322,6 @@
     "music_title": "Ghost Family Living In Graveyard",
     "composer": "RoughSketch",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -13809,13 +11359,6 @@
     "composer": "seiya-murai feat.ALT",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -13851,13 +11394,6 @@
     "music_title": "Trendy Cloudy LolIPopS",
     "composer": "やどりぎ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -13895,13 +11431,6 @@
     "composer": "Reku Mochizuki",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -13937,13 +11466,6 @@
     "music_title": "Happy come×2 Tea Time",
     "composer": "mIlImiiz (mIlIn × filmiiz)",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -13981,13 +11503,6 @@
     "composer": "Tatsunoshin x Aira Arere",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -14023,13 +11538,6 @@
     "music_title": "心泥夢(syndrome)",
     "composer": "宮守文学 feat. 初音ミク",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -14067,13 +11575,6 @@
     "composer": "kuro",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -14109,13 +11610,6 @@
     "music_title": "Stella Sinistra",
     "composer": "Akhuta Philharmonic Orchestra",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -14153,13 +11647,6 @@
     "composer": "96 with メカショッチョー",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -14195,13 +11682,6 @@
     "music_title": "PUNISHER",
     "composer": "TAG×PON",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -14239,13 +11719,6 @@
     "composer": "Hommarju",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13+",
@@ -14281,13 +11754,6 @@
     "music_title": "右肩の蝶 (空澄セナ Cover)",
     "composer": "のりP",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -14325,13 +11791,6 @@
     "composer": "Maple Cafeteria",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -14367,13 +11826,6 @@
     "music_title": "Citrus Burst",
     "composer": "Enterskip",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -14411,13 +11863,6 @@
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -14453,13 +11898,6 @@
     "music_title": "双星ルミネセンス",
     "composer": "一舞 ＆ 夏陽",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -14497,13 +11935,6 @@
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 10,
         "level_disp": "10",
@@ -14539,13 +11970,6 @@
     "music_title": "Carry Me Away",
     "composer": "lapix",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -14583,13 +12007,6 @@
     "composer": "Retropolitaliens(Ms.+駄々子)",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -14625,13 +12042,6 @@
     "music_title": "Daisycutter",
     "composer": "ETIA.",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -14669,13 +12079,6 @@
     "composer": "covered by 音乃瀬奏(ReGLOSS)",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -14711,13 +12114,6 @@
     "music_title": "カジノファイヤーことみちゃん",
     "composer": "covered by 一条莉々華(ReGLOSS)",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -14755,13 +12151,6 @@
     "composer": "covered by 儒烏風亭らでん(ReGLOSS)",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -14797,13 +12186,6 @@
     "music_title": "リメンバーリメンバー",
     "composer": "covered by 轟はじめ(ReGLOSS)",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -14841,13 +12223,6 @@
     "composer": "ReGLOSS",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -14883,13 +12258,6 @@
     "music_title": "Heroic DIVE!!",
     "composer": "CHUBAY",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -14927,13 +12295,6 @@
     "composer": "irom",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -14969,13 +12330,6 @@
     "music_title": "Squeeze",
     "composer": "VENUS feat. Mutsuhiko Izumi",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -15013,13 +12367,6 @@
     "composer": "猫叉Masterβ2",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -15055,13 +12402,6 @@
     "music_title": "轟け！恋のビーンボール！！",
     "composer": "ダイナミック野球兄弟 v.s. クロスファイヤーPrim",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -15099,13 +12439,6 @@
     "composer": "獅子志司",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -15141,13 +12474,6 @@
     "music_title": "温故知新でいこっ！",
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -15185,13 +12511,6 @@
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -15227,13 +12546,6 @@
     "music_title": "漆黒のスペシャルプリンセスサンデー",
     "composer": "日向美ビタースイーツ♪",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -15271,13 +12583,6 @@
     "composer": "Yuta Imai",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -15313,13 +12618,6 @@
     "music_title": "Test Flight",
     "composer": "黒魔",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -15357,13 +12655,6 @@
     "composer": "cosMo VS dj TAKA",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13",
@@ -15399,13 +12690,6 @@
     "music_title": "Saiph",
     "composer": "BEMANI Sound Team \"Yvya\"",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -15443,13 +12727,6 @@
     "composer": "かゆき",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 14,
         "level_disp": "14",
@@ -15485,13 +12762,6 @@
     "music_title": "ほしふり",
     "composer": "Sana",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -15529,13 +12799,6 @@
     "composer": "少年ラジオ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 14,
         "level_disp": "14",
@@ -15571,13 +12834,6 @@
     "music_title": "コドモライブ",
     "composer": "onoken feat.asami",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -15615,13 +12871,6 @@
     "composer": "NU-KO",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -15657,13 +12906,6 @@
     "music_title": "Daisuke",
     "composer": "Y&Co.",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -15701,13 +12943,6 @@
     "composer": "ここなつ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 10,
         "level_disp": "10+",
@@ -15743,13 +12978,6 @@
     "music_title": "野球の遊び方　そしてその歴史　～決定版～",
     "composer": "あさき大監督",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 10,
@@ -15787,13 +13015,6 @@
     "composer": "dj TAKA VS DJ TOTTO feat.藍",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13+",
@@ -15829,13 +13050,6 @@
     "music_title": "Engraved Mark",
     "composer": "Ryu☆ ∞ Des-ROW",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -15873,13 +13087,6 @@
     "composer": "muyu",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -15915,13 +13122,6 @@
     "music_title": "Eclipsed Wings",
     "composer": "ushiee",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -16002,13 +13202,6 @@
     "composer": "cosMo＠暴走P feat. 初音ミク",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13+",
@@ -16044,13 +13237,6 @@
     "music_title": "えんじぇる☆てすと！",
     "composer": "irucaice feat. 初音ミク",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -16088,13 +13274,6 @@
     "composer": "Capchii feat. 初音ミク",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13+",
@@ -16130,13 +13309,6 @@
     "music_title": "Λkasha",
     "composer": "BlackY feat. Risa Yuzuki",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 14,
@@ -16174,13 +13346,6 @@
     "composer": "kamome sano",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13+",
@@ -16216,13 +13381,6 @@
     "music_title": "いつかの夢、またねの約束。",
     "composer": "TAKU1175 ft. 駄々子",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -16260,13 +13418,6 @@
     "composer": "ネオン(CV:藤川茜)、芽兎めう(CV:五十嵐裕美)",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11",
@@ -16302,13 +13453,6 @@
     "music_title": "ダーリンダンス",
     "composer": "かいりきベア",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
@@ -16346,13 +13490,6 @@
     "composer": "柊キライ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 11,
         "level_disp": "11+",
@@ -16388,13 +13525,6 @@
     "music_title": "未完成讃歌",
     "composer": "しゃいと feat. 初音ミク",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -16432,13 +13562,6 @@
     "composer": "よみぃ",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 13,
         "level_disp": "13",
@@ -16474,13 +13597,6 @@
     "music_title": "RUINA",
     "composer": "Dustup VS MAX MAXIMIZER",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 13,
@@ -16518,13 +13634,6 @@
     "composer": "nora2r",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12+",
@@ -16560,13 +13669,6 @@
     "music_title": "Remember ～ 彼方から ～",
     "composer": "達見 恵 featured by BEMANI Sound Team \"S-C-U\"",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 11,
@@ -16604,13 +13706,6 @@
     "composer": "惑星計画",
     "diffs": [
       {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
-      {
         "diff": "inf",
         "level": 12,
         "level_disp": "12",
@@ -16646,13 +13741,6 @@
     "music_title": "unipolar♡heart",
     "composer": "KE!JU＆TAN1CHU＆めめめ",
     "diffs": [
-      {
-        "diff": "polar",
-        "level": 0,
-        "level_disp": "0",
-        "music_const": 0,
-        "difficulty_ap": 0
-      },
       {
         "diff": "inf",
         "level": 12,
