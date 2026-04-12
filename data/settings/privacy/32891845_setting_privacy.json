@@ -1,0 +1,14 @@
+{
+  "crew_id": "32891845",
+  "updated_at": "2026-04-12T23:55:52+09:00",
+  "updated_by": "bookmarklet",
+  "data_public": {
+    "crew_id": false,
+    "music_data": false,
+    "paskill": false
+  },
+  "permissions": {
+    "qap_ranking": false,
+    "search_user": false
+  }
+}
