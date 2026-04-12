@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "bookmarklet",
-  "exported_at": "2026-04-12T14:20:07+09:00",
+  "exported_at": "2026-04-12T14:42:06+09:00",
   "player": {
     "crew_id": "32474862",
     "player_name": "えば",
@@ -31667,7 +31667,7 @@
           "diff": "inf",
           "level": 12,
           "level_disp": "12",
-          "ar": 9990,
+          "ar": null,
           "clear_status": null,
           "high_score": null,
           "maxcombo": null,
