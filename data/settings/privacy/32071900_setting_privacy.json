@@ -1,9 +1,10 @@
 {
   "crew_id": "32071900",
-  "updated_at": "2026-04-10T00:21:42+09:00",
+  "updated_at": "2026-04-13T12:25:15+09:00",
   "updated_by": "site",
   "data_public": {
     "crew_id": true,
+    "player_name": true,
     "music_data": true,
     "paskill": true
   },
