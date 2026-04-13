@@ -12,7 +12,7 @@
       "search_user": true,
       "player_name": false,
       "crew_id": true,
-      "paskill": true
+      "paskill": false
     }
   },
   {
