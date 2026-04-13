@@ -1,5 +1,18 @@
 [
   {
+    "public_id": "u_va4pyrb7dhgs",
+    "exported_at": "2026-04-13T23:59:35+09:00",
+    "crew_id": "56675311",
+    "player_name": "ひなの",
+    "paskill_average_top30": 15.7943,
+    "privacy": {
+      "search_user": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_ec17osb9za99",
     "exported_at": "2026-04-13T22:21:40+09:00",
     "crew_id": "68207041",
@@ -63,22 +76,6 @@
     "pa_class": 531,
     "play_count": 3191,
     "paskill_average_top30": 16.0572,
-    "privacy": {
-      "search_user": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
-    }
-  },
-  {
-    "exported_at": "2026-04-07T00:26:23+09:00",
-    "crew_id": "56675311",
-    "player_name": "ひなの",
-    "title_name": "Little Rock Overture LOVE！！！",
-    "pa_skill": 15.79,
-    "pa_class": 377,
-    "play_count": 1202,
-    "paskill_average_top30": 15.7931,
     "privacy": {
       "search_user": true,
       "player_name": true,
