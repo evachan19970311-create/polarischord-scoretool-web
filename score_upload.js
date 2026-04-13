@@ -13,7 +13,8 @@ window.run_score_upload = async function () {
   window.__score_upload_running__ = true;
 
   const EXPECTED_URL = 'https://p.eagate.573.jp/game/polarischord/pc/playdata/index.html';
-  const PROFILE_URL_BASE = 'http://pc-scoretool-web.com/profile?id=';
+  const PROFILE_URL_BASE = 'http://pc-scoretool-web.com/profile?user=';
+  const FALLBACK_PROFILE_URL_BASE = 'http://pc-scoretool-web.com/profile?id=';
   const GAS_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxPXzlMOJzizzx9vZTpxO5t7hf-FCwGPm-JQ451fIL_XRq3raZeJZXYRxtIs4-DWdbC/exec';
 
   const DIFF_MAP = {
@@ -126,38 +127,26 @@ window.run_score_upload = async function () {
     throw last_error || new Error('common_getdata.html の取得に失敗しました');
   };
 
-  const post_json_by_form = (payload) => {
-    return new Promise((resolve) => {
-      const iframe_name = `gas_post_iframe_${Date.now()}`;
-
-      const iframe = document.createElement('iframe');
-      iframe.name = iframe_name;
-      iframe.style.display = 'none';
-      document.body.appendChild(iframe);
-
-      const form = document.createElement('form');
-      form.method = 'POST';
-      form.action = GAS_WEBAPP_URL;
-      form.target = iframe_name;
-      form.style.display = 'none';
-
-      const input = document.createElement('input');
-      input.type = 'hidden';
-      input.name = 'payload';
-      input.value = JSON.stringify(payload);
-
-      form.appendChild(input);
-      document.body.appendChild(form);
-      form.submit();
-
-      setTimeout(() => {
-        try {
-          form.remove();
-          iframe.remove();
-        } catch (_) {}
-        resolve();
-      }, 1500);
+  const post_json = async (payload) => {
+    const res = await fetch(GAS_WEBAPP_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'text/plain;charset=utf-8'
+      },
+      body: JSON.stringify(payload)
     });
+
+    if (!res.ok) {
+      throw new Error(`GAS送信に失敗しました (${res.status})`);
+    }
+
+    const result = await res.json();
+
+    if (!result?.ok) {
+      throw new Error(result?.error || 'GAS送信に失敗しました');
+    }
+
+    return result;
   };
 
   const get_total_play_count = (play_info) => {
@@ -222,18 +211,18 @@ window.run_score_upload = async function () {
   };
 
   const create_loading_overlay = () => {
-  const overlay = document.createElement('div');
-  overlay.id = 'score-upload-loading';
+    const overlay = document.createElement('div');
+    overlay.id = 'score-upload-loading';
 
-  overlay.innerHTML = `
-    <div class="loading-box">
-      <div class="spinner" id="loading-spinner"></div>
-      <div class="text" id="loading-text">スコア送信中...</div>
-      <div class="result" id="loading-result" style="display:none;"></div>
-    </div>
-  `;
+    overlay.innerHTML = `
+      <div class="loading-box">
+        <div class="spinner" id="loading-spinner"></div>
+        <div class="text" id="loading-text">スコア送信中...</div>
+        <div class="result" id="loading-result" style="display:none;"></div>
+      </div>
+    `;
 
-  const style = document.createElement('style');
+    const style = document.createElement('style');
     style.innerHTML = `
       #score-upload-loading {
         position: fixed;
@@ -290,7 +279,7 @@ window.run_score_upload = async function () {
   };
 
   try {
-    const loading_overlay = create_loading_overlay();
+    create_loading_overlay();
 
     if (!location.href.startsWith(EXPECTED_URL)) {
       alert('このページでは実行できません。プレイデータページへ移動します。');
@@ -345,11 +334,8 @@ window.run_score_upload = async function () {
       throw new Error('crew_id を取得できませんでした');
     }
 
-    await post_json_by_form(payload);
-
-    setTimeout(function () {
-      location.href = PROFILE_URL_BASE + encodeURIComponent(payload.player.crew_id);
-    }, 5000); // ← 5秒（調整OK）
+    const gasResult = await post_json(payload);
+    const publicId = String(gasResult?.public_id || '');
 
     const spinner = document.getElementById('loading-spinner');
     const text = document.getElementById('loading-text');
@@ -363,10 +349,19 @@ window.run_score_upload = async function () {
       result.textContent =
         '送信を実行しました\n' +
         `crew_id: ${payload.player.crew_id}\n` +
+        `public_id: ${publicId || '(未取得)'}\n` +
         `music: ${payload.music.length}件\n` +
         `common_music: ${payload.common_music.length}件\n\n` +
         '5秒後に自動でプロフィールページへ移動します...';
     }
+
+    setTimeout(function () {
+      if (publicId) {
+        location.href = PROFILE_URL_BASE + encodeURIComponent(publicId);
+      } else {
+        location.href = FALLBACK_PROFILE_URL_BASE + encodeURIComponent(payload.player.crew_id);
+      }
+    }, 5000);
 
     window.__score_upload_running__ = false;
 
