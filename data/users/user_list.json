@@ -10,7 +10,7 @@
     "paskill_average_top30": 15.8994,
     "privacy": {
       "search_user": true,
-      "player_name": false,
+      "player_name": true,
       "crew_id": true,
       "paskill": false
     }
