@@ -1,14 +1,14 @@
 {
   "public_id": "u_ec17osb9za99",
-  "updated_at": "2026-04-14T01:25:00+09:00",
+  "updated_at": "2026-04-14T01:42:43+09:00",
   "followers": [
-    {
-      "public_id": "u_aq1lykfqps8v",
-      "created_at": "2026-04-13T23:57:36+09:00"
-    },
     {
       "public_id": "u_x7eyy2al62j9",
       "created_at": "2026-04-14T01:24:59+09:00"
+    },
+    {
+      "public_id": "u_aq1lykfqps8v",
+      "created_at": "2026-04-13T23:57:36+09:00"
     }
   ]
 }
