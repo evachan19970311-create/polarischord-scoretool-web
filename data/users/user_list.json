@@ -1,5 +1,18 @@
 [
   {
+    "public_id": "u_ec17osb9za99",
+    "exported_at": "2026-04-13T18:20:09+09:00",
+    "crew_id": "68207041",
+    "player_name": "さまよい",
+    "paskill_average_top30": 16.0134,
+    "privacy": {
+      "search_user": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_aq1lykfqps8v",
     "exported_at": "2026-04-13T16:00:11+09:00",
     "crew_id": "32474862",
@@ -42,22 +55,6 @@
       "player_name": false,
       "crew_id": false,
       "paskill": false
-    }
-  },
-  {
-    "exported_at": "2026-04-10T01:58:58+09:00",
-    "crew_id": "68207041",
-    "player_name": "さまよい",
-    "title_name": "伝説級PA",
-    "pa_skill": 16.01,
-    "pa_class": 346,
-    "play_count": 1013,
-    "paskill_average_top30": 16.0134,
-    "privacy": {
-      "search_user": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
     }
   },
   {
