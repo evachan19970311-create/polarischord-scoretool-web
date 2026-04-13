@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "bookmarklet",
-  "exported_at": "2026-04-10T01:58:58+09:00",
+  "exported_at": "2026-04-13T18:20:09+09:00",
   "player": {
     "crew_id": "68207041",
     "player_name": "さまよい",
@@ -10356,7 +10356,7 @@
           "updated_at": "2025-08-08 16:35:56",
           "nice_play_rank": 0,
           "music_const": 1,
-          "paskill": null
+          "paskill": 0.316
         },
         {
           "diff": "normal",
