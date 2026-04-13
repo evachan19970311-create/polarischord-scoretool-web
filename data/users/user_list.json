@@ -41,8 +41,8 @@
     "play_count": 3359,
     "paskill_average_top30": 16.0182,
     "privacy": {
-      "search_user": true,
-      "player_name": true,
+      "search_user": false,
+      "player_name": false,
       "crew_id": false,
       "paskill": false
     }
