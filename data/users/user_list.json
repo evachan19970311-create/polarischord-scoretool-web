@@ -52,19 +52,16 @@
     }
   },
   {
+    "public_id": "u_x7eyy2al62j9",
     "exported_at": "2026-04-12T21:57:01+09:00",
     "crew_id": "10615451",
     "player_name": "ｓｐａｄｅ",
-    "title_name": "Dream Re:CHORD LOVE！！！",
-    "pa_skill": 16.01,
-    "pa_class": 600,
-    "play_count": 3359,
     "paskill_average_top30": 16.0182,
     "privacy": {
-      "search_user": false,
-      "player_name": false,
-      "crew_id": false,
-      "paskill": false
+      "search_user": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
     }
   },
   {
