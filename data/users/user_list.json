@@ -23,7 +23,13 @@
     "pa_skill": 13.81,
     "pa_class": 335,
     "play_count": 954,
-    "paskill_average_top30": 13.8168
+    "paskill_average_top30": 13.8168,
+    "privacy": {
+      "search_user": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
   },
   {
     "exported_at": "2026-04-12T21:57:01+09:00",
