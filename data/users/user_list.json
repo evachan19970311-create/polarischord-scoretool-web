@@ -1,5 +1,18 @@
 [
   {
+    "public_id": "u_k3leep72ejni",
+    "exported_at": "2026-04-13T21:19:15+09:00",
+    "crew_id": "32891845",
+    "player_name": "ぱげ",
+    "paskill_average_top30": 13.8168,
+    "privacy": {
+      "search_user": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_ec17osb9za99",
     "exported_at": "2026-04-13T21:17:14+09:00",
     "crew_id": "68207041",
@@ -21,22 +34,6 @@
     "privacy": {
       "search_user": true,
       "player_name": false,
-      "crew_id": true,
-      "paskill": true
-    }
-  },
-  {
-    "exported_at": "2026-04-13T00:52:33+09:00",
-    "crew_id": "32891845",
-    "player_name": "ぱげ",
-    "title_name": "ハッピーエンドをはじめから しか勝たん！！！",
-    "pa_skill": 13.81,
-    "pa_class": 335,
-    "play_count": 954,
-    "paskill_average_top30": 13.8168,
-    "privacy": {
-      "search_user": true,
-      "player_name": true,
       "crew_id": true,
       "paskill": true
     }
