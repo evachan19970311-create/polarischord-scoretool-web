@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_d94rjf60nhxi",
+    "exported_at": "2026-04-17T07:39:32+09:00",
+    "crew_id": "25775372",
+    "player_name": "ぽらりすこまみ",
+    "paskill_average_top30": 14.9935,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_yue2j577ij0l",
     "exported_at": "2026-04-17T04:29:41+09:00",
     "crew_id": "39885755",
