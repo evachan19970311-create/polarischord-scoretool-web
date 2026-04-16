@@ -13,7 +13,7 @@ window.run_score_upload = async function () {
   window.__score_upload_running__ = true;
 
   const EXPECTED_URL = 'https://p.eagate.573.jp/game/polarischord/pc/playdata/index.html';
-  const PROFILE_URL_BASE = 'http://pc-scoretool-web.com/profile?user=';
+  const UPDATE_RESULT_URL_BASE = 'http://pc-scoretool-web.com/update_result?user=';
   const FALLBACK_PROFILE_URL_BASE = 'http://pc-scoretool-web.com/profile?id=';
   const GAS_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxPXzlMOJzizzx9vZTpxO5t7hf-FCwGPm-JQ451fIL_XRq3raZeJZXYRxtIs4-DWdbC/exec';
 
@@ -336,6 +336,14 @@ window.run_score_upload = async function () {
 
     const gasResult = await post_json(payload);
     const publicId = String(gasResult?.public_id || '');
+    const updateResult = gasResult?.update_result || null;
+
+    if (publicId && updateResult) {
+      sessionStorage.setItem(
+        'last_update_result_' + publicId,
+        JSON.stringify(updateResult)
+      );
+    }
 
     const spinner = document.getElementById('loading-spinner');
     const text = document.getElementById('loading-text');
@@ -349,15 +357,13 @@ window.run_score_upload = async function () {
       result.textContent =
         '送信を実行しました\n' +
         `crew_id: ${payload.player.crew_id}\n` +
-        `public_id: ${publicId || '(未取得)'}\n` +
-        `music: ${payload.music.length}件\n` +
-        `common_music: ${payload.common_music.length}件\n\n` +
-        '5秒後に自動でプロフィールページへ移動します...';
+        `プレイヤー名: ${payload.player.player_name}\n` +
+        '5秒後に自動で更新結果ページへ移動します...';
     }
 
     setTimeout(function () {
       if (publicId) {
-        location.href = PROFILE_URL_BASE + encodeURIComponent(publicId);
+        location.href = UPDATE_RESULT_URL_BASE + encodeURIComponent(publicId);
       } else {
         location.href = FALLBACK_PROFILE_URL_BASE + encodeURIComponent(payload.player.crew_id);
       }
