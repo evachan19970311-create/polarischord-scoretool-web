@@ -1,0 +1,57 @@
+{
+  "public_id": "u_aq1lykfqps8v",
+  "crew_id": "32474862",
+  "player_name": "えば",
+  "has_diff": true,
+  "updated_music_count": 2,
+  "summary": {
+    "pa_class": {
+      "before": 287,
+      "after": 287
+    },
+    "play_count": {
+      "before": 589,
+      "after": 589
+    },
+    "paskill_average_top30": {
+      "before": 15.9472,
+      "after": 15.9472
+    }
+  },
+  "updated_music_list": [
+    {
+      "music_id": "bc6465f69f1c5dc496dd1c73d59543d9",
+      "music_title": "No Rule Adventure",
+      "diff": "inf",
+      "level": 12,
+      "level_disp": "12+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=bc6465f69f1c5dc496dd1c73d59543d9",
+      "ar_before": 9970,
+      "ar_after": 9980,
+      "clear_status_before": "full",
+      "clear_status_after": "full",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "046f62a12fa82253903e89b984c518d5",
+      "music_title": "unipolar♡heart",
+      "diff": "inf",
+      "level": 12,
+      "level_disp": "12",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=046f62a12fa82253903e89b984c518d5",
+      "ar_before": 9980,
+      "ar_after": 9988,
+      "clear_status_before": "full",
+      "clear_status_after": "full",
+      "ar_changed": true,
+      "clear_status_changed": false
+    }
+  ],
+  "exported_at": "2026-04-16T18:35:04+09:00",
+  "is_initial": false,
+  "diff_summary": "bc6465f69f1c5dc496dd1c73d59543d9__inf.ar:9970=>9980, 046f62a12fa82253903e89b984c518d5__inf.ar:9980=>9988",
+  "latest_path": "data/users/32474862.json",
+  "history_path": "data/history/32474862/2026-04-16T18-35-04plus09-00.json",
+  "saved_at": "2026-04-16T18:35:15+09:00"
+}
