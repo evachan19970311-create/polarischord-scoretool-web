@@ -336,14 +336,6 @@ window.run_score_upload = async function () {
 
     const gasResult = await post_json(payload);
     const publicId = String(gasResult?.public_id || '');
-    const updateResult = gasResult?.update_result || null;
-
-    if (publicId && updateResult) {
-      sessionStorage.setItem(
-        'last_update_result_' + publicId,
-        JSON.stringify(updateResult)
-      );
-    }
 
     const spinner = document.getElementById('loading-spinner');
     const text = document.getElementById('loading-text');
