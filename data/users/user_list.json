@@ -1,5 +1,33 @@
 [
   {
+    "public_id": "u_3xwsfqawefa7",
+    "exported_at": "2026-04-17T17:22:31+09:00",
+    "crew_id": "17660307",
+    "player_name": "Ｆｅｚｉｋｅ",
+    "paskill_average_top30": 14.8895,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
+    "public_id": "u_bivv73qzvvdn",
+    "exported_at": "2026-04-17T17:21:46+09:00",
+    "crew_id": "54171530",
+    "player_name": "ねむすぎるカワウソ",
+    "paskill_average_top30": 16.048,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_oqkwozwyfqgd",
     "exported_at": "2026-04-17T16:18:53+09:00",
     "crew_id": "51588901",
