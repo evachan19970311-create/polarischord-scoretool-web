@@ -1,7 +1,8 @@
 {
   "version": 1,
   "source": "bookmarklet",
-  "exported_at": "2026-04-17T07:39:32+09:00",
+  "exported_at": "2026-04-17T14:48:49+09:00",
+  "public_id": "u_d94rjf60nhxi",
   "player": {
     "crew_id": "25775372",
     "player_name": "ぽらりすこまみ",
@@ -31684,6 +31685,5 @@
         }
       ]
     }
-  ],
-  "public_id": "u_d94rjf60nhxi"
+  ]
 }
