@@ -216,11 +216,11 @@
     "player_name": "えば",
     "paskill_average_top30": 15.9472,
     "privacy": {
-      "search_user": false,
-      "qap_ranking": false,
-      "player_name": false,
-      "crew_id": false,
-      "paskill": false
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
     }
   },
   {
