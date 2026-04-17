@@ -1,0 +1,43 @@
+{
+  "public_id": "u_ec17osb9za99",
+  "crew_id": "68207041",
+  "player_name": "さまよい",
+  "has_diff": true,
+  "updated_music_count": 1,
+  "summary": {
+    "pa_class": {
+      "before": 346,
+      "after": 347
+    },
+    "play_count": {
+      "before": 1013,
+      "after": 1017
+    },
+    "paskill_average_top30": {
+      "before": 16.0134,
+      "after": 16.0134
+    }
+  },
+  "updated_music_list": [
+    {
+      "music_id": "18cd922baa4ceb46501f1cf8cd471844",
+      "music_title": "魔法少女とチョコレゐト",
+      "diff": "hard",
+      "level": 7,
+      "level_disp": "7",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=18cd922baa4ceb46501f1cf8cd471844",
+      "ar_before": null,
+      "ar_after": 10000,
+      "clear_status_before": null,
+      "clear_status_after": "perfect",
+      "ar_changed": true,
+      "clear_status_changed": true
+    }
+  ],
+  "exported_at": "2026-04-17T09:04:21+09:00",
+  "is_initial": false,
+  "diff_summary": "player.pa_class:346=>347, player.play_count:1013=>1017, 18cd922baa4ceb46501f1cf8cd471844__hard.ar:=>10000, 18cd922baa4ceb46501f1cf8cd471844__hard.clear_status:=>perfect",
+  "latest_path": "data/users/68207041.json",
+  "history_path": "data/history/68207041/2026-04-17T09-04-21plus09-00.json",
+  "saved_at": "2026-04-17T09:04:32+09:00"
+}
