@@ -1,11 +1,11 @@
 {
   "crew_id": "32474862",
-  "updated_at": "2026-04-13T22:23:58+09:00",
+  "updated_at": "2026-04-17T09:42:41+09:00",
   "updated_by": "site",
   "data_public": {
     "crew_id": true,
     "player_name": true,
-    "music_data": true,
+    "music_data": false,
     "paskill": true
   },
   "permissions": {
