@@ -1,0 +1,28 @@
+{
+  "public_id": "u_duufhocu2tmz",
+  "crew_id": "58589531",
+  "player_name": "ラリー",
+  "has_diff": false,
+  "updated_music_count": 0,
+  "summary": {
+    "pa_class": {
+      "before": 268,
+      "after": 268
+    },
+    "play_count": {
+      "before": 495,
+      "after": 495
+    },
+    "paskill_average_top30": {
+      "before": 15.8167,
+      "after": 15.8167
+    }
+  },
+  "updated_music_list": [],
+  "exported_at": "2026-04-17T09:44:47+09:00",
+  "is_initial": false,
+  "diff_summary": "no_change",
+  "latest_path": "data/users/58589531.json",
+  "history_path": "",
+  "saved_at": "2026-04-17T09:44:55+09:00"
+}
