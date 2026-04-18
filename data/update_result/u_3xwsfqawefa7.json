@@ -2,56 +2,27 @@
   "public_id": "u_3xwsfqawefa7",
   "crew_id": "17660307",
   "player_name": "Ｆｅｚｉｋｅ",
-  "has_diff": true,
-  "updated_music_count": 2,
+  "has_diff": false,
+  "updated_music_count": 0,
   "summary": {
     "pa_class": {
-      "before": 211,
+      "before": 212,
       "after": 212
     },
     "play_count": {
-      "before": 303,
+      "before": 304,
       "after": 304
     },
     "paskill_average_top30": {
-      "before": 14.8895,
+      "before": 14.8997,
       "after": 14.8997
     }
   },
-  "updated_music_list": [
-    {
-      "music_id": "9a50b257302539e1d702ae45d8a566c4",
-      "music_title": "#病みカワ",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=9a50b257302539e1d702ae45d8a566c4",
-      "ar_before": 9912,
-      "ar_after": 9950,
-      "clear_status_before": "full",
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "5ba42ce2fc895054e5ae2306ff3d83cb",
-      "music_title": "Re：End of a Dream",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=5ba42ce2fc895054e5ae2306ff3d83cb",
-      "ar_before": 9926,
-      "ar_after": 9966,
-      "clear_status_before": "full",
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": false
-    }
-  ],
-  "exported_at": "2026-04-18T21:47:13+09:00",
+  "updated_music_list": [],
+  "exported_at": "2026-04-19T00:41:06+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_class:211=>212, player.play_count:303=>304, player.paskill_average_top30:14.8895=>14.8997, 9a50b257302539e1d702ae45d8a566c4__inf.ar:9912=>9950, 5ba42ce2fc895054e5ae2306ff3d83cb__inf.ar:9926=>9966",
+  "diff_summary": "no_change",
   "latest_path": "data/users/17660307.json",
-  "history_path": "data/history/17660307/2026-04-18T21-47-13plus09-00.json",
-  "saved_at": "2026-04-18T21:47:21+09:00"
+  "history_path": "",
+  "saved_at": "2026-04-19T00:41:16+09:00"
 }
