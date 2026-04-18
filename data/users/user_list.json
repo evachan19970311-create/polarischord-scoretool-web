@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_d94rjf60nhxi",
+    "exported_at": "2026-04-19T08:47:29+09:00",
+    "crew_id": "25775372",
+    "player_name": "ぽらりすこまみ",
+    "paskill_average_top30": 15.0079,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_oqkwozwyfqgd",
     "exported_at": "2026-04-19T08:36:00+09:00",
     "crew_id": "51588901",
@@ -369,20 +383,6 @@
     "crew_id": "37999717",
     "player_name": "ソフィーのアトリエ",
     "paskill_average_top30": 15.8614,
-    "privacy": {
-      "search_user": true,
-      "qap_ranking": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
-    }
-  },
-  {
-    "public_id": "u_d94rjf60nhxi",
-    "exported_at": "2026-04-17T14:48:49+09:00",
-    "crew_id": "25775372",
-    "player_name": "ぽらりすこまみ",
-    "paskill_average_top30": 14.9935,
     "privacy": {
       "search_user": true,
       "qap_ranking": true,
