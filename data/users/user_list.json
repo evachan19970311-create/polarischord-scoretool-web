@@ -1,5 +1,61 @@
 [
   {
+    "public_id": "u_zmtejgoj3adj",
+    "exported_at": "2026-04-18T21:49:36+09:00",
+    "crew_id": "32191719",
+    "player_name": "とっち～",
+    "paskill_average_top30": 15.7459,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
+    "public_id": "u_61c0roklixd9",
+    "exported_at": "2026-04-18T21:48:13+09:00",
+    "crew_id": "54942552",
+    "player_name": "ーｓｑｕａｔｃｈー",
+    "paskill_average_top30": 15.982,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
+    "public_id": "u_jrhpotxsff4p",
+    "exported_at": "2026-04-18T21:48:03+09:00",
+    "crew_id": "47336247",
+    "player_name": "Ｌｕｎａ＊",
+    "paskill_average_top30": 15.6161,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
+    "public_id": "u_3xwsfqawefa7",
+    "exported_at": "2026-04-18T21:47:13+09:00",
+    "crew_id": "17660307",
+    "player_name": "Ｆｅｚｉｋｅ",
+    "paskill_average_top30": 14.8997,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_3s93ff2esdao",
     "exported_at": "2026-04-18T21:27:07+09:00",
     "crew_id": "79971038",
@@ -271,20 +327,6 @@
     "crew_id": "37999717",
     "player_name": "ソフィーのアトリエ",
     "paskill_average_top30": 15.8614,
-    "privacy": {
-      "search_user": true,
-      "qap_ranking": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
-    }
-  },
-  {
-    "public_id": "u_3xwsfqawefa7",
-    "exported_at": "2026-04-17T17:22:31+09:00",
-    "crew_id": "17660307",
-    "player_name": "Ｆｅｚｉｋｅ",
-    "paskill_average_top30": 14.8895,
     "privacy": {
       "search_user": true,
       "qap_ranking": true,
