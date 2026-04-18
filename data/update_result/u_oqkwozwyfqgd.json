@@ -2,15 +2,15 @@
   "public_id": "u_oqkwozwyfqgd",
   "crew_id": "51588901",
   "player_name": "Ｃｈｕｒｕ９ｎ",
-  "has_diff": true,
-  "updated_music_count": 2,
+  "has_diff": false,
+  "updated_music_count": 0,
   "summary": {
     "pa_class": {
-      "before": 267,
+      "before": 268,
       "after": 268
     },
     "play_count": {
-      "before": 577,
+      "before": 582,
       "after": 582
     },
     "paskill_average_top30": {
@@ -18,40 +18,11 @@
       "after": 16.06
     }
   },
-  "updated_music_list": [
-    {
-      "music_id": "e7c892484cd912e8ec7264609c9ba247",
-      "music_title": "N3XTAGE",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=e7c892484cd912e8ec7264609c9ba247",
-      "ar_before": null,
-      "ar_after": 9974,
-      "clear_status_before": null,
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "5dafdfcf7b2ce67e7f224a046a02a804",
-      "music_title": "ネハン",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=5dafdfcf7b2ce67e7f224a046a02a804",
-      "ar_before": null,
-      "ar_after": 9996,
-      "clear_status_before": null,
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": true
-    }
-  ],
-  "exported_at": "2026-04-18T20:25:24+09:00",
+  "updated_music_list": [],
+  "exported_at": "2026-04-19T08:36:00+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_class:267=>268, player.play_count:577=>582, e7c892484cd912e8ec7264609c9ba247__inf.ar:=>9974, e7c892484cd912e8ec7264609c9ba247__inf.clear_status:=>success, 5dafdfcf7b2ce67e7f224a046a02a804__inf.ar:=>9996, 5dafdfcf7b2ce67e7f224a046a02a804__inf.clear_status:=>full",
+  "diff_summary": "no_change",
   "latest_path": "data/users/51588901.json",
-  "history_path": "data/history/51588901/2026-04-18T20-25-24plus09-00.json",
-  "saved_at": "2026-04-18T20:25:34+09:00"
+  "history_path": "",
+  "saved_at": "2026-04-19T08:36:07+09:00"
 }
