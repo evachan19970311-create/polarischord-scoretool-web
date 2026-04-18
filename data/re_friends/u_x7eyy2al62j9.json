@@ -1,6 +1,6 @@
 {
   "public_id": "u_x7eyy2al62j9",
-  "updated_at": "2026-04-18T16:42:24+09:00",
+  "updated_at": "2026-04-18T19:24:05+09:00",
   "followers": [
     {
       "public_id": "u_aq1lykfqps8v",
@@ -13,6 +13,10 @@
     {
       "public_id": "u_qvcie6yg05hx",
       "created_at": "2026-04-18T16:42:22+09:00"
+    },
+    {
+      "public_id": "u_fe5a62lzaovr",
+      "created_at": "2026-04-18T19:24:03+09:00"
     }
   ]
 }
