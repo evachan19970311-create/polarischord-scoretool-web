@@ -2,15 +2,15 @@
   "public_id": "u_x7eyy2al62j9",
   "crew_id": "10615451",
   "player_name": "ｓｐａｄｅ",
-  "has_diff": true,
-  "updated_music_count": 1,
+  "has_diff": false,
+  "updated_music_count": 0,
   "summary": {
     "pa_class": {
-      "before": 600,
+      "before": 601,
       "after": 601
     },
     "play_count": {
-      "before": 3359,
+      "before": 3377,
       "after": 3377
     },
     "paskill_average_top30": {
@@ -18,26 +18,11 @@
       "after": 16.0182
     }
   },
-  "updated_music_list": [
-    {
-      "music_id": "15253f66586a620f780968beee5577d9",
-      "music_title": "while (screen is blue)",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=15253f66586a620f780968beee5577d9",
-      "ar_before": 9962,
-      "ar_after": 9962,
-      "clear_status_before": "success",
-      "clear_status_after": "full",
-      "ar_changed": false,
-      "clear_status_changed": true
-    }
-  ],
-  "exported_at": "2026-04-18T16:26:54+09:00",
+  "updated_music_list": [],
+  "exported_at": "2026-04-18T16:30:49+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_class:600=>601, player.play_count:3359=>3377, 15253f66586a620f780968beee5577d9__inf.clear_status:success=>full",
+  "diff_summary": "no_change",
   "latest_path": "data/users/10615451.json",
-  "history_path": "data/history/10615451/2026-04-18T16-26-54plus09-00.json",
-  "saved_at": "2026-04-18T16:27:02+09:00"
+  "history_path": "",
+  "saved_at": "2026-04-18T16:30:56+09:00"
 }
