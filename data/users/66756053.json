@@ -1,16 +1,16 @@
 {
   "version": 1,
   "source": "bookmarklet",
-  "exported_at": "2026-04-18T18:22:36+09:00",
+  "exported_at": "2026-04-18T23:06:44+09:00",
   "public_id": "u_295k2d17uhxr",
   "player": {
     "crew_id": "66756053",
     "player_name": "び＊",
     "title_name": "ニエンテ",
     "pa_skill": 16.03,
-    "pa_class": 217,
-    "play_count": 568,
-    "paskill_average_top30": 16.034
+    "pa_class": 218,
+    "play_count": 570,
+    "paskill_average_top30": 16.0358
   },
   "music": [
     {
@@ -30672,20 +30672,20 @@
           "diff": "inf",
           "level": 14,
           "level_disp": "14",
-          "ar": 9970,
+          "ar": 9979,
           "clear_status": "full",
           "high_score": 1978651,
           "maxcombo": 2159,
           "combo_rank": 8,
           "score_rank": 8,
-          "play_count": 29,
+          "play_count": 31,
           "perfect_clear_count": 0,
           "full_combo_count": 1,
-          "clear_count": 28,
-          "updated_at": "2026-04-18 18:22:05",
+          "clear_count": 30,
+          "updated_at": "2026-04-18 18:44:35",
           "nice_play_rank": 2,
           "music_const": 14.3,
-          "paskill": 16.42
+          "paskill": 16.474
         }
       ]
     },
