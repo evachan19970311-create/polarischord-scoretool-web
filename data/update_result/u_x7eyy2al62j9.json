@@ -2,8 +2,8 @@
   "public_id": "u_x7eyy2al62j9",
   "crew_id": "10615451",
   "player_name": "ｓｐａｄｅ",
-  "has_diff": false,
-  "updated_music_count": 0,
+  "has_diff": true,
+  "updated_music_count": 2,
   "summary": {
     "pa_class": {
       "before": 601,
@@ -11,18 +11,47 @@
     },
     "play_count": {
       "before": 3377,
-      "after": 3377
+      "after": 3385
     },
     "paskill_average_top30": {
       "before": 16.0182,
-      "after": 16.0182
+      "after": 16.0232
     }
   },
-  "updated_music_list": [],
-  "exported_at": "2026-04-18T16:30:49+09:00",
+  "updated_music_list": [
+    {
+      "music_id": "c1d71f19e84e937cbe5f54f3e7f2d446",
+      "music_title": "RUINA",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=c1d71f19e84e937cbe5f54f3e7f2d446",
+      "ar_before": 9990,
+      "ar_after": 10000,
+      "clear_status_before": "full",
+      "clear_status_after": "perfect",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "15253f66586a620f780968beee5577d9",
+      "music_title": "while (screen is blue)",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=15253f66586a620f780968beee5577d9",
+      "ar_before": 9962,
+      "ar_after": 9977,
+      "clear_status_before": "full",
+      "clear_status_after": "full",
+      "ar_changed": true,
+      "clear_status_changed": false
+    }
+  ],
+  "exported_at": "2026-04-18T22:37:23+09:00",
   "is_initial": false,
-  "diff_summary": "no_change",
+  "diff_summary": "player.title_name:Dream Re:CHORD LOVE！！！=>RUINA LOVE！！！, player.pa_skill:16.01=>16.02, player.play_count:3377=>3385, player.paskill_average_top30:16.0182=>16.0232, c1d71f19e84e937cbe5f54f3e7f2d446__inf.ar:9990=>10000, c1d71f19e84e937cbe5f54f3e7f2d446__inf.clear_status:full=>perfect, 15253f66586a620f780968beee5577d9__inf.ar:9962=>9977",
   "latest_path": "data/users/10615451.json",
-  "history_path": "",
-  "saved_at": "2026-04-18T16:30:56+09:00"
+  "history_path": "data/history/10615451/2026-04-18T22-37-23plus09-00.json",
+  "saved_at": "2026-04-18T22:37:32+09:00"
 }
