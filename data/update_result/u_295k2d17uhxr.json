@@ -3,50 +3,22 @@
   "crew_id": "66756053",
   "player_name": "び＊",
   "has_diff": true,
-  "updated_music_count": 5,
+  "updated_music_count": 1,
   "summary": {
     "pa_class": {
-      "before": 216,
-      "after": 217
+      "before": 217,
+      "after": 218
     },
     "play_count": {
-      "before": 563,
-      "after": 568
+      "before": 568,
+      "after": 570
     },
     "paskill_average_top30": {
-      "before": 16.0254,
-      "after": 16.034
+      "before": 16.034,
+      "after": 16.0358
     }
   },
   "updated_music_list": [
-    {
-      "music_id": "1f37a1238b94f0dda41ee259d34d8f45",
-      "music_title": "The Burning of the Brain",
-      "diff": "polar",
-      "level": 14,
-      "level_disp": "14",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=1f37a1238b94f0dda41ee259d34d8f45",
-      "ar_before": 9952,
-      "ar_after": 9988,
-      "clear_status_before": "success",
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "1b829a3a1fb2ecfb4cd3f0bd81cc9bad",
-      "music_title": "Yearning",
-      "diff": "hard",
-      "level": 7,
-      "level_disp": "7",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=1b829a3a1fb2ecfb4cd3f0bd81cc9bad",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
     {
       "music_id": "0a9507336a68c90bb187ec43b2a11df3",
       "music_title": "Λkasha",
@@ -54,46 +26,18 @@
       "level": 14,
       "level_disp": "14",
       "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=0a9507336a68c90bb187ec43b2a11df3",
-      "ar_before": 9963,
-      "ar_after": 9970,
+      "ar_before": 9970,
+      "ar_after": 9979,
       "clear_status_before": "full",
       "clear_status_after": "full",
       "ar_changed": true,
       "clear_status_changed": false
-    },
-    {
-      "music_id": "e8a94df13c3418c2393eb614b667e0d6",
-      "music_title": "あおばの足音",
-      "diff": "hard",
-      "level": 9,
-      "level_disp": "9",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=e8a94df13c3418c2393eb614b667e0d6",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "d3295e78df52b5211cee04a2257cbdf9",
-      "music_title": "逆転劇",
-      "diff": "hard",
-      "level": 8,
-      "level_disp": "8",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=d3295e78df52b5211cee04a2257cbdf9",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
     }
   ],
-  "exported_at": "2026-04-18T18:22:36+09:00",
+  "exported_at": "2026-04-18T23:06:44+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_skill:16.02=>16.03, player.pa_class:216=>217, player.play_count:563=>568, player.paskill_average_top30:16.0254=>16.034, 1f37a1238b94f0dda41ee259d34d8f45__polar.ar:9952=>9988, 1f37a1238b94f0dda41ee259d34d8f45__polar.clear_status:success=>full, 1b829a3a1fb2ecfb4cd3f0bd81cc9bad__hard.ar:=>10000, 1b829a3a1fb2ecfb4cd3f0bd81cc9bad__hard.clear_status:=>perfect, 0a9507336a68c90bb187ec43b2a11df3__inf.ar:9963=>9970, e8a94df13c3418c2393eb614b667e0d6__hard.ar:=>10000, e8a94df13c3418c2393eb614b667e0d6__hard.clear_status:=>perfect, d3295e78df52b5211cee04a2257cbdf9__hard.ar:=>10000, d3295e78df52b5211cee04a2257cbdf9__hard.clear_status:=>perfect",
+  "diff_summary": "player.pa_class:217=>218, player.play_count:568=>570, player.paskill_average_top30:16.034=>16.0358, 0a9507336a68c90bb187ec43b2a11df3__inf.ar:9970=>9979",
   "latest_path": "data/users/66756053.json",
-  "history_path": "data/history/66756053/2026-04-18T18-22-36plus09-00.json",
-  "saved_at": "2026-04-18T18:22:41+09:00"
+  "history_path": "data/history/66756053/2026-04-18T23-06-44plus09-00.json",
+  "saved_at": "2026-04-18T23:06:52+09:00"
 }
