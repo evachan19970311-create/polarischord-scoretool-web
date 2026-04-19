@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_ikkhmpl23q9q",
+    "exported_at": "2026-04-19T16:56:51+09:00",
+    "crew_id": "26515538",
+    "player_name": "セメント",
+    "paskill_average_top30": 15.5199,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_3py5gjgudb24",
     "exported_at": "2026-04-19T16:01:27+09:00",
     "crew_id": "36705333",
@@ -75,20 +89,6 @@
     "crew_id": "57655906",
     "player_name": "ＣＯＭＩＣーＬＯ",
     "paskill_average_top30": 15.7505,
-    "privacy": {
-      "search_user": true,
-      "qap_ranking": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
-    }
-  },
-  {
-    "public_id": "u_ikkhmpl23q9q",
-    "exported_at": "2026-04-19T02:33:05+09:00",
-    "crew_id": "26515538",
-    "player_name": "セメント",
-    "paskill_average_top30": 15.5149,
     "privacy": {
       "search_user": true,
       "qap_ranking": true,
