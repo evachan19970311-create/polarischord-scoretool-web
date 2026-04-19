@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_hs3ix3cqz000",
+    "exported_at": "2026-04-19T15:20:55+09:00",
+    "crew_id": "48445845",
+    "player_name": "イザヨイ",
+    "paskill_average_top30": 15.7109,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_qvcie6yg05hx",
     "exported_at": "2026-04-19T13:44:48+09:00",
     "crew_id": "57544109",
