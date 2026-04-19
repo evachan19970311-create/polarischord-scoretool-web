@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_3s93ff2esdao",
+    "exported_at": "2026-04-20T01:52:33+09:00",
+    "crew_id": "79971038",
+    "player_name": "あんこきじ",
+    "paskill_average_top30": 15.5447,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_4vylcpjf0yz1",
     "exported_at": "2026-04-20T00:01:18+09:00",
     "crew_id": "74938759",
@@ -201,20 +215,6 @@
     "crew_id": "47336247",
     "player_name": "Ｌｕｎａ＊",
     "paskill_average_top30": 15.6161,
-    "privacy": {
-      "search_user": true,
-      "qap_ranking": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
-    }
-  },
-  {
-    "public_id": "u_3s93ff2esdao",
-    "exported_at": "2026-04-18T21:27:07+09:00",
-    "crew_id": "79971038",
-    "player_name": "あんこきじ",
-    "paskill_average_top30": 15.5404,
     "privacy": {
       "search_user": true,
       "qap_ranking": true,
