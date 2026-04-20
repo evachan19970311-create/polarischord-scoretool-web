@@ -2,7 +2,7 @@
   "public_id": "u_zmtejgoj3adj",
   "crew_id": "32191719",
   "player_name": "とっち～",
-  "has_diff": true,
+  "has_diff": false,
   "updated_music_count": 0,
   "summary": {
     "pa_class": {
@@ -10,7 +10,7 @@
       "after": 327
     },
     "play_count": {
-      "before": 934,
+      "before": 935,
       "after": 935
     },
     "paskill_average_top30": {
@@ -19,10 +19,10 @@
     }
   },
   "updated_music_list": [],
-  "exported_at": "2026-04-20T18:16:06+09:00",
+  "exported_at": "2026-04-20T18:19:36+09:00",
   "is_initial": false,
-  "diff_summary": "player.play_count:934=>935",
+  "diff_summary": "no_change",
   "latest_path": "data/users/32191719.json",
-  "history_path": "data/history/32191719/2026-04-20T18-16-06plus09-00.json",
-  "saved_at": "2026-04-20T18:16:15+09:00"
+  "history_path": "",
+  "saved_at": "2026-04-20T18:19:43+09:00"
 }
