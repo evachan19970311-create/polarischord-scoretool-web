@@ -490,6 +490,20 @@
     }
   },
   {
+    "public_id": "u_ymlfw0bjyvpl",
+    "exported_at": "2026-04-17T03:01:43+09:00",
+    "crew_id": "27445838",
+    "player_name": "へやっちょ",
+    "paskill_average_top30": 15.9373,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_esacukcj4cza",
     "exported_at": "2026-04-17T00:44:47+09:00",
     "crew_id": "13257769",
