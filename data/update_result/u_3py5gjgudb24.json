@@ -2,42 +2,27 @@
   "public_id": "u_3py5gjgudb24",
   "crew_id": "36705333",
   "player_name": "ＰＡＲＵ",
-  "has_diff": true,
-  "updated_music_count": 1,
+  "has_diff": false,
+  "updated_music_count": 0,
   "summary": {
     "pa_class": {
       "before": 329,
       "after": 329
     },
     "play_count": {
-      "before": 825,
+      "before": 828,
       "after": 828
     },
     "paskill_average_top30": {
-      "before": 15.9992,
+      "before": 16.0004,
       "after": 16.0004
     }
   },
-  "updated_music_list": [
-    {
-      "music_id": "0a9507336a68c90bb187ec43b2a11df3",
-      "music_title": "Λkasha",
-      "diff": "inf",
-      "level": 14,
-      "level_disp": "14",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=0a9507336a68c90bb187ec43b2a11df3",
-      "ar_before": 9962,
-      "ar_after": 9968,
-      "clear_status_before": "full",
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": false
-    }
-  ],
-  "exported_at": "2026-04-19T18:30:44+09:00",
+  "updated_music_list": [],
+  "exported_at": "2026-04-20T16:25:43+09:00",
   "is_initial": false,
-  "diff_summary": "player.title_name:DISTORDER LOVE！！！=>伝説級PA, player.pa_skill:15.99=>16, player.play_count:825=>828, player.paskill_average_top30:15.9992=>16.0004, 0a9507336a68c90bb187ec43b2a11df3__inf.ar:9962=>9968",
+  "diff_summary": "no_change",
   "latest_path": "data/users/36705333.json",
-  "history_path": "data/history/36705333/2026-04-19T18-30-44plus09-00.json",
-  "saved_at": "2026-04-19T18:30:53+09:00"
+  "history_path": "",
+  "saved_at": "2026-04-20T16:25:49+09:00"
 }
