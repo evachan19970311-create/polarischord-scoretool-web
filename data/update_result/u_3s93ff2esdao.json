@@ -3,19 +3,19 @@
   "crew_id": "79971038",
   "player_name": "あんこきじ",
   "has_diff": true,
-  "updated_music_count": 8,
+  "updated_music_count": 6,
   "summary": {
     "pa_class": {
-      "before": 300,
-      "after": 302
+      "before": 302,
+      "after": 303
     },
     "play_count": {
-      "before": 718,
-      "after": 726
+      "before": 726,
+      "after": 730
     },
     "paskill_average_top30": {
-      "before": 15.5404,
-      "after": 15.5447
+      "before": 15.5447,
+      "after": 15.5454
     }
   },
   "updated_music_list": [
@@ -26,96 +26,68 @@
       "level": 13,
       "level_disp": "13+",
       "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=cb5a4d5c12b810c080f1b4a35f1914e0",
-      "ar_before": 9906,
-      "ar_after": 9919,
+      "ar_before": 9919,
+      "ar_after": 9921,
       "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "afce994bad1597435832769d1d4cbc65",
-      "music_title": "GAIA",
+      "music_id": "a39f47dbe2e606253feb20d0567ec6d9",
+      "music_title": "Heroic DIVE!!",
       "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=afce994bad1597435832769d1d4cbc65",
-      "ar_before": 9904,
-      "ar_after": 9909,
+      "level": 12,
+      "level_disp": "12",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=a39f47dbe2e606253feb20d0567ec6d9",
+      "ar_before": 9873,
+      "ar_after": 9932,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "653944a1f128cccc41a3a1c56e7c89f9",
+      "music_title": "のだ",
+      "diff": "inf",
+      "level": 12,
+      "level_disp": "12",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=653944a1f128cccc41a3a1c56e7c89f9",
+      "ar_before": 9975,
+      "ar_after": 9980,
       "clear_status_before": "full",
       "clear_status_after": "full",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "d32e78891d78c069e919c4ace5935eca",
-      "music_title": "IX",
+      "music_id": "b021bc4ab68a26976875e57b3c69630e",
+      "music_title": "チルノのパーフェクトさんすう教室",
       "diff": "inf",
-      "level": 13,
-      "level_disp": "13+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=d32e78891d78c069e919c4ace5935eca",
-      "ar_before": 9845,
-      "ar_after": 9863,
+      "level": 11,
+      "level_disp": "11+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=b021bc4ab68a26976875e57b3c69630e",
+      "ar_before": 9909,
+      "ar_after": 9967,
       "clear_status_before": "success",
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "4aa4c322698d42617fbf42c0beb13f78",
-      "music_title": "L",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=4aa4c322698d42617fbf42c0beb13f78",
-      "ar_before": 9662,
-      "ar_after": 9880,
-      "clear_status_before": "success",
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "b6ae276c045fb6a2979719d9abd81efb",
-      "music_title": "Synchronize",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=b6ae276c045fb6a2979719d9abd81efb",
-      "ar_before": null,
-      "ar_after": 9937,
-      "clear_status_before": null,
-      "clear_status_after": "success",
+      "clear_status_after": "full",
       "ar_changed": true,
       "clear_status_changed": true
     },
     {
-      "music_id": "205085b76a507952bf3110d16cb740a1",
-      "music_title": "neu",
-      "diff": "inf",
-      "level": 14,
-      "level_disp": "14",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=205085b76a507952bf3110d16cb740a1",
-      "ar_before": 9469,
-      "ar_after": 9592,
-      "clear_status_before": "success",
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "609970ef44db1e3ba5e1cc035bac431f",
-      "music_title": "ダーリンダンス",
+      "music_id": "6c5096a1490d50daa1588d4f08eb25ac",
+      "music_title": "バルベリア・タンゴ",
       "diff": "inf",
       "level": 12,
-      "level_disp": "12",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=609970ef44db1e3ba5e1cc035bac431f",
-      "ar_before": 9984,
-      "ar_after": 9988,
+      "level_disp": "12+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=6c5096a1490d50daa1588d4f08eb25ac",
+      "ar_before": 9951,
+      "ar_after": 9954,
       "clear_status_before": "success",
-      "clear_status_after": "success",
+      "clear_status_after": "full",
       "ar_changed": true,
-      "clear_status_changed": false
+      "clear_status_changed": true
     },
     {
       "music_id": "f52d39694dbd00abba5b43b178d38339",
@@ -124,18 +96,18 @@
       "level": 12,
       "level_disp": "12+",
       "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=f52d39694dbd00abba5b43b178d38339",
-      "ar_before": 9926,
-      "ar_after": 9929,
+      "ar_before": 9929,
+      "ar_after": 9935,
       "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     }
   ],
-  "exported_at": "2026-04-20T01:52:33+09:00",
+  "exported_at": "2026-04-21T22:33:25+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_class:300=>302, player.play_count:718=>726, player.paskill_average_top30:15.5404=>15.5447, cb5a4d5c12b810c080f1b4a35f1914e0__inf.ar:9906=>9919, afce994bad1597435832769d1d4cbc65__inf.ar:9904=>9909, d32e78891d78c069e919c4ace5935eca__inf.ar:9845=>9863, 4aa4c322698d42617fbf42c0beb13f78__inf.ar:9662=>9880, b6ae276c045fb6a2979719d9abd81efb__inf.ar:=>9937, b6ae276c045fb6a2979719d9abd81efb__inf.clear_status:=>success, 205085b76a507952bf3110d16cb740a1__inf.ar:9469=>9592, 609970ef44db1e3ba5e1cc035bac431f__inf.ar:9984=>9988, f52d39694dbd00abba5b43b178d38339__inf.ar:9926=>9929",
+  "diff_summary": "player.pa_class:302=>303, player.play_count:726=>730, player.paskill_average_top30:15.5447=>15.5454, cb5a4d5c12b810c080f1b4a35f1914e0__inf.ar:9919=>9921, a39f47dbe2e606253feb20d0567ec6d9__inf.ar:9873=>9932, 653944a1f128cccc41a3a1c56e7c89f9__inf.ar:9975=>9980, b021bc4ab68a26976875e57b3c69630e__inf.ar:9909=>9967, b021bc4ab68a26976875e57b3c69630e__inf.clear_status:success=>full, 6c5096a1490d50daa1588d4f08eb25ac__inf.ar:9951=>9954, 6c5096a1490d50daa1588d4f08eb25ac__inf.clear_status:success=>full, f52d39694dbd00abba5b43b178d38339__inf.ar:9929=>9935",
   "latest_path": "data/users/79971038.json",
-  "history_path": "data/history/79971038/2026-04-20T01-52-33plus09-00.json",
-  "saved_at": "2026-04-20T01:52:40+09:00"
+  "history_path": "data/history/79971038/2026-04-21T22-33-25plus09-00.json",
+  "saved_at": "2026-04-21T22:33:35+09:00"
 }
