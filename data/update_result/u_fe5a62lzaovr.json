@@ -2,15 +2,15 @@
   "public_id": "u_fe5a62lzaovr",
   "crew_id": "24418695",
   "player_name": "ぶよどん",
-  "has_diff": true,
+  "has_diff": false,
   "updated_music_count": 0,
   "summary": {
     "pa_class": {
-      "before": 408,
+      "before": 409,
       "after": 409
     },
     "play_count": {
-      "before": 1385,
+      "before": 1393,
       "after": 1393
     },
     "paskill_average_top30": {
@@ -19,10 +19,10 @@
     }
   },
   "updated_music_list": [],
-  "exported_at": "2026-04-18T23:10:32+09:00",
+  "exported_at": "2026-04-22T07:42:45+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_class:408=>409, player.play_count:1385=>1393",
+  "diff_summary": "no_change",
   "latest_path": "data/users/24418695.json",
-  "history_path": "data/history/24418695/2026-04-18T23-10-32plus09-00.json",
-  "saved_at": "2026-04-18T23:10:43+09:00"
+  "history_path": "",
+  "saved_at": "2026-04-22T07:42:53+09:00"
 }
