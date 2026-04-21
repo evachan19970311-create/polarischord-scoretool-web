@@ -3,26 +3,97 @@
   "crew_id": "27445838",
   "player_name": "へやっちょ",
   "has_diff": true,
-  "updated_music_count": 0,
+  "updated_music_count": 5,
   "summary": {
     "pa_class": {
       "before": 282,
-      "after": 282
+      "after": 283
     },
     "play_count": {
-      "before": 609,
-      "after": 610
+      "before": 610,
+      "after": 613
     },
     "paskill_average_top30": {
       "before": 15.9373,
-      "after": 15.9373
+      "after": 15.9395
     }
   },
-  "updated_music_list": [],
-  "exported_at": "2026-04-21T15:35:48+09:00",
+  "updated_music_list": [
+    {
+      "music_id": "f86cb21935c96b78da89403851cf7a70",
+      "music_title": "BLOOM",
+      "diff": "inf",
+      "level": 12,
+      "level_disp": "12",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=f86cb21935c96b78da89403851cf7a70",
+      "ar_before": 9962,
+      "ar_after": 9986,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "6fc01dcf71a43feb802292fd85203f1e",
+      "music_title": "Dream Re:CHORD",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=6fc01dcf71a43feb802292fd85203f1e",
+      "ar_before": 9998,
+      "ar_after": 10000,
+      "clear_status_before": "full",
+      "clear_status_after": "perfect",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "a03c8cb46a07198bc4655db803bf0899",
+      "music_title": "PUPA",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=a03c8cb46a07198bc4655db803bf0899",
+      "ar_before": 9979,
+      "ar_after": 9983,
+      "clear_status_before": "full",
+      "clear_status_after": "full",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "3ca311925552185ce4e8aed2a702b86d",
+      "music_title": "What's up? Pop!",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=3ca311925552185ce4e8aed2a702b86d",
+      "ar_before": 9997,
+      "ar_after": 10000,
+      "clear_status_before": "full",
+      "clear_status_after": "perfect",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "ea3426c59d0d18578c723f9d2f402cc5",
+      "music_title": "神威",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=ea3426c59d0d18578c723f9d2f402cc5",
+      "ar_before": 9996,
+      "ar_after": 9998,
+      "clear_status_before": "full",
+      "clear_status_after": "full",
+      "ar_changed": true,
+      "clear_status_changed": false
+    }
+  ],
+  "exported_at": "2026-04-22T04:22:53+09:00",
   "is_initial": false,
-  "diff_summary": "player.play_count:609=>610",
+  "diff_summary": "player.title_name:星界のアルペジオ LOVE！！！=>Dream Re:CHORD LOVE！！！, player.pa_class:282=>283, player.play_count:610=>613, player.paskill_average_top30:15.9373=>15.9395, f86cb21935c96b78da89403851cf7a70__inf.ar:9962=>9986, 6fc01dcf71a43feb802292fd85203f1e__inf.ar:9998=>10000, 6fc01dcf71a43feb802292fd85203f1e__inf.clear_status:full=>perfect, a03c8cb46a07198bc4655db803bf0899__inf.ar:9979=>9983, 3ca311925552185ce4e8aed2a702b86d__inf.ar:9997=>10000, 3ca311925552185ce4e8aed2a702b86d__inf.clear_status:full=>perfect, ea3426c59d0d18578c723f9d2f402cc5__inf.ar:9996=>9998",
   "latest_path": "data/users/27445838.json",
-  "history_path": "data/history/27445838/2026-04-21T15-35-48plus09-00.json",
-  "saved_at": "2026-04-21T15:35:55+09:00"
+  "history_path": "data/history/27445838/2026-04-22T04-22-53plus09-00.json",
+  "saved_at": "2026-04-22T04:23:02+09:00"
 }
