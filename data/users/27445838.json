@@ -1,14 +1,15 @@
 {
   "version": 1,
   "source": "bookmarklet",
-  "exported_at": "2026-04-17T03:01:43+09:00",
+  "exported_at": "2026-04-21T15:35:48+09:00",
+  "public_id": "u_ymlfw0bjyvpl",
   "player": {
     "crew_id": "27445838",
     "player_name": "へやっちょ",
     "title_name": "星界のアルペジオ LOVE！！！",
     "pa_skill": 15.93,
     "pa_class": 282,
-    "play_count": 609,
+    "play_count": 610,
     "paskill_average_top30": 15.9373
   },
   "music": [
@@ -27749,15 +27750,15 @@
           "level_disp": "13",
           "ar": 9990,
           "clear_status": "full",
-          "high_score": 759281,
+          "high_score": 764339,
           "maxcombo": 1623,
           "combo_rank": 8,
           "score_rank": 8,
-          "play_count": 33,
+          "play_count": 34,
           "perfect_clear_count": 0,
           "full_combo_count": 1,
-          "clear_count": 27,
-          "updated_at": "2026-04-04 14:51:24",
+          "clear_count": 28,
+          "updated_at": "2026-04-18 13:44:46",
           "nice_play_rank": 27,
           "music_const": 13.5,
           "paskill": 15.74
@@ -31684,6 +31685,5 @@
         }
       ]
     }
-  ],
-  "public_id": "u_ymlfw0bjyvpl"
+  ]
 }
