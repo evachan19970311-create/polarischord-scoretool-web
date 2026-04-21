@@ -1,16 +1,16 @@
 [
   {
     "public_id": "u_mhyupfpprbr6",
-    "exported_at": "2026-04-21T20:32:37+09:00",
+    "exported_at": "2026-04-21T20:36:38+09:00",
     "crew_id": "21974533",
     "player_name": "あさー",
     "paskill_average_top30": 15.6497,
     "privacy": {
-      "search_user": true,
-      "qap_ranking": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
+      "search_user": false,
+      "qap_ranking": false,
+      "player_name": false,
+      "crew_id": false,
+      "paskill": false
     }
   },
   {
