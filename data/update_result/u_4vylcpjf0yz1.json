@@ -3,19 +3,19 @@
   "crew_id": "74938759",
   "player_name": "ｔａｎｏｔｅｋ",
   "has_diff": true,
-  "updated_music_count": 2,
+  "updated_music_count": 6,
   "summary": {
     "pa_class": {
-      "before": 86,
-      "after": 90
+      "before": 90,
+      "after": 96
     },
     "play_count": {
-      "before": 57,
-      "after": 64
+      "before": 64,
+      "after": 72
     },
     "paskill_average_top30": {
-      "before": 15.4451,
-      "after": 15.4959
+      "before": 15.4959,
+      "after": 15.5505
     }
   },
   "updated_music_list": [
@@ -26,32 +26,88 @@
       "level": 14,
       "level_disp": "14",
       "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=974361e4cc8917618f8ac17a77b1385f",
-      "ar_before": 9803,
-      "ar_after": 9903,
+      "ar_before": 9903,
+      "ar_after": 9919,
       "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "3f215352b939c692ca537c1d76665a66",
-      "music_title": "HYENA",
+      "music_id": "9f622d90fc1256f17c935df65a0eb2d3",
+      "music_title": "DISTORDER",
       "diff": "inf",
       "level": 13,
       "level_disp": "13+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=3f215352b939c692ca537c1d76665a66",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=9f622d90fc1256f17c935df65a0eb2d3",
+      "ar_before": 9948,
+      "ar_after": 9956,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "6fc01dcf71a43feb802292fd85203f1e",
+      "music_title": "Dream Re:CHORD",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=6fc01dcf71a43feb802292fd85203f1e",
+      "ar_before": 9956,
+      "ar_after": 9964,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "acdf6adcb92168b11c91160d634c99ff",
+      "music_title": "Like the Starlight",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=acdf6adcb92168b11c91160d634c99ff",
       "ar_before": null,
-      "ar_after": 9969,
+      "ar_after": 9963,
       "clear_status_before": null,
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": true
+    },
+    {
+      "music_id": "48cf5fac9f5ee82c0fd1d940e22a3ba6",
+      "music_title": "STULTI",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=48cf5fac9f5ee82c0fd1d940e22a3ba6",
+      "ar_before": null,
+      "ar_after": 9937,
+      "clear_status_before": null,
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "ea3426c59d0d18578c723f9d2f402cc5",
+      "music_title": "神威",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=ea3426c59d0d18578c723f9d2f402cc5",
+      "ar_before": 9975,
+      "ar_after": 9984,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
     }
   ],
-  "exported_at": "2026-04-20T00:01:18+09:00",
+  "exported_at": "2026-04-22T22:13:33+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_skill:15.44=>15.49, player.pa_class:86=>90, player.play_count:57=>64, player.paskill_average_top30:15.4451=>15.4959, 974361e4cc8917618f8ac17a77b1385f__inf.ar:9803=>9903, 3f215352b939c692ca537c1d76665a66__inf.ar:=>9969, 3f215352b939c692ca537c1d76665a66__inf.clear_status:=>success",
+  "diff_summary": "player.title_name:フルコンボ狙います！=>ぽらりこ にゅーかまー, player.pa_skill:15.49=>15.55, player.pa_class:90=>96, player.play_count:64=>72, player.paskill_average_top30:15.4959=>15.5505, 974361e4cc8917618f8ac17a77b1385f__inf.ar:9903=>9919, 9f622d90fc1256f17c935df65a0eb2d3__inf.ar:9948=>9956, 6fc01dcf71a43feb802292fd85203f1e__inf.ar:9956=>9964, acdf6adcb92168b11c91160d634c99ff__inf.ar:=>9963, acdf6adcb92168b11c91160d634c99ff__inf.clear_status:=>success, 48cf5fac9f5ee82c0fd1d940e22a3ba6__inf.ar:=>9937, 48cf5fac9f5ee82c0fd1d940e22a3ba6__inf.clear_status:=>success, ea3426c59d0d18578c723f9d2f402cc5__inf.ar:9975=>9984",
   "latest_path": "data/users/74938759.json",
-  "history_path": "data/history/74938759/2026-04-20T00-01-18plus09-00.json",
-  "saved_at": "2026-04-20T00:01:28+09:00"
+  "history_path": "data/history/74938759/2026-04-22T22-13-33plus09-00.json",
+  "saved_at": "2026-04-22T22:13:43+09:00"
 }
