@@ -424,6 +424,13 @@
     "composer": "Kanaria",
     "diffs": [
       {
+        "diff": "inf",
+        "level": 11,
+        "level_disp": "11",
+        "music_const": 11.2,
+        "difficulty_ap": 0
+      },
+      {
         "diff": "hard",
         "level": 8,
         "level_disp": "8",
@@ -1094,6 +1101,13 @@
     "music_title": "トウキョウ・シャンディ・ランデヴ",
     "composer": "-",
     "diffs": [
+      {
+        "diff": "inf",
+        "level": 11,
+        "level_disp": "11+",
+        "music_const": 11.7,
+        "difficulty_ap": 0
+      },
       {
         "diff": "hard",
         "level": 8,
