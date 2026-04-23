@@ -1,16 +1,16 @@
 {
   "version": 1,
   "source": "bookmarklet",
-  "exported_at": "2026-04-23T19:30:04+09:00",
+  "exported_at": "2026-04-23T21:19:25+09:00",
   "public_id": "u_4vylcpjf0yz1",
   "player": {
     "crew_id": "74938759",
     "player_name": "ｔａｎｏｔｅｋ",
-    "title_name": "ぽらりこ にゅーかまー",
-    "pa_skill": 15.57,
-    "pa_class": 101,
-    "play_count": 78,
-    "paskill_average_top30": 15.5733
+    "title_name": "天邪鬼 しか勝たん！！！",
+    "pa_skill": 15.64,
+    "pa_class": 104,
+    "play_count": 83,
+    "paskill_average_top30": 15.6459
   },
   "music": [
     {
@@ -2583,20 +2583,20 @@
           "diff": "inf",
           "level": 11,
           "level_disp": "11+",
-          "ar": null,
-          "clear_status": null,
-          "high_score": null,
-          "maxcombo": null,
-          "combo_rank": null,
-          "score_rank": null,
-          "play_count": 0,
+          "ar": 9962,
+          "clear_status": "success",
+          "high_score": 364763,
+          "maxcombo": 656,
+          "combo_rank": 7,
+          "score_rank": 8,
+          "play_count": 1,
           "perfect_clear_count": 0,
           "full_combo_count": 0,
-          "clear_count": 0,
-          "updated_at": "",
-          "nice_play_rank": null,
+          "clear_count": 1,
+          "updated_at": "2026-04-23 19:37:44",
+          "nice_play_rank": 0,
           "music_const": 11.7,
-          "paskill": null
+          "paskill": 13.772
         }
       ]
     },
@@ -5788,7 +5788,7 @@
           "full_combo_count": 0,
           "clear_count": 11,
           "updated_at": "2026-04-22 22:31:46",
-          "nice_play_rank": 4,
+          "nice_play_rank": 5,
           "music_const": 13.8,
           "paskill": 15.908
         }
@@ -10118,7 +10118,7 @@
           "full_combo_count": 0,
           "clear_count": 3,
           "updated_at": "2026-04-18 23:15:48",
-          "nice_play_rank": 23,
+          "nice_play_rank": 25,
           "music_const": 13.3,
           "paskill": 15.324
         }
@@ -11612,7 +11612,7 @@
           "full_combo_count": 0,
           "clear_count": 7,
           "updated_at": "2026-04-19 21:25:27",
-          "nice_play_rank": 24,
+          "nice_play_rank": 26,
           "music_const": 13.1,
           "paskill": 15.298
         }
@@ -11861,7 +11861,7 @@
           "full_combo_count": 0,
           "clear_count": 8,
           "updated_at": "2026-04-22 17:04:41",
-          "nice_play_rank": 10,
+          "nice_play_rank": 12,
           "music_const": 13.6,
           "paskill": 15.756
         }
@@ -14351,7 +14351,7 @@
           "full_combo_count": 0,
           "clear_count": 2,
           "updated_at": "2026-04-22 23:03:08",
-          "nice_play_rank": 30,
+          "nice_play_rank": 0,
           "music_const": 13,
           "paskill": 15.066
         }
@@ -16758,7 +16758,7 @@
           "full_combo_count": 0,
           "clear_count": 7,
           "updated_at": "2026-04-11 18:06:55",
-          "nice_play_rank": 25,
+          "nice_play_rank": 27,
           "music_const": 13.2,
           "paskill": 15.224
         }
@@ -16924,7 +16924,7 @@
           "full_combo_count": 1,
           "clear_count": 1,
           "updated_at": "2026-04-16 20:23:25",
-          "nice_play_rank": 29,
+          "nice_play_rank": 30,
           "music_const": 12.9,
           "paskill": 15.092
         }
@@ -18086,7 +18086,7 @@
           "full_combo_count": 0,
           "clear_count": 13,
           "updated_at": "2026-04-22 22:10:27",
-          "nice_play_rank": 11,
+          "nice_play_rank": 14,
           "music_const": 13.7,
           "paskill": 15.724
         }
@@ -18158,20 +18158,20 @@
           "diff": "inf",
           "level": 13,
           "level_disp": "13+",
-          "ar": 9956,
+          "ar": 9964,
           "clear_status": "success",
-          "high_score": 612849,
-          "maxcombo": 1306,
+          "high_score": 615446,
+          "maxcombo": 1373,
           "combo_rank": 7,
           "score_rank": 8,
-          "play_count": 13,
+          "play_count": 14,
           "perfect_clear_count": 0,
           "full_combo_count": 0,
-          "clear_count": 13,
-          "updated_at": "2026-04-22 22:26:26",
-          "nice_play_rank": 8,
+          "clear_count": 14,
+          "updated_at": "2026-04-23 20:10:25",
+          "nice_play_rank": 7,
           "music_const": 13.8,
-          "paskill": 15.836
+          "paskill": 15.884
         }
       ]
     },
@@ -18247,12 +18247,12 @@
           "maxcombo": 1201,
           "combo_rank": 7,
           "score_rank": 7,
-          "play_count": 12,
+          "play_count": 13,
           "perfect_clear_count": 0,
           "full_combo_count": 0,
-          "clear_count": 12,
-          "updated_at": "2026-04-22 21:34:32",
-          "nice_play_rank": 26,
+          "clear_count": 13,
+          "updated_at": "2026-04-23 20:31:37",
+          "nice_play_rank": 28,
           "music_const": 14.4,
           "paskill": 15.22
         }
@@ -18833,7 +18833,7 @@
           "full_combo_count": 1,
           "clear_count": 10,
           "updated_at": "2026-04-22 17:12:34",
-          "nice_play_rank": 13,
+          "nice_play_rank": 18,
           "music_const": 13.4,
           "paskill": 15.682
         }
@@ -20908,7 +20908,7 @@
           "full_combo_count": 0,
           "clear_count": 2,
           "updated_at": "2026-04-16 20:30:23",
-          "nice_play_rank": 22,
+          "nice_play_rank": 24,
           "music_const": 13.6,
           "paskill": 15.37
         }
@@ -21063,20 +21063,20 @@
           "diff": "inf",
           "level": 12,
           "level_disp": "12+",
-          "ar": 9968,
-          "clear_status": "success",
-          "high_score": 257291,
-          "maxcombo": 549,
-          "combo_rank": 6,
-          "score_rank": 6,
-          "play_count": 5,
+          "ar": 9983,
+          "clear_status": "full",
+          "high_score": 403240,
+          "maxcombo": 1121,
+          "combo_rank": 8,
+          "score_rank": 8,
+          "play_count": 6,
           "perfect_clear_count": 0,
-          "full_combo_count": 0,
-          "clear_count": 5,
-          "updated_at": "2026-04-17 20:50:21",
+          "full_combo_count": 1,
+          "clear_count": 6,
+          "updated_at": "2026-04-23 19:58:27",
           "nice_play_rank": 0,
           "music_const": 12.8,
-          "paskill": 14.908
+          "paskill": 14.998
         }
       ]
     },
@@ -22557,20 +22557,20 @@
           "diff": "inf",
           "level": 13,
           "level_disp": "13",
-          "ar": 9963,
+          "ar": 9983,
           "clear_status": "success",
-          "high_score": 664761,
-          "maxcombo": 1095,
+          "high_score": 668590,
+          "maxcombo": 1141,
           "combo_rank": 7,
           "score_rank": 8,
-          "play_count": 4,
+          "play_count": 6,
           "perfect_clear_count": 0,
           "full_combo_count": 0,
-          "clear_count": 4,
-          "updated_at": "2026-04-22 23:09:20",
-          "nice_play_rank": 18,
+          "clear_count": 6,
+          "updated_at": "2026-04-23 20:06:33",
+          "nice_play_rank": 16,
           "music_const": 13.5,
-          "paskill": 15.578
+          "paskill": 15.698
         }
       ]
     },
@@ -22972,20 +22972,20 @@
           "diff": "inf",
           "level": 13,
           "level_disp": "13",
-          "ar": null,
-          "clear_status": null,
-          "high_score": null,
-          "maxcombo": null,
-          "combo_rank": null,
-          "score_rank": null,
-          "play_count": 0,
-          "perfect_clear_count": 0,
-          "full_combo_count": 0,
-          "clear_count": 0,
-          "updated_at": "",
-          "nice_play_rank": null,
+          "ar": 10000,
+          "clear_status": "perfect",
+          "high_score": 730956,
+          "maxcombo": 2025,
+          "combo_rank": 8,
+          "score_rank": 8,
+          "play_count": 3,
+          "perfect_clear_count": 1,
+          "full_combo_count": 1,
+          "clear_count": 3,
+          "updated_at": "2026-04-23 21:08:16",
+          "nice_play_rank": 6,
           "music_const": 13.6,
-          "paskill": null
+          "paskill": 15.9
         }
       ]
     },
@@ -23221,20 +23221,20 @@
           "diff": "inf",
           "level": 13,
           "level_disp": "13+",
-          "ar": 9937,
+          "ar": 9943,
           "clear_status": "success",
-          "high_score": 551756,
-          "maxcombo": 1102,
+          "high_score": 557877,
+          "maxcombo": 1392,
           "combo_rank": 7,
           "score_rank": 8,
-          "play_count": 6,
+          "play_count": 7,
           "perfect_clear_count": 0,
           "full_combo_count": 0,
-          "clear_count": 6,
-          "updated_at": "2026-04-22 21:47:24",
-          "nice_play_rank": 14,
+          "clear_count": 7,
+          "updated_at": "2026-04-23 20:25:38",
+          "nice_play_rank": 13,
           "music_const": 13.8,
-          "paskill": 15.67
+          "paskill": 15.73
         }
       ]
     },
@@ -23730,7 +23730,7 @@
           "full_combo_count": 0,
           "clear_count": 17,
           "updated_at": "2026-04-22 22:51:46",
-          "nice_play_rank": 15,
+          "nice_play_rank": 20,
           "music_const": 13.5,
           "paskill": 15.632
         }
@@ -23802,20 +23802,20 @@
           "diff": "inf",
           "level": 13,
           "level_disp": "13+",
-          "ar": 9977,
+          "ar": 9979,
           "clear_status": "full",
-          "high_score": 613203,
+          "high_score": 616083,
           "maxcombo": 1715,
           "combo_rank": 8,
           "score_rank": 8,
-          "play_count": 6,
+          "play_count": 7,
           "perfect_clear_count": 0,
-          "full_combo_count": 3,
-          "clear_count": 6,
-          "updated_at": "2026-04-19 23:08:39",
+          "full_combo_count": 4,
+          "clear_count": 7,
+          "updated_at": "2026-04-23 21:17:27",
           "nice_play_rank": 2,
           "music_const": 13.8,
-          "paskill": 15.962
+          "paskill": 15.974
         }
       ]
     },
@@ -24881,20 +24881,20 @@
           "diff": "inf",
           "level": 13,
           "level_disp": "13",
-          "ar": 9985,
-          "clear_status": "success",
-          "high_score": 697691,
-          "maxcombo": 1478,
-          "combo_rank": 7,
+          "ar": 9995,
+          "clear_status": "full",
+          "high_score": 704784,
+          "maxcombo": 1966,
+          "combo_rank": 8,
           "score_rank": 8,
-          "play_count": 11,
+          "play_count": 12,
           "perfect_clear_count": 0,
-          "full_combo_count": 0,
-          "clear_count": 11,
-          "updated_at": "2026-04-22 21:04:03",
-          "nice_play_rank": 17,
+          "full_combo_count": 1,
+          "clear_count": 12,
+          "updated_at": "2026-04-23 20:02:57",
+          "nice_play_rank": 19,
           "music_const": 13.4,
-          "paskill": 15.61
+          "paskill": 15.67
         }
       ]
     },
@@ -25224,7 +25224,7 @@
           "full_combo_count": 0,
           "clear_count": 3,
           "updated_at": "2026-04-18 22:08:41",
-          "nice_play_rank": 27,
+          "nice_play_rank": 29,
           "music_const": 13.5,
           "paskill": 15.13
         }
@@ -26126,20 +26126,20 @@
           "diff": "inf",
           "level": 13,
           "level_disp": "13+",
-          "ar": 9880,
+          "ar": 9933,
           "clear_status": "success",
-          "high_score": 618711,
-          "maxcombo": 559,
+          "high_score": 755858,
+          "maxcombo": 748,
           "combo_rank": 5,
           "score_rank": 7,
-          "play_count": 2,
+          "play_count": 3,
           "perfect_clear_count": 0,
           "full_combo_count": 0,
-          "clear_count": 2,
-          "updated_at": "2026-04-18 22:12:18",
-          "nice_play_rank": 28,
+          "clear_count": 3,
+          "updated_at": "2026-04-23 20:52:02",
+          "nice_play_rank": 21,
           "music_const": 13.8,
-          "paskill": 15.1
+          "paskill": 15.63
         }
       ]
     },
@@ -27050,7 +27050,7 @@
           "full_combo_count": 0,
           "clear_count": 5,
           "updated_at": "2026-04-22 22:29:01",
-          "nice_play_rank": 9,
+          "nice_play_rank": 11,
           "music_const": 13.7,
           "paskill": 15.814
         }
@@ -29125,7 +29125,7 @@
           "full_combo_count": 1,
           "clear_count": 1,
           "updated_at": "2026-04-11 21:24:14",
-          "nice_play_rank": 21,
+          "nice_play_rank": 23,
           "music_const": 13.3,
           "paskill": 15.372
         }
@@ -29374,7 +29374,7 @@
           "full_combo_count": 0,
           "clear_count": 10,
           "updated_at": "2026-04-22 23:06:08",
-          "nice_play_rank": 12,
+          "nice_play_rank": 17,
           "music_const": 14,
           "paskill": 15.69
         }
@@ -30027,20 +30027,20 @@
           "diff": "inf",
           "level": 13,
           "level_disp": "13+",
-          "ar": 9911,
+          "ar": 9953,
           "clear_status": "success",
-          "high_score": 576783,
-          "maxcombo": 1111,
+          "high_score": 599079,
+          "maxcombo": 1206,
           "combo_rank": 7,
-          "score_rank": 7,
-          "play_count": 11,
+          "score_rank": 8,
+          "play_count": 12,
           "perfect_clear_count": 0,
           "full_combo_count": 0,
-          "clear_count": 11,
-          "updated_at": "2026-04-22 17:18:17",
-          "nice_play_rank": 19,
+          "clear_count": 12,
+          "updated_at": "2026-04-23 20:28:21",
+          "nice_play_rank": 4,
           "music_const": 13.9,
-          "paskill": 15.51
+          "paskill": 15.918
         }
       ]
     },
@@ -30472,7 +30472,7 @@
           "full_combo_count": 0,
           "clear_count": 7,
           "updated_at": "2026-04-19 22:05:14",
-          "nice_play_rank": 5,
+          "nice_play_rank": 8,
           "music_const": 13.7,
           "paskill": 15.874
         }
@@ -30638,7 +30638,7 @@
           "full_combo_count": 0,
           "clear_count": 10,
           "updated_at": "2026-04-19 22:44:10",
-          "nice_play_rank": 7,
+          "nice_play_rank": 10,
           "music_const": 13.7,
           "paskill": 15.856
         }
@@ -31302,7 +31302,7 @@
           "full_combo_count": 0,
           "clear_count": 7,
           "updated_at": "2026-04-22 22:04:31",
-          "nice_play_rank": 20,
+          "nice_play_rank": 22,
           "music_const": 13.4,
           "paskill": 15.484
         }
@@ -31385,7 +31385,7 @@
           "full_combo_count": 1,
           "clear_count": 13,
           "updated_at": "2026-04-19 22:25:48",
-          "nice_play_rank": 6,
+          "nice_play_rank": 9,
           "music_const": 13.8,
           "paskill": 15.86
         }
@@ -31457,20 +31457,20 @@
           "diff": "inf",
           "level": 12,
           "level_disp": "12+",
-          "ar": 9962,
+          "ar": 9976,
           "clear_status": "success",
-          "high_score": 340558,
-          "maxcombo": 602,
-          "combo_rank": 6,
-          "score_rank": 6,
-          "play_count": 2,
+          "high_score": 530130,
+          "maxcombo": 1212,
+          "combo_rank": 7,
+          "score_rank": 8,
+          "play_count": 3,
           "perfect_clear_count": 0,
           "full_combo_count": 0,
-          "clear_count": 2,
-          "updated_at": "2026-04-16 20:42:41",
+          "clear_count": 3,
+          "updated_at": "2026-04-23 20:48:16",
           "nice_play_rank": 0,
           "music_const": 12.7,
-          "paskill": 14.772
+          "paskill": 14.856
         }
       ]
     },
@@ -31955,20 +31955,20 @@
           "diff": "inf",
           "level": 13,
           "level_disp": "13",
-          "ar": 9969,
-          "clear_status": "success",
-          "high_score": 455622,
-          "maxcombo": 1234,
-          "combo_rank": 7,
+          "ar": 9987,
+          "clear_status": "full",
+          "high_score": 461261,
+          "maxcombo": 1278,
+          "combo_rank": 8,
           "score_rank": 8,
-          "play_count": 6,
+          "play_count": 9,
           "perfect_clear_count": 0,
-          "full_combo_count": 0,
-          "clear_count": 6,
-          "updated_at": "2026-04-23 19:27:06",
-          "nice_play_rank": 16,
+          "full_combo_count": 1,
+          "clear_count": 9,
+          "updated_at": "2026-04-23 20:45:02",
+          "nice_play_rank": 15,
           "music_const": 13.5,
-          "paskill": 15.614
+          "paskill": 15.722
         }
       ]
     },
@@ -32044,11 +32044,11 @@
           "maxcombo": 857,
           "combo_rank": 7,
           "score_rank": 8,
-          "play_count": 3,
+          "play_count": 4,
           "perfect_clear_count": 0,
           "full_combo_count": 0,
-          "clear_count": 3,
-          "updated_at": "2026-04-23 19:05:01",
+          "clear_count": 4,
+          "updated_at": "2026-04-23 19:47:13",
           "nice_play_rank": 0,
           "music_const": 13.6,
           "paskill": 14.66
@@ -32204,20 +32204,20 @@
           "diff": "inf",
           "level": 12,
           "level_disp": "12+",
-          "ar": 9879,
+          "ar": 9918,
           "clear_status": "success",
-          "high_score": 403732,
-          "maxcombo": 426,
-          "combo_rank": 6,
-          "score_rank": 7,
-          "play_count": 3,
+          "high_score": 416428,
+          "maxcombo": 913,
+          "combo_rank": 7,
+          "score_rank": 8,
+          "play_count": 4,
           "perfect_clear_count": 0,
           "full_combo_count": 0,
-          "clear_count": 3,
-          "updated_at": "2026-04-23 18:49:28",
+          "clear_count": 4,
+          "updated_at": "2026-04-23 20:41:50",
           "nice_play_rank": 0,
           "music_const": 12.8,
-          "paskill": 14.09
+          "paskill": 14.48
         }
       ]
     }
