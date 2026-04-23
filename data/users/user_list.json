@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_61c0roklixd9",
+    "exported_at": "2026-04-23T22:50:01+09:00",
+    "crew_id": "54942552",
+    "player_name": "ーｓｑｕａｔｃｈー",
+    "paskill_average_top30": 15.982,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_4vylcpjf0yz1",
     "exported_at": "2026-04-23T22:26:00+09:00",
     "crew_id": "74938759",
@@ -145,20 +159,6 @@
     "crew_id": "79971038",
     "player_name": "あんこきじ",
     "paskill_average_top30": 15.5454,
-    "privacy": {
-      "search_user": true,
-      "qap_ranking": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
-    }
-  },
-  {
-    "public_id": "u_61c0roklixd9",
-    "exported_at": "2026-04-21T20:45:44+09:00",
-    "crew_id": "54942552",
-    "player_name": "ーｓｑｕａｔｃｈー",
-    "paskill_average_top30": 15.982,
     "privacy": {
       "search_user": true,
       "qap_ranking": true,
