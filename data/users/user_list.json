@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_x7eyy2al62j9",
+    "exported_at": "2026-04-23T21:26:55+09:00",
+    "crew_id": "10615451",
+    "player_name": "ｓｐａｄｅ",
+    "paskill_average_top30": 16.0312,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_4vylcpjf0yz1",
     "exported_at": "2026-04-23T21:19:48+09:00",
     "crew_id": "74938759",
@@ -327,20 +341,6 @@
     "crew_id": "66756053",
     "player_name": "び＊",
     "paskill_average_top30": 16.0358,
-    "privacy": {
-      "search_user": true,
-      "qap_ranking": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
-    }
-  },
-  {
-    "public_id": "u_x7eyy2al62j9",
-    "exported_at": "2026-04-18T22:38:25+09:00",
-    "crew_id": "10615451",
-    "player_name": "ｓｐａｄｅ",
-    "paskill_average_top30": 16.0232,
     "privacy": {
       "search_user": true,
       "qap_ranking": true,
