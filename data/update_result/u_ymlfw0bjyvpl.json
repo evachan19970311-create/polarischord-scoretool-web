@@ -3,43 +3,85 @@
   "crew_id": "27445838",
   "player_name": "へやっちょ",
   "has_diff": true,
-  "updated_music_count": 5,
+  "updated_music_count": 8,
   "summary": {
     "pa_class": {
-      "before": 282,
-      "after": 283
+      "before": 283,
+      "after": 284
     },
     "play_count": {
-      "before": 610,
-      "after": 613
+      "before": 613,
+      "after": 618
     },
     "paskill_average_top30": {
-      "before": 15.9373,
-      "after": 15.9395
+      "before": 15.9395,
+      "after": 15.9455
     }
   },
   "updated_music_list": [
     {
-      "music_id": "f86cb21935c96b78da89403851cf7a70",
-      "music_title": "BLOOM",
+      "music_id": "d88634a366ca58c96c13a47ab5934fb7",
+      "music_title": "KING",
       "diff": "inf",
-      "level": 12,
-      "level_disp": "12",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=f86cb21935c96b78da89403851cf7a70",
-      "ar_before": 9962,
-      "ar_after": 9986,
-      "clear_status_before": "success",
-      "clear_status_after": "success",
+      "level": 11,
+      "level_disp": "11",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=d88634a366ca58c96c13a47ab5934fb7",
+      "ar_before": null,
+      "ar_after": 10000,
+      "clear_status_before": null,
+      "clear_status_after": "perfect",
       "ar_changed": true,
-      "clear_status_changed": false
+      "clear_status_changed": true
     },
     {
-      "music_id": "6fc01dcf71a43feb802292fd85203f1e",
-      "music_title": "Dream Re:CHORD",
+      "music_id": "07366058d0bf08bacace8e56e4059d42",
+      "music_title": "Submerge Serenade",
+      "diff": "inf",
+      "level": 12,
+      "level_disp": "12+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07366058d0bf08bacace8e56e4059d42",
+      "ar_before": null,
+      "ar_after": 9968,
+      "clear_status_before": null,
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "7e441a4553aa49c97d8e3e891fe10e18",
+      "music_title": "Substance",
+      "diff": "inf",
+      "level": 12,
+      "level_disp": "12+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=7e441a4553aa49c97d8e3e891fe10e18",
+      "ar_before": null,
+      "ar_after": 9952,
+      "clear_status_before": null,
+      "clear_status_after": "full",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "07cad8022f54ac4ac7f1cd4f0e7ae7c1",
+      "music_title": "TECHNOPHOBIA",
       "diff": "inf",
       "level": 13,
       "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=6fc01dcf71a43feb802292fd85203f1e",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07cad8022f54ac4ac7f1cd4f0e7ae7c1",
+      "ar_before": null,
+      "ar_after": 9995,
+      "clear_status_before": null,
+      "clear_status_after": "full",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "c78fb81b5a16635f27f2666300e7a65d",
+      "music_title": "Welcome!!",
+      "diff": "inf",
+      "level": 12,
+      "level_disp": "12",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=c78fb81b5a16635f27f2666300e7a65d",
       "ar_before": 9998,
       "ar_after": 10000,
       "clear_status_before": "full",
@@ -48,52 +90,52 @@
       "clear_status_changed": true
     },
     {
-      "music_id": "a03c8cb46a07198bc4655db803bf0899",
-      "music_title": "PUPA",
+      "music_id": "915b6d4d1f4645ee89494de4937e8dad",
+      "music_title": "チルノのパーフェクトさんすう学園【初音ミク】",
       "diff": "inf",
-      "level": 13,
-      "level_disp": "13+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=a03c8cb46a07198bc4655db803bf0899",
-      "ar_before": 9979,
-      "ar_after": 9983,
-      "clear_status_before": "full",
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "3ca311925552185ce4e8aed2a702b86d",
-      "music_title": "What's up? Pop!",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=3ca311925552185ce4e8aed2a702b86d",
-      "ar_before": 9997,
+      "level": 10,
+      "level_disp": "10+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=915b6d4d1f4645ee89494de4937e8dad",
+      "ar_before": null,
       "ar_after": 10000,
-      "clear_status_before": "full",
+      "clear_status_before": null,
       "clear_status_after": "perfect",
       "ar_changed": true,
       "clear_status_changed": true
     },
     {
-      "music_id": "ea3426c59d0d18578c723f9d2f402cc5",
-      "music_title": "神威",
+      "music_id": "921809730bc762b233cd9d89cbd19697",
+      "music_title": "トウキョウ・シャンディ・ランデヴ",
+      "diff": "inf",
+      "level": 11,
+      "level_disp": "11+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=921809730bc762b233cd9d89cbd19697",
+      "ar_before": null,
+      "ar_after": 10000,
+      "clear_status_before": null,
+      "clear_status_after": "perfect",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "02f02b5ac7ee90aa59dcb8dde43a1f6e",
+      "music_title": "天邪鬼",
       "diff": "inf",
       "level": 13,
-      "level_disp": "13+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=ea3426c59d0d18578c723f9d2f402cc5",
-      "ar_before": 9996,
-      "ar_after": 9998,
-      "clear_status_before": "full",
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=02f02b5ac7ee90aa59dcb8dde43a1f6e",
+      "ar_before": null,
+      "ar_after": 9985,
+      "clear_status_before": null,
       "clear_status_after": "full",
       "ar_changed": true,
-      "clear_status_changed": false
+      "clear_status_changed": true
     }
   ],
-  "exported_at": "2026-04-22T04:22:53+09:00",
+  "exported_at": "2026-04-23T17:02:27+09:00",
   "is_initial": false,
-  "diff_summary": "player.title_name:星界のアルペジオ LOVE！！！=>Dream Re:CHORD LOVE！！！, player.pa_class:282=>283, player.play_count:610=>613, player.paskill_average_top30:15.9373=>15.9395, f86cb21935c96b78da89403851cf7a70__inf.ar:9962=>9986, 6fc01dcf71a43feb802292fd85203f1e__inf.ar:9998=>10000, 6fc01dcf71a43feb802292fd85203f1e__inf.clear_status:full=>perfect, a03c8cb46a07198bc4655db803bf0899__inf.ar:9979=>9983, 3ca311925552185ce4e8aed2a702b86d__inf.ar:9997=>10000, 3ca311925552185ce4e8aed2a702b86d__inf.clear_status:full=>perfect, ea3426c59d0d18578c723f9d2f402cc5__inf.ar:9996=>9998",
+  "diff_summary": "player.pa_skill:15.93=>15.94, player.pa_class:283=>284, player.play_count:613=>618, player.paskill_average_top30:15.9395=>15.9455, d88634a366ca58c96c13a47ab5934fb7__inf.ar:=>10000, d88634a366ca58c96c13a47ab5934fb7__inf.clear_status:=>perfect, 07366058d0bf08bacace8e56e4059d42__inf.ar:=>9968, 07366058d0bf08bacace8e56e4059d42__inf.clear_status:=>success, 7e441a4553aa49c97d8e3e891fe10e18__inf.ar:=>9952, 7e441a4553aa49c97d8e3e891fe10e18__inf.clear_status:=>full, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__inf.ar:=>9995, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__inf.clear_status:=>full, c78fb81b5a16635f27f2666300e7a65d__inf.ar:9998=>10000, c78fb81b5a16635f27f2666300e7a65d__inf.clear_status:full=>perfect, 915b6d4d1f4645ee89494de4937e8dad__inf.ar:=>10000, 915b6d4d1f4645ee89494de4937e8dad__inf.clear_status:=>perfect, 921809730bc762b233cd9d89cbd19697__inf.ar:=>10000, 921809730bc762b233cd9d89cbd19697__inf.clear_status:=>perfect, 02f02b5ac7ee90aa59dcb8dde43a1f6e__inf.ar:=>9985, 02f02b5ac7ee90aa59dcb8dde43a1f6e__inf.clear_status:=>full",
   "latest_path": "data/users/27445838.json",
-  "history_path": "data/history/27445838/2026-04-22T04-22-53plus09-00.json",
-  "saved_at": "2026-04-22T04:23:02+09:00"
+  "history_path": "data/history/27445838/2026-04-23T17-02-27plus09-00.json",
+  "saved_at": "2026-04-23T17:02:33+09:00"
 }
