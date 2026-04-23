@@ -3,153 +3,55 @@
   "crew_id": "74938759",
   "player_name": "ｔａｎｏｔｅｋ",
   "has_diff": true,
-  "updated_music_count": 9,
+  "updated_music_count": 2,
   "summary": {
     "pa_class": {
-      "before": 96,
-      "after": 101
+      "before": 104,
+      "after": 105
     },
     "play_count": {
-      "before": 72,
-      "after": 78
+      "before": 83,
+      "after": 84
     },
     "paskill_average_top30": {
-      "before": 15.5505,
-      "after": 15.5733
+      "before": 15.6459,
+      "after": 15.653
     }
   },
   "updated_music_list": [
     {
-      "music_id": "0704c0df694ec77a32972ab97e713a7a",
-      "music_title": "FRENZY HEART",
+      "music_id": "974361e4cc8917618f8ac17a77b1385f",
+      "music_title": "Crescent:Letter",
       "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=0704c0df694ec77a32972ab97e713a7a",
-      "ar_before": 9886,
-      "ar_after": 9900,
+      "level": 14,
+      "level_disp": "14",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=974361e4cc8917618f8ac17a77b1385f",
+      "ar_before": 9919,
+      "ar_after": 9933,
       "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "afce994bad1597435832769d1d4cbc65",
-      "music_title": "GAIA",
+      "music_id": "3f215352b939c692ca537c1d76665a66",
+      "music_title": "HYENA",
       "diff": "inf",
       "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=afce994bad1597435832769d1d4cbc65",
-      "ar_before": 9956,
-      "ar_after": 9972,
-      "clear_status_before": "success",
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "07366058d0bf08bacace8e56e4059d42",
-      "music_title": "Submerge Serenade",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07366058d0bf08bacace8e56e4059d42",
-      "ar_before": null,
-      "ar_after": 9943,
-      "clear_status_before": null,
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "7e441a4553aa49c97d8e3e891fe10e18",
-      "music_title": "Substance",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=7e441a4553aa49c97d8e3e891fe10e18",
-      "ar_before": null,
-      "ar_after": 9879,
-      "clear_status_before": null,
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "music_title": "TECHNOPHOBIA",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "ar_before": null,
-      "ar_after": 9856,
-      "clear_status_before": null,
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "6046fc95c3fa33da4a6b06bc90b0c5d0",
-      "music_title": "Temporal Veil",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=6046fc95c3fa33da4a6b06bc90b0c5d0",
-      "ar_before": 9866,
-      "ar_after": 9919,
-      "clear_status_before": "success",
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "1ed2e6d3ee07c77a06c14bb4672e2377",
-      "music_title": "conflict",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=1ed2e6d3ee07c77a06c14bb4672e2377",
-      "ar_before": 9816,
-      "ar_after": 9906,
-      "clear_status_before": "success",
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "02f02b5ac7ee90aa59dcb8dde43a1f6e",
-      "music_title": "天邪鬼",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=02f02b5ac7ee90aa59dcb8dde43a1f6e",
-      "ar_before": null,
-      "ar_after": 9969,
-      "clear_status_before": null,
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "e041bbb2ce76dabf64bfafa39fa9a5dc",
-      "music_title": "星界のアルペジオ",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=e041bbb2ce76dabf64bfafa39fa9a5dc",
-      "ar_before": 9890,
-      "ar_after": 9961,
+      "level_disp": "13+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=3f215352b939c692ca537c1d76665a66",
+      "ar_before": 9969,
+      "ar_after": 9981,
       "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     }
   ],
-  "exported_at": "2026-04-23T19:30:04+09:00",
+  "exported_at": "2026-04-23T22:26:00+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_skill:15.55=>15.57, player.pa_class:96=>101, player.play_count:72=>78, player.paskill_average_top30:15.5505=>15.5733, 0704c0df694ec77a32972ab97e713a7a__inf.ar:9886=>9900, afce994bad1597435832769d1d4cbc65__inf.ar:9956=>9972, 07366058d0bf08bacace8e56e4059d42__inf.ar:=>9943, 07366058d0bf08bacace8e56e4059d42__inf.clear_status:=>success, 7e441a4553aa49c97d8e3e891fe10e18__inf.ar:=>9879, 7e441a4553aa49c97d8e3e891fe10e18__inf.clear_status:=>success, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__inf.ar:=>9856, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__inf.clear_status:=>success, 6046fc95c3fa33da4a6b06bc90b0c5d0__inf.ar:9866=>9919, 1ed2e6d3ee07c77a06c14bb4672e2377__inf.ar:9816=>9906, 02f02b5ac7ee90aa59dcb8dde43a1f6e__inf.ar:=>9969, 02f02b5ac7ee90aa59dcb8dde43a1f6e__inf.clear_status:=>success, e041bbb2ce76dabf64bfafa39fa9a5dc__inf.ar:9890=>9961",
+  "diff_summary": "player.title_name:天邪鬼 しか勝たん！！！=>ぽらりこ にゅーかまー, player.pa_skill:15.64=>15.65, player.pa_class:104=>105, player.play_count:83=>84, player.paskill_average_top30:15.6459=>15.653, 974361e4cc8917618f8ac17a77b1385f__inf.ar:9919=>9933, 3f215352b939c692ca537c1d76665a66__inf.ar:9969=>9981",
   "latest_path": "data/users/74938759.json",
-  "history_path": "data/history/74938759/2026-04-23T19-30-04plus09-00.json",
-  "saved_at": "2026-04-23T19:30:14+09:00"
+  "history_path": "data/history/74938759/2026-04-23T22-26-00plus09-00.json",
+  "saved_at": "2026-04-23T22:26:10+09:00"
 }
