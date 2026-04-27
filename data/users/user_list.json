@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_yupszniqxe39",
+    "exported_at": "2026-04-27T17:21:12+09:00",
+    "crew_id": "32071900",
+    "player_name": "Ｔ＄ＵＫＡＮＡ",
+    "paskill_average_top30": 16.0672,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_4vylcpjf0yz1",
     "exported_at": "2026-04-27T00:00:55+09:00",
     "crew_id": "74938759",
@@ -95,20 +109,6 @@
       "player_name": false,
       "crew_id": false,
       "paskill": false
-    }
-  },
-  {
-    "public_id": "u_yupszniqxe39",
-    "exported_at": "2026-04-25T01:03:36+09:00",
-    "crew_id": "32071900",
-    "player_name": "Ｔｓｕｋａｎａ",
-    "paskill_average_top30": 16.0662,
-    "privacy": {
-      "search_user": true,
-      "qap_ranking": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
     }
   },
   {
