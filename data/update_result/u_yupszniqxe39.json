@@ -2,98 +2,27 @@
   "public_id": "u_yupszniqxe39",
   "crew_id": "32071900",
   "player_name": "Ｔ＄ＵＫＡＮＡ",
-  "has_diff": true,
-  "updated_music_count": 5,
+  "has_diff": false,
+  "updated_music_count": 0,
   "summary": {
     "pa_class": {
-      "before": 534,
+      "before": 535,
       "after": 535
     },
     "play_count": {
-      "before": 3248,
+      "before": 3258,
       "after": 3258
     },
     "paskill_average_top30": {
-      "before": 16.0662,
+      "before": 16.0672,
       "after": 16.0672
     }
   },
-  "updated_music_list": [
-    {
-      "music_id": "07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "music_title": "TECHNOPHOBIA",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "ar_before": 9995,
-      "ar_after": 10000,
-      "clear_status_before": "full",
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "music_title": "TECHNOPHOBIA",
-      "diff": "normal",
-      "level": 7,
-      "level_disp": "7",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "565889653c6688f2b31d447a9ae6559f",
-      "music_title": "チルノのパーフェクトさんすう学園【ビートまりお】",
-      "diff": "hard",
-      "level": 10,
-      "level_disp": "10+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=565889653c6688f2b31d447a9ae6559f",
-      "ar_before": 9951,
-      "ar_after": 10000,
-      "clear_status_before": "success",
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "565889653c6688f2b31d447a9ae6559f",
-      "music_title": "チルノのパーフェクトさんすう学園【ビートまりお】",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=565889653c6688f2b31d447a9ae6559f",
-      "ar_before": 9964,
-      "ar_after": 10000,
-      "clear_status_before": "success",
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "565889653c6688f2b31d447a9ae6559f",
-      "music_title": "チルノのパーフェクトさんすう学園【ビートまりお】",
-      "diff": "normal",
-      "level": 7,
-      "level_disp": "7",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=565889653c6688f2b31d447a9ae6559f",
-      "ar_before": 9963,
-      "ar_after": 10000,
-      "clear_status_before": "success",
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    }
-  ],
-  "exported_at": "2026-04-27T17:20:03+09:00",
+  "updated_music_list": [],
+  "exported_at": "2026-04-27T17:21:12+09:00",
   "is_initial": false,
-  "diff_summary": "player.player_name:Ｔｓｕｋａｎａ=>Ｔ＄ＵＫＡＮＡ, player.title_name:天邪鬼 LOVE！！！=>TECHNOPHOBIA LOVE！！！, player.pa_class:534=>535, player.play_count:3248=>3258, player.paskill_average_top30:16.0662=>16.0672, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__inf.ar:9995=>10000, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__inf.clear_status:full=>perfect, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__normal.ar:=>10000, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__normal.clear_status:=>perfect, 565889653c6688f2b31d447a9ae6559f__hard.ar:9951=>10000, 565889653c6688f2b31d447a9ae6559f__hard.clear_status:success=>perfect, 565889653c6688f2b31d447a9ae6559f__inf.ar:9964=>10000, 565889653c6688f2b31d447a9ae6559f__inf.clear_status:success=>perfect, 565889653c6688f2b31d447a9ae6559f__normal.ar:9963=>10000, 565889653c6688f2b31d447a9ae6559f__normal.clear_status:success=>perfect",
+  "diff_summary": "no_change",
   "latest_path": "data/users/32071900.json",
-  "history_path": "data/history/32071900/2026-04-27T17-20-03plus09-00.json",
-  "saved_at": "2026-04-27T17:20:11+09:00"
+  "history_path": "",
+  "saved_at": "2026-04-27T17:21:20+09:00"
 }
