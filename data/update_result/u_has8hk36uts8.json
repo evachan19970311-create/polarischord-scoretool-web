@@ -2,27 +2,154 @@
   "public_id": "u_has8hk36uts8",
   "crew_id": "39812906",
   "player_name": "やす",
-  "has_diff": false,
-  "updated_music_count": 0,
+  "has_diff": true,
+  "updated_music_count": 9,
   "summary": {
     "pa_class": {
       "before": 108,
-      "after": 108
+      "after": 110
     },
     "play_count": {
       "before": 98,
-      "after": 98
+      "after": 101
     },
     "paskill_average_top30": {
       "before": 14.7526,
-      "after": 14.7526
+      "after": 14.841
     }
   },
-  "updated_music_list": [],
-  "exported_at": "2026-04-28T16:01:11+09:00",
+  "updated_music_list": [
+    {
+      "music_id": "9a50b257302539e1d702ae45d8a566c4",
+      "music_title": "#病みカワ",
+      "diff": "inf",
+      "level": 12,
+      "level_disp": "12+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=9a50b257302539e1d702ae45d8a566c4",
+      "ar_before": 9809,
+      "ar_after": 9933,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "0704c0df694ec77a32972ab97e713a7a",
+      "music_title": "FRENZY HEART",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=0704c0df694ec77a32972ab97e713a7a",
+      "ar_before": 9875,
+      "ar_after": 9906,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "6046fc95c3fa33da4a6b06bc90b0c5d0",
+      "music_title": "Temporal Veil",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=6046fc95c3fa33da4a6b06bc90b0c5d0",
+      "ar_before": 9812,
+      "ar_after": 9940,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "0a9507336a68c90bb187ec43b2a11df3",
+      "music_title": "Λkasha",
+      "diff": "inf",
+      "level": 14,
+      "level_disp": "14",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=0a9507336a68c90bb187ec43b2a11df3",
+      "ar_before": 9707,
+      "ar_after": 9774,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "7e8eb75468abf5ec24618f20954d2e4e",
+      "music_title": "めうめうぺったんたん！！ (ZAQUVA Remix)",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=7e8eb75468abf5ec24618f20954d2e4e",
+      "ar_before": 9856,
+      "ar_after": 9928,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "915b6d4d1f4645ee89494de4937e8dad",
+      "music_title": "チルノのパーフェクトさんすう学園【初音ミク】",
+      "diff": "inf",
+      "level": 10,
+      "level_disp": "10+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=915b6d4d1f4645ee89494de4937e8dad",
+      "ar_before": null,
+      "ar_after": 9971,
+      "clear_status_before": null,
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "9c539b51f5cc9305d2f9b67b1b3ec8a9",
+      "music_title": "プラネットヒーロー",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=9c539b51f5cc9305d2f9b67b1b3ec8a9",
+      "ar_before": 9853,
+      "ar_after": 9919,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "02f02b5ac7ee90aa59dcb8dde43a1f6e",
+      "music_title": "天邪鬼",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=02f02b5ac7ee90aa59dcb8dde43a1f6e",
+      "ar_before": 9654,
+      "ar_after": 9693,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "5035613a616c0327ca4a58a22ed1b4e5",
+      "music_title": "恋とキングコング",
+      "diff": "inf",
+      "level": 11,
+      "level_disp": "11+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=5035613a616c0327ca4a58a22ed1b4e5",
+      "ar_before": 9882,
+      "ar_after": 9989,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
+    }
+  ],
+  "exported_at": "2026-04-29T02:00:03+09:00",
   "is_initial": false,
-  "diff_summary": "no_change",
+  "diff_summary": "player.pa_skill:14.75=>14.84, player.pa_class:108=>110, player.play_count:98=>101, player.paskill_average_top30:14.7526=>14.841, 9a50b257302539e1d702ae45d8a566c4__inf.ar:9809=>9933, 0704c0df694ec77a32972ab97e713a7a__inf.ar:9875=>9906, 6046fc95c3fa33da4a6b06bc90b0c5d0__inf.ar:9812=>9940, 0a9507336a68c90bb187ec43b2a11df3__inf.ar:9707=>9774, 7e8eb75468abf5ec24618f20954d2e4e__inf.ar:9856=>9928, 915b6d4d1f4645ee89494de4937e8dad__inf.ar:=>9971, 915b6d4d1f4645ee89494de4937e8dad__inf.clear_status:=>success, 9c539b51f5cc9305d2f9b67b1b3ec8a9__inf.ar:9853=>9919, 02f02b5ac7ee90aa59dcb8dde43a1f6e__inf.ar:9654=>9693, 5035613a616c0327ca4a58a22ed1b4e5__inf.ar:9882=>9989",
   "latest_path": "data/users/39812906.json",
-  "history_path": "",
-  "saved_at": "2026-04-28T16:01:17+09:00"
+  "history_path": "data/history/39812906/2026-04-29T02-00-03plus09-00.json",
+  "saved_at": "2026-04-29T02:00:13+09:00"
 }
