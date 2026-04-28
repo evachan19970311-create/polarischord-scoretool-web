@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_82feit151f2n",
+    "exported_at": "2026-04-28T15:28:56+09:00",
+    "crew_id": "34229664",
+    "player_name": "ありまかな",
+    "paskill_average_top30": 15.9308,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_yupszniqxe39",
     "exported_at": "2026-04-27T17:21:12+09:00",
     "crew_id": "32071900",
@@ -439,20 +453,6 @@
     "crew_id": "64821813",
     "player_name": "Ｂａｎｏｔａ",
     "paskill_average_top30": 15.9272,
-    "privacy": {
-      "search_user": true,
-      "qap_ranking": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
-    }
-  },
-  {
-    "public_id": "u_82feit151f2n",
-    "exported_at": "2026-04-18T12:04:01+09:00",
-    "crew_id": "34229664",
-    "player_name": "ＫＴ！？！",
-    "paskill_average_top30": 15.9308,
     "privacy": {
       "search_user": true,
       "qap_ranking": true,
