@@ -2,98 +2,27 @@
   "public_id": "u_x7eyy2al62j9",
   "crew_id": "10615451",
   "player_name": "ｓｐａｄｅ",
-  "has_diff": true,
-  "updated_music_count": 5,
+  "has_diff": false,
+  "updated_music_count": 0,
   "summary": {
     "pa_class": {
-      "before": 602,
+      "before": 603,
       "after": 603
     },
     "play_count": {
-      "before": 3400,
+      "before": 3407,
       "after": 3407
     },
     "paskill_average_top30": {
-      "before": 16.0312,
+      "before": 16.0332,
       "after": 16.0332
     }
   },
-  "updated_music_list": [
-    {
-      "music_id": "07366058d0bf08bacace8e56e4059d42",
-      "music_title": "Submerge Serenade",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07366058d0bf08bacace8e56e4059d42",
-      "ar_before": 9994,
-      "ar_after": 9998,
-      "clear_status_before": "full",
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "7e441a4553aa49c97d8e3e891fe10e18",
-      "music_title": "Substance",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=7e441a4553aa49c97d8e3e891fe10e18",
-      "ar_before": 9998,
-      "ar_after": 10000,
-      "clear_status_before": "full",
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "915b6d4d1f4645ee89494de4937e8dad",
-      "music_title": "チルノのパーフェクトさんすう学園【初音ミク】",
-      "diff": "inf",
-      "level": 10,
-      "level_disp": "10+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=915b6d4d1f4645ee89494de4937e8dad",
-      "ar_before": null,
-      "ar_after": 9995,
-      "clear_status_before": null,
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "921809730bc762b233cd9d89cbd19697",
-      "music_title": "トウキョウ・シャンディ・ランデヴ",
-      "diff": "inf",
-      "level": 11,
-      "level_disp": "11+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=921809730bc762b233cd9d89cbd19697",
-      "ar_before": 9988,
-      "ar_after": 9997,
-      "clear_status_before": "success",
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "02f02b5ac7ee90aa59dcb8dde43a1f6e",
-      "music_title": "天邪鬼",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=02f02b5ac7ee90aa59dcb8dde43a1f6e",
-      "ar_before": 9990,
-      "ar_after": 10000,
-      "clear_status_before": "full",
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    }
-  ],
-  "exported_at": "2026-04-26T00:51:51+09:00",
+  "updated_music_list": [],
+  "exported_at": "2026-04-29T19:37:21+09:00",
   "is_initial": false,
-  "diff_summary": "player.title_name:TECHNOPHOBIA LOVE！！！=>天邪鬼 LOVE！！！, player.pa_class:602=>603, player.play_count:3400=>3407, player.paskill_average_top30:16.0312=>16.0332, 07366058d0bf08bacace8e56e4059d42__inf.ar:9994=>9998, 7e441a4553aa49c97d8e3e891fe10e18__inf.ar:9998=>10000, 7e441a4553aa49c97d8e3e891fe10e18__inf.clear_status:full=>perfect, 915b6d4d1f4645ee89494de4937e8dad__inf.ar:=>9995, 915b6d4d1f4645ee89494de4937e8dad__inf.clear_status:=>full, 921809730bc762b233cd9d89cbd19697__inf.ar:9988=>9997, 921809730bc762b233cd9d89cbd19697__inf.clear_status:success=>full, 02f02b5ac7ee90aa59dcb8dde43a1f6e__inf.ar:9990=>10000, 02f02b5ac7ee90aa59dcb8dde43a1f6e__inf.clear_status:full=>perfect",
+  "diff_summary": "no_change",
   "latest_path": "data/users/10615451.json",
-  "history_path": "data/history/10615451/2026-04-26T00-51-51plus09-00.json",
-  "saved_at": "2026-04-26T00:52:00+09:00"
+  "history_path": "",
+  "saved_at": "2026-04-29T19:37:28+09:00"
 }
