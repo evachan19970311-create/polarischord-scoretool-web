@@ -3,50 +3,22 @@
   "crew_id": "39812906",
   "player_name": "やす",
   "has_diff": true,
-  "updated_music_count": 7,
+  "updated_music_count": 4,
   "summary": {
     "pa_class": {
-      "before": 112,
+      "before": 114,
       "after": 114
     },
     "play_count": {
-      "before": 104,
-      "after": 106
+      "before": 106,
+      "after": 107
     },
     "paskill_average_top30": {
-      "before": 14.9165,
-      "after": 14.9812
+      "before": 14.9812,
+      "after": 14.9942
     }
   },
   "updated_music_list": [
-    {
-      "music_id": "0ec6ea33132ec84e1e844faa7636568c",
-      "music_title": "Daisycutter",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=0ec6ea33132ec84e1e844faa7636568c",
-      "ar_before": 9931,
-      "ar_after": 9947,
-      "clear_status_before": "success",
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "6fc01dcf71a43feb802292fd85203f1e",
-      "music_title": "Dream Re:CHORD",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=6fc01dcf71a43feb802292fd85203f1e",
-      "ar_before": 9848,
-      "ar_after": 9891,
-      "clear_status_before": "success",
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
     {
       "music_id": "50731976e58dd5315dba122d80d46a68",
       "music_title": "Trendy Cloudy LolIPopS",
@@ -54,74 +26,60 @@
       "level": 12,
       "level_disp": "12+",
       "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=50731976e58dd5315dba122d80d46a68",
-      "ar_before": 9964,
-      "ar_after": 9977,
+      "ar_before": 9977,
+      "ar_after": 9993,
       "clear_status_before": "full",
       "clear_status_after": "full",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "3ca311925552185ce4e8aed2a702b86d",
-      "music_title": "What's up? Pop!",
+      "music_id": "532f4123ed447705a987137396305615",
+      "music_title": "ぽかぽかレトロード",
       "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=3ca311925552185ce4e8aed2a702b86d",
-      "ar_before": 9874,
-      "ar_after": 9912,
+      "level": 11,
+      "level_disp": "11+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=532f4123ed447705a987137396305615",
+      "ar_before": 9941,
+      "ar_after": 9958,
       "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "0a9507336a68c90bb187ec43b2a11df3",
-      "music_title": "Λkasha",
+      "music_id": "ad4bf1ac0f4e69faef8e239a9959aaeb",
+      "music_title": "六兆年と一夜物語",
       "diff": "inf",
-      "level": 14,
-      "level_disp": "14",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=0a9507336a68c90bb187ec43b2a11df3",
-      "ar_before": 9774,
-      "ar_after": 9860,
+      "level": 11,
+      "level_disp": "11+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=ad4bf1ac0f4e69faef8e239a9959aaeb",
+      "ar_before": 9685,
+      "ar_after": 9960,
       "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "9c539b51f5cc9305d2f9b67b1b3ec8a9",
-      "music_title": "プラネットヒーロー",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=9c539b51f5cc9305d2f9b67b1b3ec8a9",
-      "ar_before": 9919,
-      "ar_after": 9948,
-      "clear_status_before": "success",
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "01e25b22e98f26dd7471b02c29bae2ce",
-      "music_title": "恋はどう？モロ◎波動OK☆方程式！！ (福來羽羅 Cover)",
+      "music_id": "c5590464602b97f7584b51d0bd5eadb6",
+      "music_title": "魔理沙は大変なものを盗んでいきました",
       "diff": "inf",
       "level": 12,
       "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=01e25b22e98f26dd7471b02c29bae2ce",
-      "ar_before": 9968,
-      "ar_after": 9968,
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=c5590464602b97f7584b51d0bd5eadb6",
+      "ar_before": 9932,
+      "ar_after": 9969,
       "clear_status_before": "success",
-      "clear_status_after": "full",
-      "ar_changed": false,
-      "clear_status_changed": true
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
     }
   ],
-  "exported_at": "2026-04-29T23:26:46+09:00",
+  "exported_at": "2026-04-30T17:33:10+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_skill:14.91=>14.98, player.pa_class:112=>114, player.play_count:104=>106, player.paskill_average_top30:14.9165=>14.9812, 0ec6ea33132ec84e1e844faa7636568c__inf.ar:9931=>9947, 6fc01dcf71a43feb802292fd85203f1e__inf.ar:9848=>9891, 50731976e58dd5315dba122d80d46a68__inf.ar:9964=>9977, 3ca311925552185ce4e8aed2a702b86d__inf.ar:9874=>9912, 0a9507336a68c90bb187ec43b2a11df3__inf.ar:9774=>9860, 9c539b51f5cc9305d2f9b67b1b3ec8a9__inf.ar:9919=>9948, 01e25b22e98f26dd7471b02c29bae2ce__inf.clear_status:success=>full",
+  "diff_summary": "player.pa_skill:14.98=>14.99, player.play_count:106=>107, player.paskill_average_top30:14.9812=>14.9942, 50731976e58dd5315dba122d80d46a68__inf.ar:9977=>9993, 532f4123ed447705a987137396305615__inf.ar:9941=>9958, ad4bf1ac0f4e69faef8e239a9959aaeb__inf.ar:9685=>9960, c5590464602b97f7584b51d0bd5eadb6__inf.ar:9932=>9969",
   "latest_path": "data/users/39812906.json",
-  "history_path": "data/history/39812906/2026-04-29T23-26-46plus09-00.json",
-  "saved_at": "2026-04-29T23:27:15+09:00"
+  "history_path": "data/history/39812906/2026-04-30T17-33-10plus09-00.json",
+  "saved_at": "2026-04-30T17:33:21+09:00"
 }
