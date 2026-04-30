@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_1c734lcqw6am",
+    "exported_at": "2026-04-30T13:15:30+09:00",
+    "crew_id": "58589531",
+    "player_name": "ラリー",
+    "paskill_average_top30": 15.8517,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_mhyupfpprbr6",
     "exported_at": "2026-04-30T00:49:35+09:00",
     "crew_id": "21974533",
@@ -145,20 +159,6 @@
     "crew_id": "79971038",
     "player_name": "あんこきじ",
     "paskill_average_top30": 15.5454,
-    "privacy": {
-      "search_user": true,
-      "qap_ranking": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
-    }
-  },
-  {
-    "public_id": "u_1c734lcqw6am",
-    "exported_at": "2026-04-24T21:36:37+09:00",
-    "crew_id": "58589531",
-    "player_name": "ラリー",
-    "paskill_average_top30": 15.8447,
     "privacy": {
       "search_user": true,
       "qap_ranking": true,
