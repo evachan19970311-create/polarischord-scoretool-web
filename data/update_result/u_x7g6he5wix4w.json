@@ -2,42 +2,27 @@
   "public_id": "u_x7g6he5wix4w",
   "crew_id": "72939482",
   "player_name": "み",
-  "has_diff": true,
-  "updated_music_count": 1,
+  "has_diff": false,
+  "updated_music_count": 0,
   "summary": {
     "pa_class": {
       "before": 140,
       "after": 140
     },
     "play_count": {
-      "before": 185,
+      "before": 187,
       "after": 187
     },
     "paskill_average_top30": {
-      "before": 14.7007,
+      "before": 14.7035,
       "after": 14.7035
     }
   },
-  "updated_music_list": [
-    {
-      "music_id": "bbde1b7b828490aa3d41e1fdd85a648b",
-      "music_title": "MeteorA",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=bbde1b7b828490aa3d41e1fdd85a648b",
-      "ar_before": 9945,
-      "ar_after": 9956,
-      "clear_status_before": "success",
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": true
-    }
-  ],
-  "exported_at": "2026-05-01T09:11:51+09:00",
+  "updated_music_list": [],
+  "exported_at": "2026-05-01T09:12:01+09:00",
   "is_initial": false,
-  "diff_summary": "player.play_count:185=>187, player.paskill_average_top30:14.7007=>14.7035, bbde1b7b828490aa3d41e1fdd85a648b__inf.ar:9945=>9956, bbde1b7b828490aa3d41e1fdd85a648b__inf.clear_status:success=>full",
+  "diff_summary": "no_change",
   "latest_path": "data/users/72939482.json",
-  "history_path": "data/history/72939482/2026-05-01T09-11-51plus09-00.json",
-  "saved_at": "2026-05-01T09:11:59+09:00"
+  "history_path": "",
+  "saved_at": "2026-05-01T09:12:08+09:00"
 }
