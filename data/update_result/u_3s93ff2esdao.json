@@ -3,15 +3,15 @@
   "crew_id": "79971038",
   "player_name": "あんこきじ",
   "has_diff": true,
-  "updated_music_count": 5,
+  "updated_music_count": 3,
   "summary": {
     "pa_class": {
       "before": 305,
-      "after": 305
+      "after": 306
     },
     "play_count": {
-      "before": 740,
-      "after": 743
+      "before": 743,
+      "after": 745
     },
     "paskill_average_top30": {
       "before": 15.5454,
@@ -20,80 +20,52 @@
   },
   "updated_music_list": [
     {
-      "music_id": "4f2824fa95715ad6eb1388245c7b913b",
-      "music_title": "ウラボス",
+      "music_id": "07366058d0bf08bacace8e56e4059d42",
+      "music_title": "Submerge Serenade",
       "diff": "inf",
       "level": 12,
       "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=4f2824fa95715ad6eb1388245c7b913b",
-      "ar_before": 9835,
-      "ar_after": 9939,
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07366058d0bf08bacace8e56e4059d42",
+      "ar_before": 9830,
+      "ar_after": 9897,
       "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "b2631189e93dd63955fc02f9d72a36aa",
-      "music_title": "ジェヘナ",
+      "music_id": "02f02b5ac7ee90aa59dcb8dde43a1f6e",
+      "music_title": "天邪鬼",
       "diff": "inf",
-      "level": 11,
-      "level_disp": "11+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=b2631189e93dd63955fc02f9d72a36aa",
-      "ar_before": 9946,
-      "ar_after": 9953,
+      "level": 13,
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=02f02b5ac7ee90aa59dcb8dde43a1f6e",
+      "ar_before": 9771,
+      "ar_after": 9854,
       "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "565889653c6688f2b31d447a9ae6559f",
-      "music_title": "チルノのパーフェクトさんすう学園【ビートまりお】",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=565889653c6688f2b31d447a9ae6559f",
-      "ar_before": null,
-      "ar_after": 9906,
-      "clear_status_before": null,
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "f52d39694dbd00abba5b43b178d38339",
-      "music_title": "惑星☆ロリポップ",
+      "music_id": "622e1fd473e43377fa125a450fb5d928",
+      "music_title": "隅田川夏恋歌 (珠村日乃和 Cover)",
       "diff": "inf",
       "level": 12,
       "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=f52d39694dbd00abba5b43b178d38339",
-      "ar_before": 9980,
-      "ar_after": 9980,
-      "clear_status_before": "success",
-      "clear_status_after": "full",
-      "ar_changed": false,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "4837c9692d8f00635dc545db7ba1aea8",
-      "music_title": "未完成讃歌",
-      "diff": "inf",
-      "level": 11,
-      "level_disp": "11",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=4837c9692d8f00635dc545db7ba1aea8",
-      "ar_before": 9984,
-      "ar_after": 9989,
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=622e1fd473e43377fa125a450fb5d928",
+      "ar_before": 9953,
+      "ar_after": 9978,
       "clear_status_before": "full",
       "clear_status_after": "full",
       "ar_changed": true,
       "clear_status_changed": false
     }
   ],
-  "exported_at": "2026-04-30T23:25:17+09:00",
+  "exported_at": "2026-05-01T23:44:12+09:00",
   "is_initial": false,
-  "diff_summary": "player.play_count:740=>743, 4f2824fa95715ad6eb1388245c7b913b__inf.ar:9835=>9939, b2631189e93dd63955fc02f9d72a36aa__inf.ar:9946=>9953, 565889653c6688f2b31d447a9ae6559f__inf.ar:=>9906, 565889653c6688f2b31d447a9ae6559f__inf.clear_status:=>success, f52d39694dbd00abba5b43b178d38339__inf.clear_status:success=>full, 4837c9692d8f00635dc545db7ba1aea8__inf.ar:9984=>9989",
+  "diff_summary": "player.pa_class:305=>306, player.play_count:743=>745, 07366058d0bf08bacace8e56e4059d42__inf.ar:9830=>9897, 02f02b5ac7ee90aa59dcb8dde43a1f6e__inf.ar:9771=>9854, 622e1fd473e43377fa125a450fb5d928__inf.ar:9953=>9978",
   "latest_path": "data/users/79971038.json",
-  "history_path": "data/history/79971038/2026-04-30T23-25-17plus09-00.json",
-  "saved_at": "2026-04-30T23:25:29+09:00"
+  "history_path": "data/history/79971038/2026-05-01T23-44-12plus09-00.json",
+  "saved_at": "2026-05-01T23:44:23+09:00"
 }
