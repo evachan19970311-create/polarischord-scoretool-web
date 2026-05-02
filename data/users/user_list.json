@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_5h8iz7harjib",
+    "exported_at": "2026-05-02T20:29:37+09:00",
+    "crew_id": "17165708",
+    "player_name": "ＳＩＮＫＡＫＵ",
+    "paskill_average_top30": 14.5598,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_hs3ix3cqz000",
     "exported_at": "2026-05-02T20:22:22+09:00",
     "crew_id": "48445845",
