@@ -3,139 +3,55 @@
   "crew_id": "27445838",
   "player_name": "へやっちょ",
   "has_diff": true,
-  "updated_music_count": 8,
+  "updated_music_count": 2,
   "summary": {
     "pa_class": {
-      "before": 283,
-      "after": 284
+      "before": 284,
+      "after": 285
     },
     "play_count": {
-      "before": 613,
-      "after": 618
+      "before": 618,
+      "after": 623
     },
     "paskill_average_top30": {
-      "before": 15.9395,
-      "after": 15.9455
+      "before": 15.9455,
+      "after": 15.9467
     }
   },
   "updated_music_list": [
     {
-      "music_id": "d88634a366ca58c96c13a47ab5934fb7",
-      "music_title": "KING",
-      "diff": "inf",
-      "level": 11,
-      "level_disp": "11",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=d88634a366ca58c96c13a47ab5934fb7",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "07366058d0bf08bacace8e56e4059d42",
-      "music_title": "Submerge Serenade",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07366058d0bf08bacace8e56e4059d42",
-      "ar_before": null,
-      "ar_after": 9968,
-      "clear_status_before": null,
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "7e441a4553aa49c97d8e3e891fe10e18",
-      "music_title": "Substance",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=7e441a4553aa49c97d8e3e891fe10e18",
-      "ar_before": null,
-      "ar_after": 9952,
-      "clear_status_before": null,
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "music_title": "TECHNOPHOBIA",
+      "music_id": "d5bea9875e7f91f61b13f3d1d75be17c",
+      "music_title": "Evans",
       "diff": "inf",
       "level": 13,
       "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "ar_before": null,
-      "ar_after": 9995,
-      "clear_status_before": null,
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=d5bea9875e7f91f61b13f3d1d75be17c",
+      "ar_before": 9992,
+      "ar_after": 9998,
+      "clear_status_before": "full",
       "clear_status_after": "full",
       "ar_changed": true,
-      "clear_status_changed": true
+      "clear_status_changed": false
     },
     {
-      "music_id": "c78fb81b5a16635f27f2666300e7a65d",
-      "music_title": "Welcome!!",
+      "music_id": "565889653c6688f2b31d447a9ae6559f",
+      "music_title": "チルノのパーフェクトさんすう学園【ビートまりお】",
       "diff": "inf",
       "level": 12,
       "level_disp": "12",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=c78fb81b5a16635f27f2666300e7a65d",
-      "ar_before": 9998,
-      "ar_after": 10000,
-      "clear_status_before": "full",
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "915b6d4d1f4645ee89494de4937e8dad",
-      "music_title": "チルノのパーフェクトさんすう学園【初音ミク】",
-      "diff": "inf",
-      "level": 10,
-      "level_disp": "10+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=915b6d4d1f4645ee89494de4937e8dad",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=565889653c6688f2b31d447a9ae6559f",
       "ar_before": null,
       "ar_after": 10000,
       "clear_status_before": null,
       "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "921809730bc762b233cd9d89cbd19697",
-      "music_title": "トウキョウ・シャンディ・ランデヴ",
-      "diff": "inf",
-      "level": 11,
-      "level_disp": "11+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=921809730bc762b233cd9d89cbd19697",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "02f02b5ac7ee90aa59dcb8dde43a1f6e",
-      "music_title": "天邪鬼",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=02f02b5ac7ee90aa59dcb8dde43a1f6e",
-      "ar_before": null,
-      "ar_after": 9985,
-      "clear_status_before": null,
-      "clear_status_after": "full",
       "ar_changed": true,
       "clear_status_changed": true
     }
   ],
-  "exported_at": "2026-04-23T17:02:27+09:00",
+  "exported_at": "2026-05-02T22:13:09+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_skill:15.93=>15.94, player.pa_class:283=>284, player.play_count:613=>618, player.paskill_average_top30:15.9395=>15.9455, d88634a366ca58c96c13a47ab5934fb7__inf.ar:=>10000, d88634a366ca58c96c13a47ab5934fb7__inf.clear_status:=>perfect, 07366058d0bf08bacace8e56e4059d42__inf.ar:=>9968, 07366058d0bf08bacace8e56e4059d42__inf.clear_status:=>success, 7e441a4553aa49c97d8e3e891fe10e18__inf.ar:=>9952, 7e441a4553aa49c97d8e3e891fe10e18__inf.clear_status:=>full, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__inf.ar:=>9995, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__inf.clear_status:=>full, c78fb81b5a16635f27f2666300e7a65d__inf.ar:9998=>10000, c78fb81b5a16635f27f2666300e7a65d__inf.clear_status:full=>perfect, 915b6d4d1f4645ee89494de4937e8dad__inf.ar:=>10000, 915b6d4d1f4645ee89494de4937e8dad__inf.clear_status:=>perfect, 921809730bc762b233cd9d89cbd19697__inf.ar:=>10000, 921809730bc762b233cd9d89cbd19697__inf.clear_status:=>perfect, 02f02b5ac7ee90aa59dcb8dde43a1f6e__inf.ar:=>9985, 02f02b5ac7ee90aa59dcb8dde43a1f6e__inf.clear_status:=>full",
+  "diff_summary": "player.pa_class:284=>285, player.play_count:618=>623, player.paskill_average_top30:15.9455=>15.9467, d5bea9875e7f91f61b13f3d1d75be17c__inf.ar:9992=>9998, 565889653c6688f2b31d447a9ae6559f__inf.ar:=>10000, 565889653c6688f2b31d447a9ae6559f__inf.clear_status:=>perfect",
   "latest_path": "data/users/27445838.json",
-  "history_path": "data/history/27445838/2026-04-23T17-02-27plus09-00.json",
-  "saved_at": "2026-04-23T17:02:33+09:00"
+  "history_path": "data/history/27445838/2026-05-02T22-13-09plus09-00.json",
+  "saved_at": "2026-05-02T22:13:18+09:00"
 }
