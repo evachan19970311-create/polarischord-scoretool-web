@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_f9vlm1676lu4",
+    "exported_at": "2026-05-03T23:04:33+09:00",
+    "crew_id": "34285888",
+    "player_name": "ｓｕｇａｒ＃",
+    "paskill_average_top30": 15.939,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_7qu20h9exw2m",
     "exported_at": "2026-05-03T19:28:14+09:00",
     "crew_id": "59509786",
@@ -33,20 +47,6 @@
     "crew_id": "37999717",
     "player_name": "ソフィーのアトリエ",
     "paskill_average_top30": 15.8717,
-    "privacy": {
-      "search_user": true,
-      "qap_ranking": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
-    }
-  },
-  {
-    "public_id": "u_f9vlm1676lu4",
-    "exported_at": "2026-05-03T00:15:25+09:00",
-    "crew_id": "34285888",
-    "player_name": "ｓｕｇａｒ＃",
-    "paskill_average_top30": 15.9347,
     "privacy": {
       "search_user": true,
       "qap_ranking": true,
