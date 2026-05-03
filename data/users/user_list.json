@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_4vylcpjf0yz1",
+    "exported_at": "2026-05-04T02:04:36+09:00",
+    "crew_id": "74938759",
+    "player_name": "ｔａｎｏｔｅｋ",
+    "paskill_average_top30": 15.8379,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_f9vlm1676lu4",
     "exported_at": "2026-05-03T23:04:33+09:00",
     "crew_id": "34285888",
@@ -19,20 +33,6 @@
     "crew_id": "59509786",
     "player_name": "Ｋ７５",
     "paskill_average_top30": 12.8621,
-    "privacy": {
-      "search_user": true,
-      "qap_ranking": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
-    }
-  },
-  {
-    "public_id": "u_4vylcpjf0yz1",
-    "exported_at": "2026-05-03T17:12:07+09:00",
-    "crew_id": "74938759",
-    "player_name": "ｔａｎｏｔｅｋ",
-    "paskill_average_top30": 15.8325,
     "privacy": {
       "search_user": true,
       "qap_ranking": true,
