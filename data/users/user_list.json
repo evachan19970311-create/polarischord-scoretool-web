@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_mdc7e3ox1wtq",
+    "exported_at": "2026-05-06T20:45:10+09:00",
+    "crew_id": "17575390",
+    "player_name": "ウェンライト",
+    "paskill_average_top30": 11.4126,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_3s93ff2esdao",
     "exported_at": "2026-05-06T00:07:34+09:00",
     "crew_id": "79971038",
