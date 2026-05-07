@@ -3,153 +3,41 @@
   "crew_id": "10615451",
   "player_name": "ｓｐａｄｅ",
   "has_diff": true,
-  "updated_music_count": 9,
+  "updated_music_count": 1,
   "summary": {
     "pa_class": {
       "before": 604,
-      "after": 604
+      "after": 605
     },
     "play_count": {
-      "before": 3419,
-      "after": 3427
+      "before": 3427,
+      "after": 3433
     },
     "paskill_average_top30": {
       "before": 16.0332,
-      "after": 16.0332
+      "after": 16.0346
     }
   },
   "updated_music_list": [
     {
-      "music_id": "07366058d0bf08bacace8e56e4059d42",
-      "music_title": "Submerge Serenade",
-      "diff": "easy",
-      "level": 3,
-      "level_disp": "3",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07366058d0bf08bacace8e56e4059d42",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
+      "music_id": "8db9fbb60222f3820fed97b3a789be5d",
+      "music_title": "Baphomet",
+      "diff": "inf",
+      "level": 14,
+      "level_disp": "14",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=8db9fbb60222f3820fed97b3a789be5d",
+      "ar_before": 9973,
+      "ar_after": 9980,
+      "clear_status_before": "full",
+      "clear_status_after": "full",
       "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "07366058d0bf08bacace8e56e4059d42",
-      "music_title": "Submerge Serenade",
-      "diff": "hard",
-      "level": 11,
-      "level_disp": "11",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07366058d0bf08bacace8e56e4059d42",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "07366058d0bf08bacace8e56e4059d42",
-      "music_title": "Submerge Serenade",
-      "diff": "normal",
-      "level": 7,
-      "level_disp": "7",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07366058d0bf08bacace8e56e4059d42",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "7e441a4553aa49c97d8e3e891fe10e18",
-      "music_title": "Substance",
-      "diff": "easy",
-      "level": 3,
-      "level_disp": "3",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=7e441a4553aa49c97d8e3e891fe10e18",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "7e441a4553aa49c97d8e3e891fe10e18",
-      "music_title": "Substance",
-      "diff": "hard",
-      "level": 11,
-      "level_disp": "11+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=7e441a4553aa49c97d8e3e891fe10e18",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "7e441a4553aa49c97d8e3e891fe10e18",
-      "music_title": "Substance",
-      "diff": "normal",
-      "level": 6,
-      "level_disp": "6",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=7e441a4553aa49c97d8e3e891fe10e18",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "music_title": "TECHNOPHOBIA",
-      "diff": "easy",
-      "level": 3,
-      "level_disp": "3",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "music_title": "TECHNOPHOBIA",
-      "diff": "hard",
-      "level": 11,
-      "level_disp": "11",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "music_title": "TECHNOPHOBIA",
-      "diff": "normal",
-      "level": 7,
-      "level_disp": "7",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
+      "clear_status_changed": false
     }
   ],
-  "exported_at": "2026-05-04T15:19:33+09:00",
+  "exported_at": "2026-05-07T20:25:24+09:00",
   "is_initial": false,
-  "diff_summary": "player.play_count:3419=>3427, 07366058d0bf08bacace8e56e4059d42__easy.ar:=>10000, 07366058d0bf08bacace8e56e4059d42__easy.clear_status:=>perfect, 07366058d0bf08bacace8e56e4059d42__hard.ar:=>10000, 07366058d0bf08bacace8e56e4059d42__hard.clear_status:=>perfect, 07366058d0bf08bacace8e56e4059d42__normal.ar:=>10000, 07366058d0bf08bacace8e56e4059d42__normal.clear_status:=>perfect, 7e441a4553aa49c97d8e3e891fe10e18__easy.ar:=>10000, 7e441a4553aa49c97d8e3e891fe10e18__easy.clear_status:=>perfect, 7e441a4553aa49c97d8e3e891fe10e18__hard.ar:=>10000, 7e441a4553aa49c97d8e3e891fe10e18__hard.clear_status:=>perfect, 7e441a4553aa49c97d8e3e891fe10e18__normal.ar:=>10000, 7e441a4553aa49c97d8e3e891fe10e18__normal.clear_status:=>perfect, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__easy.ar:=>10000, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__easy.clear_status:=>perfect, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__hard.ar:=>10000, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__hard.clear_status:=>perfect, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__normal.ar:=>10000, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__normal.clear_status:=>perfect",
+  "diff_summary": "player.pa_class:604=>605, player.play_count:3427=>3433, player.paskill_average_top30:16.0332=>16.0346, 8db9fbb60222f3820fed97b3a789be5d__inf.ar:9973=>9980",
   "latest_path": "data/users/10615451.json",
-  "history_path": "data/history/10615451/2026-05-04T15-19-33plus09-00.json",
-  "saved_at": "2026-05-04T15:19:45+09:00"
+  "history_path": "data/history/10615451/2026-05-07T20-25-24plus09-00.json",
+  "saved_at": "2026-05-07T20:25:34+09:00"
 }
