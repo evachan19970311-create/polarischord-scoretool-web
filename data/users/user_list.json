@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_qvcie6yg05hx",
+    "exported_at": "2026-05-08T20:42:37+09:00",
+    "crew_id": "57544109",
+    "player_name": "ふっかつのげいにんうさぎ",
+    "paskill_average_top30": 15.7524,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_b1qgrqxgkl1g",
     "exported_at": "2026-05-08T09:59:15+09:00",
     "crew_id": "41843410",
@@ -229,20 +243,6 @@
     "crew_id": "48445845",
     "player_name": "イザヨイ",
     "paskill_average_top30": 15.7433,
-    "privacy": {
-      "search_user": true,
-      "qap_ranking": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
-    }
-  },
-  {
-    "public_id": "u_qvcie6yg05hx",
-    "exported_at": "2026-05-02T14:13:41+09:00",
-    "crew_id": "57544109",
-    "player_name": "ふっかつのげいにんうさぎ",
-    "paskill_average_top30": 15.7466,
     "privacy": {
       "search_user": true,
       "qap_ranking": true,
