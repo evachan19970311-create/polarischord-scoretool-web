@@ -3,97 +3,83 @@
   "crew_id": "79971038",
   "player_name": "あんこきじ",
   "has_diff": true,
-  "updated_music_count": 5,
+  "updated_music_count": 4,
   "summary": {
     "pa_class": {
-      "before": 306,
-      "after": 307
+      "before": 307,
+      "after": 308
     },
     "play_count": {
-      "before": 745,
-      "after": 752
+      "before": 752,
+      "after": 757
     },
     "paskill_average_top30": {
-      "before": 15.5454,
+      "before": 15.5531,
       "after": 15.5531
     }
   },
   "updated_music_list": [
     {
-      "music_id": "b92e67ede288bed526382b48ffffe398",
-      "music_title": "Dear Deer",
+      "music_id": "6fc01dcf71a43feb802292fd85203f1e",
+      "music_title": "Dream Re:CHORD",
       "diff": "inf",
-      "level": 12,
-      "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=b92e67ede288bed526382b48ffffe398",
-      "ar_before": 9993,
-      "ar_after": 9998,
+      "level": 13,
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=6fc01dcf71a43feb802292fd85203f1e",
+      "ar_before": 9907,
+      "ar_after": 9935,
       "clear_status_before": "full",
       "clear_status_after": "full",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "4aa4c322698d42617fbf42c0beb13f78",
-      "music_title": "L",
+      "music_id": "d32e78891d78c069e919c4ace5935eca",
+      "music_title": "IX",
       "diff": "inf",
       "level": 13,
       "level_disp": "13+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=4aa4c322698d42617fbf42c0beb13f78",
-      "ar_before": 9880,
-      "ar_after": 9911,
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=d32e78891d78c069e919c4ace5935eca",
+      "ar_before": 9863,
+      "ar_after": 9887,
       "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "1f37a1238b94f0dda41ee259d34d8f45",
-      "music_title": "The Burning of the Brain",
+      "music_id": "3dbfa20f2fa3ff4ec285de4dd84ce9b0",
+      "music_title": "ラキラキ",
       "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=1f37a1238b94f0dda41ee259d34d8f45",
-      "ar_before": 9955,
-      "ar_after": 9967,
-      "clear_status_before": "full",
-      "clear_status_after": "full",
+      "level": 12,
+      "level_disp": "12+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=3dbfa20f2fa3ff4ec285de4dd84ce9b0",
+      "ar_before": 9962,
+      "ar_after": 9978,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "2da467c66ac9677f430b9f892c394f04",
-      "music_title": "轟け！恋のビーンボール！！",
-      "diff": "easy",
-      "level": 4,
-      "level_disp": "4",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=2da467c66ac9677f430b9f892c394f04",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "2da467c66ac9677f430b9f892c394f04",
-      "music_title": "轟け！恋のビーンボール！！",
-      "diff": "hard",
-      "level": 10,
-      "level_disp": "10",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=2da467c66ac9677f430b9f892c394f04",
-      "ar_before": null,
-      "ar_after": 9983,
-      "clear_status_before": null,
+      "music_id": "210c291750c717c4c09a375a66794973",
+      "music_title": "心泥夢(syndrome)",
+      "diff": "inf",
+      "level": 11,
+      "level_disp": "11+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=210c291750c717c4c09a375a66794973",
+      "ar_before": 9804,
+      "ar_after": 9946,
+      "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
-      "clear_status_changed": true
+      "clear_status_changed": false
     }
   ],
-  "exported_at": "2026-05-06T00:07:34+09:00",
+  "exported_at": "2026-05-08T23:18:31+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_skill:15.54=>15.55, player.pa_class:306=>307, player.play_count:745=>752, player.paskill_average_top30:15.5454=>15.5531, b92e67ede288bed526382b48ffffe398__inf.ar:9993=>9998, 4aa4c322698d42617fbf42c0beb13f78__inf.ar:9880=>9911, 1f37a1238b94f0dda41ee259d34d8f45__inf.ar:9955=>9967, 2da467c66ac9677f430b9f892c394f04__easy.ar:=>10000, 2da467c66ac9677f430b9f892c394f04__easy.clear_status:=>perfect, 2da467c66ac9677f430b9f892c394f04__hard.ar:=>9983, 2da467c66ac9677f430b9f892c394f04__hard.clear_status:=>success",
+  "diff_summary": "player.pa_class:307=>308, player.play_count:752=>757, 6fc01dcf71a43feb802292fd85203f1e__inf.ar:9907=>9935, d32e78891d78c069e919c4ace5935eca__inf.ar:9863=>9887, 3dbfa20f2fa3ff4ec285de4dd84ce9b0__inf.ar:9962=>9978, 210c291750c717c4c09a375a66794973__inf.ar:9804=>9946",
   "latest_path": "data/users/79971038.json",
-  "history_path": "data/history/79971038/2026-05-06T00-07-34plus09-00.json",
-  "saved_at": "2026-05-06T00:07:44+09:00"
+  "history_path": "data/history/79971038/2026-05-08T23-18-31plus09-00.json",
+  "saved_at": "2026-05-08T23:19:03+09:00"
 }
