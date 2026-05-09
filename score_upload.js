@@ -136,14 +136,44 @@ window.run_score_upload = async function () {
       body: JSON.stringify(payload)
     });
 
-    if (!res.ok) {
-      throw new Error(`GAS送信に失敗しました (${res.status})`);
+    let result = null;
+
+    try {
+      result = await res.json();
+    } catch (error) {
+      throw new Error('GASからの応答を読み取れませんでした');
     }
 
-    const result = await res.json();
+    if (!res.ok) {
+      const message =
+        result?.message ||
+        result?.error?.message ||
+        result?.error ||
+        `GAS送信に失敗しました (${res.status})`;
+
+      throw new Error(message);
+    }
 
     if (!result?.ok) {
-      throw new Error(result?.error || 'GAS送信に失敗しました');
+      const code =
+        result?.code ||
+        result?.error?.code ||
+        '';
+
+      const message =
+        result?.message ||
+        result?.error?.message ||
+        result?.error ||
+        'GAS送信に失敗しました';
+
+      if (code === 'USER_BLOCKED' || result?.blocked === true) {
+        const blockedError = new Error(message);
+        blockedError.code = 'USER_BLOCKED';
+        blockedError.blocked = true;
+        throw blockedError;
+      }
+
+      throw new Error(message);
     }
 
     return result;
@@ -370,11 +400,22 @@ window.run_score_upload = async function () {
     const result = document.getElementById('loading-result');
 
     if (spinner) spinner.style.display = 'none';
-    if (text) text.textContent = 'エラーが発生しました';
+
+    const isBlocked =
+      error?.code === 'USER_BLOCKED' ||
+      error?.blocked === true ||
+      String(error?.message || '').includes('スコア登録が制限') ||
+      String(error?.message || '').includes('スコア登録を利用できません');
+
+    if (text) {
+      text.textContent = isBlocked
+        ? 'スコア登録できません'
+        : 'エラーが発生しました';
+    }
 
     if (result) {
       result.style.display = 'block';
-      result.textContent = error.message || error;
+      result.textContent = error.message || String(error);
     }
 
     window.__score_upload_running__ = false;
