@@ -1,0 +1,11 @@
+{
+  "updated_at": "2026/05/09 21:13:17",
+  "blocked": [
+    {
+      "crew_id": "32474862",
+      "reason": "テスト",
+      "blocked_at": "2026/05/09 21:13:17",
+      "blocked_by": "admin"
+    }
+  ]
+}
