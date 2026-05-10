@@ -3,83 +3,111 @@
   "crew_id": "17165708",
   "player_name": "ＳＩＮＫＡＫＵ",
   "has_diff": true,
-  "updated_music_count": 4,
+  "updated_music_count": 6,
   "summary": {
     "pa_class": {
-      "before": 153,
-      "after": 156
+      "before": 156,
+      "after": 159
     },
     "play_count": {
-      "before": 181,
-      "after": 185
+      "before": 185,
+      "after": 192
     },
     "paskill_average_top30": {
-      "before": 15.0185,
-      "after": 15.0365
+      "before": 15.0365,
+      "after": 15.0749
     }
   },
   "updated_music_list": [
     {
-      "music_id": "95d50325d32e69d43d537168fc56867b",
-      "music_title": "Elemental Creation",
+      "music_id": "d2079b2c9482474ca44a0652d5efa47e",
+      "music_title": "EBONY & IVORY",
       "diff": "inf",
       "level": 13,
       "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=95d50325d32e69d43d537168fc56867b",
-      "ar_before": 9915,
-      "ar_after": 9959,
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=d2079b2c9482474ca44a0652d5efa47e",
+      "ar_before": 9751,
+      "ar_after": 9754,
       "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "0704c0df694ec77a32972ab97e713a7a",
-      "music_title": "FRENZY HEART",
+      "music_id": "02cefd5c13937c6b4996bd6e480cd400",
+      "music_title": "Ghost Family Living In Graveyard",
       "diff": "inf",
       "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=0704c0df694ec77a32972ab97e713a7a",
-      "ar_before": 9838,
-      "ar_after": 9869,
+      "level_disp": "13+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=02cefd5c13937c6b4996bd6e480cd400",
+      "ar_before": 9359,
+      "ar_after": 9647,
+      "clear_status_before": "play",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "4aa4c322698d42617fbf42c0beb13f78",
+      "music_title": "L",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=4aa4c322698d42617fbf42c0beb13f78",
+      "ar_before": 9874,
+      "ar_after": 9901,
       "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "1cd84d84b12ad44d599786183fba712b",
-      "music_title": "QUATTUORUX",
+      "music_id": "c1d71f19e84e937cbe5f54f3e7f2d446",
+      "music_title": "RUINA",
       "diff": "inf",
       "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=1cd84d84b12ad44d599786183fba712b",
-      "ar_before": 9938,
-      "ar_after": 9953,
+      "level_disp": "13+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=c1d71f19e84e937cbe5f54f3e7f2d446",
+      "ar_before": 9623,
+      "ar_after": 9628,
       "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "1f37a1238b94f0dda41ee259d34d8f45",
-      "music_title": "The Burning of the Brain",
-      "diff": "polar",
-      "level": 14,
-      "level_disp": "14",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=1f37a1238b94f0dda41ee259d34d8f45",
-      "ar_before": 9621,
-      "ar_after": 9664,
+      "music_id": "1ed2e6d3ee07c77a06c14bb4672e2377",
+      "music_title": "conflict",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=1ed2e6d3ee07c77a06c14bb4672e2377",
+      "ar_before": 9594,
+      "ar_after": 9718,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "7d27a236e900996cc26a39a2815a7893",
+      "music_title": "極圏",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=7d27a236e900996cc26a39a2815a7893",
+      "ar_before": 9766,
+      "ar_after": 9946,
       "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     }
   ],
-  "exported_at": "2026-05-10T15:18:09+09:00",
+  "exported_at": "2026-05-10T19:03:21+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_skill:15.01=>15.03, player.pa_class:153=>156, player.play_count:181=>185, player.paskill_average_top30:15.0185=>15.0365, 95d50325d32e69d43d537168fc56867b__inf.ar:9915=>9959, 0704c0df694ec77a32972ab97e713a7a__inf.ar:9838=>9869, 1cd84d84b12ad44d599786183fba712b__inf.ar:9938=>9953, 1f37a1238b94f0dda41ee259d34d8f45__polar.ar:9621=>9664",
+  "diff_summary": "player.pa_skill:15.03=>15.07, player.pa_class:156=>159, player.play_count:185=>192, player.paskill_average_top30:15.0365=>15.0749, d2079b2c9482474ca44a0652d5efa47e__inf.ar:9751=>9754, 02cefd5c13937c6b4996bd6e480cd400__inf.ar:9359=>9647, 02cefd5c13937c6b4996bd6e480cd400__inf.clear_status:play=>success, 4aa4c322698d42617fbf42c0beb13f78__inf.ar:9874=>9901, c1d71f19e84e937cbe5f54f3e7f2d446__inf.ar:9623=>9628, 1ed2e6d3ee07c77a06c14bb4672e2377__inf.ar:9594=>9718, 7d27a236e900996cc26a39a2815a7893__inf.ar:9766=>9946",
   "latest_path": "data/users/17165708.json",
-  "history_path": "data/history/17165708/2026-05-10T15-18-09plus09-00.json",
-  "saved_at": "2026-05-10T15:18:21+09:00"
+  "history_path": "data/history/17165708/2026-05-10T19-03-21plus09-00.json",
+  "saved_at": "2026-05-10T19:03:30+09:00"
 }
