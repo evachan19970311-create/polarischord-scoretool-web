@@ -3,97 +3,83 @@
   "crew_id": "58589531",
   "player_name": "ラリー",
   "has_diff": true,
-  "updated_music_count": 5,
+  "updated_music_count": 4,
   "summary": {
     "pa_class": {
-      "before": 275,
-      "after": 276
+      "before": 276,
+      "after": 277
     },
     "play_count": {
-      "before": 524,
-      "after": 528
+      "before": 528,
+      "after": 532
     },
     "paskill_average_top30": {
-      "before": 15.8447,
+      "before": 15.8517,
       "after": 15.8517
     }
   },
   "updated_music_list": [
     {
-      "music_id": "8db9fbb60222f3820fed97b3a789be5d",
-      "music_title": "Baphomet",
+      "music_id": "17c54ec1ad0166019337b8438aa6f452",
+      "music_title": "Bad Apple!! feat. nomico",
       "diff": "inf",
-      "level": 14,
-      "level_disp": "14",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=8db9fbb60222f3820fed97b3a789be5d",
-      "ar_before": 9910,
-      "ar_after": 9928,
-      "clear_status_before": "success",
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "e7c892484cd912e8ec7264609c9ba247",
-      "music_title": "N3XTAGE",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=e7c892484cd912e8ec7264609c9ba247",
-      "ar_before": 9936,
-      "ar_after": 9978,
-      "clear_status_before": "success",
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "7e441a4553aa49c97d8e3e891fe10e18",
-      "music_title": "Substance",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=7e441a4553aa49c97d8e3e891fe10e18",
-      "ar_before": 9814,
-      "ar_after": 9901,
-      "clear_status_before": "success",
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "music_title": "TECHNOPHOBIA",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "ar_before": 9973,
-      "ar_after": 9978,
-      "clear_status_before": "success",
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "565889653c6688f2b31d447a9ae6559f",
-      "music_title": "チルノのパーフェクトさんすう学園【ビートまりお】",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=565889653c6688f2b31d447a9ae6559f",
-      "ar_before": null,
+      "level": 11,
+      "level_disp": "11+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=17c54ec1ad0166019337b8438aa6f452",
+      "ar_before": 9998,
       "ar_after": 10000,
-      "clear_status_before": null,
+      "clear_status_before": "full",
       "clear_status_after": "perfect",
       "ar_changed": true,
       "clear_status_changed": true
+    },
+    {
+      "music_id": "056012a74b20d1230da1f2ac8bb905cb",
+      "music_title": "Help me, ERINNNNNN!!",
+      "diff": "inf",
+      "level": 11,
+      "level_disp": "11+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=056012a74b20d1230da1f2ac8bb905cb",
+      "ar_before": 9998,
+      "ar_after": 10000,
+      "clear_status_before": "full",
+      "clear_status_after": "perfect",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "3afcb502c67344196f8030d24849161f",
+      "music_title": "弾幕信仰",
+      "diff": "inf",
+      "level": 12,
+      "level_disp": "12",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=3afcb502c67344196f8030d24849161f",
+      "ar_before": 9992,
+      "ar_after": 9995,
+      "clear_status_before": "full",
+      "clear_status_after": "full",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "e041bbb2ce76dabf64bfafa39fa9a5dc",
+      "music_title": "星界のアルペジオ",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=e041bbb2ce76dabf64bfafa39fa9a5dc",
+      "ar_before": 9976,
+      "ar_after": 9983,
+      "clear_status_before": "full",
+      "clear_status_after": "full",
+      "ar_changed": true,
+      "clear_status_changed": false
     }
   ],
-  "exported_at": "2026-04-30T13:15:30+09:00",
+  "exported_at": "2026-05-10T19:57:14+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_skill:15.84=>15.85, player.pa_class:275=>276, player.play_count:524=>528, player.paskill_average_top30:15.8447=>15.8517, 8db9fbb60222f3820fed97b3a789be5d__inf.ar:9910=>9928, e7c892484cd912e8ec7264609c9ba247__inf.ar:9936=>9978, 7e441a4553aa49c97d8e3e891fe10e18__inf.ar:9814=>9901, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__inf.ar:9973=>9978, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__inf.clear_status:success=>full, 565889653c6688f2b31d447a9ae6559f__inf.ar:=>10000, 565889653c6688f2b31d447a9ae6559f__inf.clear_status:=>perfect",
+  "diff_summary": "player.pa_class:276=>277, player.play_count:528=>532, 17c54ec1ad0166019337b8438aa6f452__inf.ar:9998=>10000, 17c54ec1ad0166019337b8438aa6f452__inf.clear_status:full=>perfect, 056012a74b20d1230da1f2ac8bb905cb__inf.ar:9998=>10000, 056012a74b20d1230da1f2ac8bb905cb__inf.clear_status:full=>perfect, 3afcb502c67344196f8030d24849161f__inf.ar:9992=>9995, e041bbb2ce76dabf64bfafa39fa9a5dc__inf.ar:9976=>9983",
   "latest_path": "data/users/58589531.json",
-  "history_path": "data/history/58589531/2026-04-30T13-15-30plus09-00.json",
-  "saved_at": "2026-04-30T13:15:36+09:00"
+  "history_path": "data/history/58589531/2026-05-10T19-57-14plus09-00.json",
+  "saved_at": "2026-05-10T19:57:23+09:00"
 }
