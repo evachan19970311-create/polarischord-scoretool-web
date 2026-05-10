@@ -3,33 +3,47 @@
   "crew_id": "26515538",
   "player_name": "セメント",
   "has_diff": true,
-  "updated_music_count": 5,
+  "updated_music_count": 7,
   "summary": {
     "pa_class": {
-      "before": 377,
-      "after": 378
+      "before": 378,
+      "after": 379
     },
     "play_count": {
-      "before": 1058,
-      "after": 1066
+      "before": 1066,
+      "after": 1076
     },
     "paskill_average_top30": {
       "before": 15.5273,
-      "after": 15.5273
+      "after": 15.5275
     }
   },
   "updated_music_list": [
     {
-      "music_id": "a347eb70969f50b3a29b26dae9dfed86",
-      "music_title": "Citrus Burst",
+      "music_id": "1f7a0fd828a0e31c30299acacc519749",
+      "music_title": "555 (Please call me “Go! Go! Go!”)",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=1f7a0fd828a0e31c30299acacc519749",
+      "ar_before": 9951,
+      "ar_after": 9952,
+      "clear_status_before": "full",
+      "clear_status_after": "full",
+      "ar_changed": true,
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "ba23af16c77f5bc742908beef4f9b5db",
+      "music_title": "Engraved Mark",
       "diff": "inf",
       "level": 12,
-      "level_disp": "12",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=a347eb70969f50b3a29b26dae9dfed86",
-      "ar_before": 9960,
-      "ar_after": 9965,
-      "clear_status_before": "success",
-      "clear_status_after": "success",
+      "level_disp": "12+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=ba23af16c77f5bc742908beef4f9b5db",
+      "ar_before": 9962,
+      "ar_after": 9980,
+      "clear_status_before": "full",
+      "clear_status_after": "full",
       "ar_changed": true,
       "clear_status_changed": false
     },
@@ -40,60 +54,74 @@
       "level": 12,
       "level_disp": "12",
       "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=6318c90cd37f636f389b3873d7d2a76d",
-      "ar_before": 9960,
+      "ar_before": 9963,
       "ar_after": 9963,
+      "clear_status_before": "success",
+      "clear_status_after": "full",
+      "ar_changed": false,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "b28055aa19e02e24c0f4f1495cdd1d88",
+      "music_title": "Saiph",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=b28055aa19e02e24c0f4f1495cdd1d88",
+      "ar_before": 9807,
+      "ar_after": 9823,
       "clear_status_before": "success",
       "clear_status_after": "success",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "07366058d0bf08bacace8e56e4059d42",
-      "music_title": "Submerge Serenade",
+      "music_id": "eb1d4dc9fc4672d4d32c10fa15ba9850",
+      "music_title": "めうめうぺったんたん！！",
       "diff": "inf",
       "level": 12,
-      "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07366058d0bf08bacace8e56e4059d42",
-      "ar_before": 9911,
-      "ar_after": 9920,
+      "level_disp": "12",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=eb1d4dc9fc4672d4d32c10fa15ba9850",
+      "ar_before": 9998,
+      "ar_after": 10000,
+      "clear_status_before": "full",
+      "clear_status_after": "perfect",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "dd751b1622032ff550b493d1642e0f2f",
+      "music_title": "メズマライザー",
+      "diff": "inf",
+      "level": 12,
+      "level_disp": "12",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=dd751b1622032ff550b493d1642e0f2f",
+      "ar_before": 9966,
+      "ar_after": 9975,
       "clear_status_before": "full",
       "clear_status_after": "full",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "7e441a4553aa49c97d8e3e891fe10e18",
-      "music_title": "Substance",
+      "music_id": "622e1fd473e43377fa125a450fb5d928",
+      "music_title": "隅田川夏恋歌 (珠村日乃和 Cover)",
       "diff": "inf",
       "level": 12,
       "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=7e441a4553aa49c97d8e3e891fe10e18",
-      "ar_before": 9884,
-      "ar_after": 9913,
-      "clear_status_before": "full",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=622e1fd473e43377fa125a450fb5d928",
+      "ar_before": 9965,
+      "ar_after": 9969,
+      "clear_status_before": "success",
       "clear_status_after": "full",
       "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "15253f66586a620f780968beee5577d9",
-      "music_title": "while (screen is blue)",
-      "diff": "hard",
-      "level": 12,
-      "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=15253f66586a620f780968beee5577d9",
-      "ar_before": 9955,
-      "ar_after": 9966,
-      "clear_status_before": "full",
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": false
+      "clear_status_changed": true
     }
   ],
-  "exported_at": "2026-05-09T20:55:34+09:00",
+  "exported_at": "2026-05-10T15:17:53+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_class:377=>378, player.play_count:1058=>1066, a347eb70969f50b3a29b26dae9dfed86__inf.ar:9960=>9965, 6318c90cd37f636f389b3873d7d2a76d__inf.ar:9960=>9963, 07366058d0bf08bacace8e56e4059d42__inf.ar:9911=>9920, 7e441a4553aa49c97d8e3e891fe10e18__inf.ar:9884=>9913, 15253f66586a620f780968beee5577d9__hard.ar:9955=>9966",
+  "diff_summary": "player.pa_class:378=>379, player.play_count:1066=>1076, player.paskill_average_top30:15.5273=>15.5275, 1f7a0fd828a0e31c30299acacc519749__inf.ar:9951=>9952, ba23af16c77f5bc742908beef4f9b5db__inf.ar:9962=>9980, 6318c90cd37f636f389b3873d7d2a76d__inf.clear_status:success=>full, b28055aa19e02e24c0f4f1495cdd1d88__inf.ar:9807=>9823, eb1d4dc9fc4672d4d32c10fa15ba9850__inf.ar:9998=>10000, eb1d4dc9fc4672d4d32c10fa15ba9850__inf.clear_status:full=>perfect, dd751b1622032ff550b493d1642e0f2f__inf.ar:9966=>9975, 622e1fd473e43377fa125a450fb5d928__inf.ar:9965=>9969, 622e1fd473e43377fa125a450fb5d928__inf.clear_status:success=>full",
   "latest_path": "data/users/26515538.json",
-  "history_path": "data/history/26515538/2026-05-09T20-55-34plus09-00.json",
-  "saved_at": "2026-05-09T20:55:42+09:00"
+  "history_path": "data/history/26515538/2026-05-10T15-17-53plus09-00.json",
+  "saved_at": "2026-05-10T15:18:08+09:00"
 }
