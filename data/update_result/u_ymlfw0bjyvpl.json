@@ -6,52 +6,52 @@
   "updated_music_count": 2,
   "summary": {
     "pa_class": {
-      "before": 284,
-      "after": 285
+      "before": 285,
+      "after": 287
     },
     "play_count": {
-      "before": 618,
-      "after": 623
+      "before": 623,
+      "after": 634
     },
     "paskill_average_top30": {
-      "before": 15.9455,
-      "after": 15.9467
+      "before": 15.9467,
+      "after": 15.9471
     }
   },
   "updated_music_list": [
     {
-      "music_id": "d5bea9875e7f91f61b13f3d1d75be17c",
-      "music_title": "Evans",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=d5bea9875e7f91f61b13f3d1d75be17c",
-      "ar_before": 9992,
-      "ar_after": 9998,
-      "clear_status_before": "full",
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "565889653c6688f2b31d447a9ae6559f",
-      "music_title": "チルノのパーフェクトさんすう学園【ビートまりお】",
-      "diff": "inf",
+      "music_id": "ea3426c59d0d18578c723f9d2f402cc5",
+      "music_title": "神威",
+      "diff": "hard",
       "level": 12,
       "level_disp": "12",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=565889653c6688f2b31d447a9ae6559f",
-      "ar_before": null,
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=ea3426c59d0d18578c723f9d2f402cc5",
+      "ar_before": 9970,
       "ar_after": 10000,
-      "clear_status_before": null,
+      "clear_status_before": "success",
+      "clear_status_after": "perfect",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "ea3426c59d0d18578c723f9d2f402cc5",
+      "music_title": "神威",
+      "diff": "inf",
+      "level": 13,
+      "level_disp": "13+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=ea3426c59d0d18578c723f9d2f402cc5",
+      "ar_before": 9998,
+      "ar_after": 10000,
+      "clear_status_before": "full",
       "clear_status_after": "perfect",
       "ar_changed": true,
       "clear_status_changed": true
     }
   ],
-  "exported_at": "2026-05-02T22:13:09+09:00",
+  "exported_at": "2026-05-11T01:32:21+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_class:284=>285, player.play_count:618=>623, player.paskill_average_top30:15.9455=>15.9467, d5bea9875e7f91f61b13f3d1d75be17c__inf.ar:9992=>9998, 565889653c6688f2b31d447a9ae6559f__inf.ar:=>10000, 565889653c6688f2b31d447a9ae6559f__inf.clear_status:=>perfect",
+  "diff_summary": "player.pa_class:285=>287, player.play_count:623=>634, player.paskill_average_top30:15.9467=>15.9471, ea3426c59d0d18578c723f9d2f402cc5__hard.ar:9970=>10000, ea3426c59d0d18578c723f9d2f402cc5__hard.clear_status:success=>perfect, ea3426c59d0d18578c723f9d2f402cc5__inf.ar:9998=>10000, ea3426c59d0d18578c723f9d2f402cc5__inf.clear_status:full=>perfect",
   "latest_path": "data/users/27445838.json",
-  "history_path": "data/history/27445838/2026-05-02T22-13-09plus09-00.json",
-  "saved_at": "2026-05-02T22:13:18+09:00"
+  "history_path": "data/history/27445838/2026-05-11T01-32-21plus09-00.json",
+  "saved_at": "2026-05-11T01:32:33+09:00"
 }
