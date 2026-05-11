@@ -2,15 +2,15 @@
   "public_id": "u_lmmikpley2mq",
   "crew_id": "72244774",
   "player_name": "でぃばにけ",
-  "has_diff": true,
-  "updated_music_count": 3,
+  "has_diff": false,
+  "updated_music_count": 0,
   "summary": {
     "pa_class": {
       "before": 624,
       "after": 624
     },
     "play_count": {
-      "before": 3756,
+      "before": 3758,
       "after": 3758
     },
     "paskill_average_top30": {
@@ -18,54 +18,11 @@
       "after": 15.9672
     }
   },
-  "updated_music_list": [
-    {
-      "music_id": "66d7d4cfec46f98c84bfc32c416c6198",
-      "music_title": "Eclipsed Wings",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=66d7d4cfec46f98c84bfc32c416c6198",
-      "ar_before": 9993,
-      "ar_after": 9995,
-      "clear_status_before": "full",
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "ed26b03d9327abae03430cfeb41ce1f5",
-      "music_title": "Old Heaven",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=ed26b03d9327abae03430cfeb41ce1f5",
-      "ar_before": 9996,
-      "ar_after": 10000,
-      "clear_status_before": "full",
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "7e441a4553aa49c97d8e3e891fe10e18",
-      "music_title": "Substance",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=7e441a4553aa49c97d8e3e891fe10e18",
-      "ar_before": 9743,
-      "ar_after": 9856,
-      "clear_status_before": "success",
-      "clear_status_after": "success",
-      "ar_changed": true,
-      "clear_status_changed": false
-    }
-  ],
-  "exported_at": "2026-05-11T16:03:32+09:00",
+  "updated_music_list": [],
+  "exported_at": "2026-05-11T16:04:20+09:00",
   "is_initial": false,
-  "diff_summary": "player.play_count:3756=>3758, 66d7d4cfec46f98c84bfc32c416c6198__inf.ar:9993=>9995, ed26b03d9327abae03430cfeb41ce1f5__inf.ar:9996=>10000, ed26b03d9327abae03430cfeb41ce1f5__inf.clear_status:full=>perfect, 7e441a4553aa49c97d8e3e891fe10e18__inf.ar:9743=>9856",
+  "diff_summary": "no_change",
   "latest_path": "data/users/72244774.json",
-  "history_path": "data/history/72244774/2026-05-11T16-03-32plus09-00.json",
-  "saved_at": "2026-05-11T16:03:47+09:00"
+  "history_path": "",
+  "saved_at": "2026-05-11T16:04:28+09:00"
 }
