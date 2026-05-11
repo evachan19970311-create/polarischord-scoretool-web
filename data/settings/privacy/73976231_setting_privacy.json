@@ -1,7 +1,7 @@
 {
   "crew_id": "73976231",
-  "updated_at": "2026-05-11T21:04:49+09:00",
-  "updated_by": "bookmarklet",
+  "updated_at": "2026-05-11T21:13:30+09:00",
+  "updated_by": "site",
   "data_public": {
     "crew_id": true,
     "player_name": true,
@@ -9,7 +9,7 @@
     "paskill": true
   },
   "permissions": {
-    "qap_ranking": true,
-    "search_user": true
+    "qap_ranking": false,
+    "search_user": false
   }
 }
