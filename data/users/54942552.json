@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "bookmarklet",
-  "exported_at": "2026-05-11T21:07:55+09:00",
+  "exported_at": "2026-05-11T21:27:05+09:00",
   "public_id": "u_61c0roklixd9",
   "player": {
     "crew_id": "54942552",
@@ -9,8 +9,8 @@
     "title_name": "Nobody knows LOVE！！！",
     "pa_skill": 15.99,
     "pa_class": 531,
-    "play_count": 2923,
-    "paskill_average_top30": 15.9982
+    "play_count": 2924,
+    "paskill_average_top30": 15.9986
   },
   "music": [
     {
@@ -5788,7 +5788,7 @@
           "full_combo_count": 3,
           "clear_count": 78,
           "updated_at": "2026-04-01 19:41:24",
-          "nice_play_rank": 10,
+          "nice_play_rank": 11,
           "music_const": 13.8,
           "paskill": 16.076
         }
@@ -29529,20 +29529,20 @@
           "diff": "inf",
           "level": 14,
           "level_disp": "14",
-          "ar": 9962,
+          "ar": 9964,
           "clear_status": "full",
-          "high_score": 1462295,
+          "high_score": 1463116,
           "maxcombo": 1745,
           "combo_rank": 8,
           "score_rank": 8,
-          "play_count": 53,
+          "play_count": 56,
           "perfect_clear_count": 0,
-          "full_combo_count": 1,
-          "clear_count": 53,
-          "updated_at": "2026-05-11 20:42:56",
-          "nice_play_rank": 12,
+          "full_combo_count": 2,
+          "clear_count": 56,
+          "updated_at": "2026-05-11 21:26:38",
+          "nice_play_rank": 10,
           "music_const": 14,
-          "paskill": 16.072
+          "paskill": 16.084
         }
       ]
     },
@@ -30804,7 +30804,7 @@
           "full_combo_count": 4,
           "clear_count": 53,
           "updated_at": "2026-04-18 16:09:10",
-          "nice_play_rank": 11,
+          "nice_play_rank": 12,
           "music_const": 13.9,
           "paskill": 16.074
         }
