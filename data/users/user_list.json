@@ -62,10 +62,10 @@
     "player_name": "ＡＫＡ",
     "paskill_average_top30": 15.5289,
     "privacy": {
-      "search_user": false,
+      "search_user": true,
       "qap_ranking": false,
-      "player_name": false,
-      "crew_id": false,
+      "player_name": true,
+      "crew_id": true,
       "paskill": true
     }
   },
