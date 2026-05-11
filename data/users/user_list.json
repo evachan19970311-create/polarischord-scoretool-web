@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_9qjwavvcv0av",
+    "exported_at": "2026-05-11T21:04:38+09:00",
+    "crew_id": "73976231",
+    "player_name": "ＮＡＯ★１９７０",
+    "paskill_average_top30": 13.8157,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_hhtosxjzarfv",
     "exported_at": "2026-05-11T20:43:10+09:00",
     "crew_id": "18798738",
