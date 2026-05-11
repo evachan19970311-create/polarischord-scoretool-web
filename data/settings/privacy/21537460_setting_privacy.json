@@ -1,6 +1,6 @@
 {
   "crew_id": "21537460",
-  "updated_at": "2026-05-12T08:17:06+09:00",
+  "updated_at": "2026-05-12T08:17:29+09:00",
   "updated_by": "site",
   "data_public": {
     "crew_id": true,
@@ -10,6 +10,6 @@
   },
   "permissions": {
     "qap_ranking": false,
-    "search_user": false
+    "search_user": true
   }
 }
