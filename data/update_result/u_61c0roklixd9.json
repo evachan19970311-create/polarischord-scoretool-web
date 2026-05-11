@@ -3,41 +3,26 @@
   "crew_id": "54942552",
   "player_name": "ーｓｑｕａｔｃｈー",
   "has_diff": true,
-  "updated_music_count": 1,
+  "updated_music_count": 0,
   "summary": {
     "pa_class": {
       "before": 531,
       "after": 531
     },
     "play_count": {
-      "before": 2923,
-      "after": 2924
+      "before": 2924,
+      "after": 2926
     },
     "paskill_average_top30": {
-      "before": 15.9982,
+      "before": 15.9986,
       "after": 15.9986
     }
   },
-  "updated_music_list": [
-    {
-      "music_id": "205085b76a507952bf3110d16cb740a1",
-      "music_title": "neu",
-      "diff": "inf",
-      "level": 14,
-      "level_disp": "14",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=205085b76a507952bf3110d16cb740a1",
-      "ar_before": 9962,
-      "ar_after": 9964,
-      "clear_status_before": "full",
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": false
-    }
-  ],
-  "exported_at": "2026-05-11T21:27:05+09:00",
+  "updated_music_list": [],
+  "exported_at": "2026-05-11T21:47:04+09:00",
   "is_initial": false,
-  "diff_summary": "player.play_count:2923=>2924, player.paskill_average_top30:15.9982=>15.9986, 205085b76a507952bf3110d16cb740a1__inf.ar:9962=>9964",
+  "diff_summary": "player.play_count:2924=>2926",
   "latest_path": "data/users/54942552.json",
-  "history_path": "data/history/54942552/2026-05-11T21-27-05plus09-00.json",
-  "saved_at": "2026-05-11T21:27:17+09:00"
+  "history_path": "data/history/54942552/2026-05-11T21-47-04plus09-00.json",
+  "saved_at": "2026-05-11T21:47:14+09:00"
 }
