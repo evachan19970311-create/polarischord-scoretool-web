@@ -3,55 +3,69 @@
   "crew_id": "34229664",
   "player_name": "ＫＴ！？！",
   "has_diff": true,
-  "updated_music_count": 2,
+  "updated_music_count": 3,
   "summary": {
     "pa_class": {
-      "before": 489,
-      "after": 490
+      "before": 490,
+      "after": 491
     },
     "play_count": {
-      "before": 2363,
-      "after": 2381
+      "before": 2381,
+      "after": 2391
     },
     "paskill_average_top30": {
       "before": 15.9308,
-      "after": 15.9308
+      "after": 15.9325
     }
   },
   "updated_music_list": [
     {
-      "music_id": "7e441a4553aa49c97d8e3e891fe10e18",
-      "music_title": "Substance",
+      "music_id": "ed26b03d9327abae03430cfeb41ce1f5",
+      "music_title": "Old Heaven",
       "diff": "inf",
       "level": 12,
       "level_disp": "12+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=7e441a4553aa49c97d8e3e891fe10e18",
-      "ar_before": 9916,
-      "ar_after": 9924,
-      "clear_status_before": "success",
-      "clear_status_after": "success",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=ed26b03d9327abae03430cfeb41ce1f5",
+      "ar_before": 9984,
+      "ar_after": 9994,
+      "clear_status_before": "full",
+      "clear_status_after": "full",
       "ar_changed": true,
       "clear_status_changed": false
     },
     {
-      "music_id": "565889653c6688f2b31d447a9ae6559f",
-      "music_title": "チルノのパーフェクトさんすう学園【ビートまりお】",
+      "music_id": "07cad8022f54ac4ac7f1cd4f0e7ae7c1",
+      "music_title": "TECHNOPHOBIA",
       "diff": "inf",
-      "level": 12,
-      "level_disp": "12",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=565889653c6688f2b31d447a9ae6559f",
-      "ar_before": null,
-      "ar_after": 10000,
-      "clear_status_before": null,
-      "clear_status_after": "perfect",
+      "level": 13,
+      "level_disp": "13",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07cad8022f54ac4ac7f1cd4f0e7ae7c1",
+      "ar_before": 9953,
+      "ar_after": 9964,
+      "clear_status_before": "full",
+      "clear_status_after": "full",
       "ar_changed": true,
-      "clear_status_changed": true
+      "clear_status_changed": false
+    },
+    {
+      "music_id": "0a9507336a68c90bb187ec43b2a11df3",
+      "music_title": "Λkasha",
+      "diff": "inf",
+      "level": 14,
+      "level_disp": "14",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=0a9507336a68c90bb187ec43b2a11df3",
+      "ar_before": 9945,
+      "ar_after": 9950,
+      "clear_status_before": "success",
+      "clear_status_after": "success",
+      "ar_changed": true,
+      "clear_status_changed": false
     }
   ],
-  "exported_at": "2026-05-11T15:55:30+09:00",
+  "exported_at": "2026-05-11T21:53:57+09:00",
   "is_initial": false,
-  "diff_summary": "player.player_name:ありまかな=>ＫＴ！？！, player.title_name:アイドル LOVE！！！=>綿間瀬 わたこ 極, player.pa_class:489=>490, player.play_count:2363=>2381, 7e441a4553aa49c97d8e3e891fe10e18__inf.ar:9916=>9924, 565889653c6688f2b31d447a9ae6559f__inf.ar:=>10000, 565889653c6688f2b31d447a9ae6559f__inf.clear_status:=>perfect",
+  "diff_summary": "player.pa_class:490=>491, player.play_count:2381=>2391, player.paskill_average_top30:15.9308=>15.9325, ed26b03d9327abae03430cfeb41ce1f5__inf.ar:9984=>9994, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__inf.ar:9953=>9964, 0a9507336a68c90bb187ec43b2a11df3__inf.ar:9945=>9950",
   "latest_path": "data/users/34229664.json",
-  "history_path": "data/history/34229664/2026-05-11T15-55-30plus09-00.json",
-  "saved_at": "2026-05-11T15:55:42+09:00"
+  "history_path": "data/history/34229664/2026-05-11T21-53-57plus09-00.json",
+  "saved_at": "2026-05-11T21:54:07+09:00"
 }
