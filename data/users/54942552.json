@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "bookmarklet",
-  "exported_at": "2026-05-11T21:27:05+09:00",
+  "exported_at": "2026-05-11T21:47:04+09:00",
   "public_id": "u_61c0roklixd9",
   "player": {
     "crew_id": "54942552",
@@ -9,7 +9,7 @@
     "title_name": "Nobody knows LOVE！！！",
     "pa_skill": 15.99,
     "pa_class": 531,
-    "play_count": 2924,
+    "play_count": 2926,
     "paskill_average_top30": 15.9986
   },
   "music": [
@@ -29535,11 +29535,11 @@
           "maxcombo": 1745,
           "combo_rank": 8,
           "score_rank": 8,
-          "play_count": 56,
+          "play_count": 57,
           "perfect_clear_count": 0,
           "full_combo_count": 2,
-          "clear_count": 56,
-          "updated_at": "2026-05-11 21:26:38",
+          "clear_count": 57,
+          "updated_at": "2026-05-11 21:44:17",
           "nice_play_rank": 10,
           "music_const": 14,
           "paskill": 16.084
