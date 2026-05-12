@@ -2,70 +2,27 @@
   "public_id": "u_prt37qsemy06",
   "crew_id": "52519131",
   "player_name": "くぜあいりす",
-  "has_diff": true,
-  "updated_music_count": 3,
+  "has_diff": false,
+  "updated_music_count": 0,
   "summary": {
     "pa_class": {
-      "before": 451,
+      "before": 454,
       "after": 454
     },
     "play_count": {
-      "before": 1765,
+      "before": 1787,
       "after": 1787
     },
     "paskill_average_top30": {
-      "before": 16.0181,
+      "before": 16.0223,
       "after": 16.0223
     }
   },
-  "updated_music_list": [
-    {
-      "music_id": "c1d71f19e84e937cbe5f54f3e7f2d446",
-      "music_title": "RUINA",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13+",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=c1d71f19e84e937cbe5f54f3e7f2d446",
-      "ar_before": 9958,
-      "ar_after": 9973,
-      "clear_status_before": "full",
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": false
-    },
-    {
-      "music_id": "07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "music_title": "TECHNOPHOBIA",
-      "diff": "inf",
-      "level": 13,
-      "level_disp": "13",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=07cad8022f54ac4ac7f1cd4f0e7ae7c1",
-      "ar_before": 9978,
-      "ar_after": 9984,
-      "clear_status_before": "success",
-      "clear_status_after": "full",
-      "ar_changed": true,
-      "clear_status_changed": true
-    },
-    {
-      "music_id": "565889653c6688f2b31d447a9ae6559f",
-      "music_title": "チルノのパーフェクトさんすう学園【ビートまりお】",
-      "diff": "inf",
-      "level": 12,
-      "level_disp": "12",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=565889653c6688f2b31d447a9ae6559f",
-      "ar_before": 9978,
-      "ar_after": 10000,
-      "clear_status_before": "full",
-      "clear_status_after": "perfect",
-      "ar_changed": true,
-      "clear_status_changed": true
-    }
-  ],
-  "exported_at": "2026-05-10T10:55:15+09:00",
+  "updated_music_list": [],
+  "exported_at": "2026-05-12T11:50:19+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_skill:16.01=>16.02, player.pa_class:451=>454, player.play_count:1765=>1787, player.paskill_average_top30:16.0181=>16.0223, c1d71f19e84e937cbe5f54f3e7f2d446__inf.ar:9958=>9973, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__inf.ar:9978=>9984, 07cad8022f54ac4ac7f1cd4f0e7ae7c1__inf.clear_status:success=>full, 565889653c6688f2b31d447a9ae6559f__inf.ar:9978=>10000, 565889653c6688f2b31d447a9ae6559f__inf.clear_status:full=>perfect",
+  "diff_summary": "no_change",
   "latest_path": "data/users/52519131.json",
-  "history_path": "data/history/52519131/2026-05-10T10-55-15plus09-00.json",
-  "saved_at": "2026-05-10T10:55:25+09:00"
+  "history_path": "",
+  "saved_at": "2026-05-12T11:50:29+09:00"
 }
