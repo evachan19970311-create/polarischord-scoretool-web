@@ -3,41 +3,111 @@
   "crew_id": "10615451",
   "player_name": "ｓｐａｄｅ",
   "has_diff": true,
-  "updated_music_count": 1,
+  "updated_music_count": 6,
   "summary": {
     "pa_class": {
-      "before": 604,
-      "after": 605
+      "before": 605,
+      "after": 606
     },
     "play_count": {
-      "before": 3427,
-      "after": 3433
+      "before": 3433,
+      "after": 3453
     },
     "paskill_average_top30": {
-      "before": 16.0332,
+      "before": 16.0346,
       "after": 16.0346
     }
   },
   "updated_music_list": [
     {
-      "music_id": "8db9fbb60222f3820fed97b3a789be5d",
-      "music_title": "Baphomet",
-      "diff": "inf",
-      "level": 14,
-      "level_disp": "14",
-      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=8db9fbb60222f3820fed97b3a789be5d",
-      "ar_before": 9973,
-      "ar_after": 9980,
-      "clear_status_before": "full",
-      "clear_status_after": "full",
+      "music_id": "565889653c6688f2b31d447a9ae6559f",
+      "music_title": "チルノのパーフェクトさんすう学園【ビートまりお】",
+      "diff": "easy",
+      "level": 2,
+      "level_disp": "2",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=565889653c6688f2b31d447a9ae6559f",
+      "ar_before": null,
+      "ar_after": 10000,
+      "clear_status_before": null,
+      "clear_status_after": "perfect",
       "ar_changed": true,
-      "clear_status_changed": false
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "565889653c6688f2b31d447a9ae6559f",
+      "music_title": "チルノのパーフェクトさんすう学園【ビートまりお】",
+      "diff": "hard",
+      "level": 10,
+      "level_disp": "10+",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=565889653c6688f2b31d447a9ae6559f",
+      "ar_before": null,
+      "ar_after": 10000,
+      "clear_status_before": null,
+      "clear_status_after": "perfect",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "565889653c6688f2b31d447a9ae6559f",
+      "music_title": "チルノのパーフェクトさんすう学園【ビートまりお】",
+      "diff": "normal",
+      "level": 7,
+      "level_disp": "7",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=565889653c6688f2b31d447a9ae6559f",
+      "ar_before": null,
+      "ar_after": 10000,
+      "clear_status_before": null,
+      "clear_status_after": "perfect",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "915b6d4d1f4645ee89494de4937e8dad",
+      "music_title": "チルノのパーフェクトさんすう学園【初音ミク】",
+      "diff": "easy",
+      "level": 1,
+      "level_disp": "1",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=915b6d4d1f4645ee89494de4937e8dad",
+      "ar_before": null,
+      "ar_after": 10000,
+      "clear_status_before": null,
+      "clear_status_after": "perfect",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "915b6d4d1f4645ee89494de4937e8dad",
+      "music_title": "チルノのパーフェクトさんすう学園【初音ミク】",
+      "diff": "hard",
+      "level": 7,
+      "level_disp": "7",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=915b6d4d1f4645ee89494de4937e8dad",
+      "ar_before": null,
+      "ar_after": 10000,
+      "clear_status_before": null,
+      "clear_status_after": "perfect",
+      "ar_changed": true,
+      "clear_status_changed": true
+    },
+    {
+      "music_id": "915b6d4d1f4645ee89494de4937e8dad",
+      "music_title": "チルノのパーフェクトさんすう学園【初音ミク】",
+      "diff": "normal",
+      "level": 5,
+      "level_disp": "5",
+      "jacket_url": "https://p.eagate.573.jp/game/polarischord/pc/img/music/jacket.html?c=915b6d4d1f4645ee89494de4937e8dad",
+      "ar_before": null,
+      "ar_after": 10000,
+      "clear_status_before": null,
+      "clear_status_after": "perfect",
+      "ar_changed": true,
+      "clear_status_changed": true
     }
   ],
-  "exported_at": "2026-05-07T20:25:24+09:00",
+  "exported_at": "2026-05-12T12:12:57+09:00",
   "is_initial": false,
-  "diff_summary": "player.pa_class:604=>605, player.play_count:3427=>3433, player.paskill_average_top30:16.0332=>16.0346, 8db9fbb60222f3820fed97b3a789be5d__inf.ar:9973=>9980",
+  "diff_summary": "player.pa_class:605=>606, player.play_count:3433=>3453, 565889653c6688f2b31d447a9ae6559f__easy.ar:=>10000, 565889653c6688f2b31d447a9ae6559f__easy.clear_status:=>perfect, 565889653c6688f2b31d447a9ae6559f__hard.ar:=>10000, 565889653c6688f2b31d447a9ae6559f__hard.clear_status:=>perfect, 565889653c6688f2b31d447a9ae6559f__normal.ar:=>10000, 565889653c6688f2b31d447a9ae6559f__normal.clear_status:=>perfect, 915b6d4d1f4645ee89494de4937e8dad__easy.ar:=>10000, 915b6d4d1f4645ee89494de4937e8dad__easy.clear_status:=>perfect, 915b6d4d1f4645ee89494de4937e8dad__hard.ar:=>10000, 915b6d4d1f4645ee89494de4937e8dad__hard.clear_status:=>perfect, 915b6d4d1f4645ee89494de4937e8dad__normal.ar:=>10000, 915b6d4d1f4645ee89494de4937e8dad__normal.clear_status:=>perfect",
   "latest_path": "data/users/10615451.json",
-  "history_path": "data/history/10615451/2026-05-07T20-25-24plus09-00.json",
-  "saved_at": "2026-05-07T20:25:34+09:00"
+  "history_path": "data/history/10615451/2026-05-12T12-12-57plus09-00.json",
+  "saved_at": "2026-05-12T12:13:08+09:00"
 }
