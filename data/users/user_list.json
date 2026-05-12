@@ -1,5 +1,19 @@
 [
   {
+    "public_id": "u_aq1lykfqps8v",
+    "exported_at": "2026-05-12T14:14:28+09:00",
+    "crew_id": "32474862",
+    "player_name": "うえださん",
+    "paskill_average_top30": 15.9638,
+    "privacy": {
+      "search_user": true,
+      "qap_ranking": true,
+      "player_name": true,
+      "crew_id": true,
+      "paskill": true
+    }
+  },
+  {
     "public_id": "u_x7eyy2al62j9",
     "exported_at": "2026-05-12T12:12:57+09:00",
     "crew_id": "10615451",
@@ -285,20 +299,6 @@
     "crew_id": "26515538",
     "player_name": "セメント",
     "paskill_average_top30": 15.5275,
-    "privacy": {
-      "search_user": true,
-      "qap_ranking": true,
-      "player_name": true,
-      "crew_id": true,
-      "paskill": true
-    }
-  },
-  {
-    "public_id": "u_aq1lykfqps8v",
-    "exported_at": "2026-05-09T21:25:50+09:00",
-    "crew_id": "32474862",
-    "player_name": "うえださん",
-    "paskill_average_top30": 15.9638,
     "privacy": {
       "search_user": true,
       "qap_ranking": true,
