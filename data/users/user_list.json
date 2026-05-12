@@ -20,7 +20,7 @@
     "player_name": "うえださん",
     "paskill_average_top30": 15.9638,
     "privacy": {
-      "search_user": false,
+      "search_user": true,
       "qap_ranking": true,
       "player_name": true,
       "crew_id": true,
