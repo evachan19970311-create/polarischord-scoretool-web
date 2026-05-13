@@ -13,9 +13,8 @@ window.run_score_upload = async function () {
   window.__score_upload_running__ = true;
 
   const EXPECTED_URL = 'https://p.eagate.573.jp/game/polarischord/pc/playdata/index.html';
-  const SCORE_TOOL_BASE_URL = 'https://polarischordscoretoolwebfront.vercel.app';
-  const UPDATE_RESULT_PATH = '/update_result';
-  const FALLBACK_PROFILE_PATH = '/profile';
+  const UPDATE_RESULT_URL_BASE = 'http://pc-scoretool-web.com/update_result?user=';
+  const FALLBACK_PROFILE_URL_BASE = 'http://pc-scoretool-web.com/profile?id=';
   const GAS_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxPXzlMOJzizzx9vZTpxO5t7hf-FCwGPm-JQ451fIL_XRq3raZeJZXYRxtIs4-DWdbC/exec';
 
   const DIFF_MAP = {
@@ -178,30 +177,6 @@ window.run_score_upload = async function () {
     }
 
     return result;
-  };
-
-  const build_score_tool_url = (path, params) => {
-    const url = new URL(path, SCORE_TOOL_BASE_URL);
-
-    Object.entries(params || {}).forEach(([key, value]) => {
-      if (value !== null && value !== undefined && String(value) !== '') {
-        url.searchParams.set(key, String(value));
-      }
-    });
-
-    return url.toString();
-  };
-
-  const build_token_save_url = ({
-    public_id,
-    edit_token,
-    next_path
-  }) => {
-    return build_score_tool_url('/token-save', {
-      user: public_id,
-      token: edit_token,
-      next: next_path
-    });
   };
 
   const get_total_play_count = (play_info) => {
@@ -391,7 +366,6 @@ window.run_score_upload = async function () {
 
     const gasResult = await post_json(payload);
     const publicId = String(gasResult?.public_id || '');
-    const editToken = String(gasResult?.edit_token || '');
 
     const spinner = document.getElementById('loading-spinner');
     const text = document.getElementById('loading-text');
@@ -410,28 +384,11 @@ window.run_score_upload = async function () {
     }
 
     setTimeout(function () {
-      if (publicId && editToken) {
-        const nextPath =
-          UPDATE_RESULT_PATH + '?user=' + encodeURIComponent(publicId);
-
-        location.href = build_token_save_url({
-          public_id: publicId,
-          edit_token: editToken,
-          next_path: nextPath
-        });
-        return;
-      }
-
       if (publicId) {
-        location.href = build_score_tool_url(UPDATE_RESULT_PATH, {
-          user: publicId
-        });
-        return;
+        location.href = UPDATE_RESULT_URL_BASE + encodeURIComponent(publicId);
+      } else {
+        location.href = FALLBACK_PROFILE_URL_BASE + encodeURIComponent(payload.player.crew_id);
       }
-
-      location.href = build_score_tool_url(FALLBACK_PROFILE_PATH, {
-        id: payload.player.crew_id
-      });
     }, 5000);
 
     window.__score_upload_running__ = false;
