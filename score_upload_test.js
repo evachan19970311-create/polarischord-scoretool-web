@@ -13,8 +13,9 @@ window.run_score_upload = async function () {
   window.__score_upload_running__ = true;
 
   const EXPECTED_URL = 'https://p.eagate.573.jp/game/polarischord/pc/playdata/index.html';
-  const UPDATE_RESULT_URL_BASE = 'http://pc-scoretool-web.com/update_result?user=';
-  const FALLBACK_PROFILE_URL_BASE = 'http://pc-scoretool-web.com/profile?id=';
+  const SCORE_TOOL_BASE_URL = 'https://pc-scoretool-web.com';
+  const UPDATE_RESULT_PATH = '/update_result';
+  const FALLBACK_PROFILE_PATH = '/profile';
   const GAS_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxPXzlMOJzizzx9vZTpxO5t7hf-FCwGPm-JQ451fIL_XRq3raZeJZXYRxtIs4-DWdbC/exec';
 
   const DIFF_MAP = {
@@ -179,6 +180,30 @@ window.run_score_upload = async function () {
     return result;
   };
 
+  const build_score_tool_url = (path, params) => {
+    const url = new URL(path, SCORE_TOOL_BASE_URL);
+
+    Object.entries(params || {}).forEach(([key, value]) => {
+      if (value !== null && value !== undefined && String(value) !== '') {
+        url.searchParams.set(key, String(value));
+      }
+    });
+
+    return url.toString();
+  };
+
+  const build_token_save_url = ({
+    public_id,
+    edit_token,
+    next_path
+  }) => {
+    return build_score_tool_url('/token-save', {
+      user: public_id,
+      token: edit_token,
+      next: next_path
+    });
+  };
+
   const get_total_play_count = (play_info) => {
     if (!play_info) return 0;
 
@@ -238,6 +263,79 @@ window.run_score_upload = async function () {
         })
       };
     });
+  };
+
+    const sanitize_matching_player_result = (player) => {
+    return {
+      rank: player?.rank != null ? Number(player.rank) : null,
+      usr_name: player?.usr_name || '',
+      pa_class: player?.pa_class != null ? Number(player.pa_class) : null,
+      achievement_rate: player?.achievement_rate != null ? Number(player.achievement_rate) : null,
+      score: player?.score != null ? Number(player.score) : null,
+      score_rank: player?.score_rank != null ? Number(player.score_rank) : null,
+      clear_status: player?.clear_status != null ? Number(player.clear_status) : null,
+      update_flags: player?.update_flags != null ? Number(player.update_flags) : null,
+      chart_difficulty_type: player?.chart_difficulty_type != null ? Number(player.chart_difficulty_type) : null,
+      difficult: player?.difficult != null ? Number(player.difficult) : null,
+      difficult_disp: player?.difficult_disp != null ? String(player.difficult_disp) : '',
+      point: player?.point != null ? Number(player.point) : null,
+      pa_skill: player?.pa_skill != null ? String(player.pa_skill) : ''
+    };
+  };
+
+  const build_matching_log_payload = (play_data) => {
+    const logs = to_array(play_data?.matching_log?.log);
+
+    return logs
+      .filter((log_item) => log_item && typeof log_item === 'object')
+      .map((log_item) => {
+        const total_result = log_item.total_result || {};
+        const detail_music = to_array(log_item?.detail?.music);
+
+        return {
+          matching_type: log_item.matching_type != null
+            ? Number(log_item.matching_type)
+            : null,
+
+          total_result: {
+            created_at: total_result.created_at || '',
+            music_id_list: {
+              music_id: to_array(total_result?.music_id_list?.music_id)
+                .map((music_id) => String(music_id || ''))
+                .filter(Boolean)
+            },
+            result_list: {
+              result: to_array(total_result?.result_list?.result)
+                .map((player) => {
+                  return {
+                    rank: player?.rank != null ? Number(player.rank) : null,
+                    usr_name: player?.usr_name || '',
+                    point: player?.point != null ? Number(player.point) : null
+                  };
+                })
+            }
+          },
+
+          detail: {
+            music: detail_music
+              .filter((music) => music && typeof music === 'object')
+              .map((music) => {
+                return {
+                  music_id: String(music.music_id || ''),
+                  name: music.name || '',
+                  composer: music.composer || '',
+                  license: music.license || '',
+                  genre: music.genre != null ? Number(music.genre) : null,
+                  created_at: music.created_at || '',
+                  result_list: {
+                    result: to_array(music?.result_list?.result)
+                      .map(sanitize_matching_player_result)
+                  }
+                };
+              })
+          }
+        };
+      });
   };
 
   const create_loading_overlay = () => {
@@ -332,6 +430,7 @@ window.run_score_upload = async function () {
 
     const music_list = extract_music_list(music_res);
     const common_music = extract_common_music_list(common_res);
+    const matching_log = build_matching_log_payload(play_data);
 
     console.log('music_list length:', music_list.length);
     console.log('common_music length:', common_music.length);
@@ -354,10 +453,17 @@ window.run_score_upload = async function () {
         play_count: get_total_play_count(usr_play_info)
       },
       music: build_music_payload(music_list),
-      common_music: common_music
+      common_music: common_music,
+
+      play_data: {
+        matching_log: {
+          log: matching_log
+        }
+      }
     };
 
     console.log('payload music length:', payload.music.length);
+    console.log('payload common_music length:', payload.common_music.length);
     console.log('payload common_music length:', payload.common_music.length);
 
     if (!payload.player.crew_id) {
@@ -366,6 +472,7 @@ window.run_score_upload = async function () {
 
     const gasResult = await post_json(payload);
     const publicId = String(gasResult?.public_id || '');
+    const editToken = String(gasResult?.edit_token || '');
 
     const spinner = document.getElementById('loading-spinner');
     const text = document.getElementById('loading-text');
@@ -384,11 +491,28 @@ window.run_score_upload = async function () {
     }
 
     setTimeout(function () {
-      if (publicId) {
-        location.href = UPDATE_RESULT_URL_BASE + encodeURIComponent(publicId);
-      } else {
-        location.href = FALLBACK_PROFILE_URL_BASE + encodeURIComponent(payload.player.crew_id);
+      if (publicId && editToken) {
+        const nextPath =
+          UPDATE_RESULT_PATH + '?user=' + encodeURIComponent(publicId);
+
+        location.href = build_token_save_url({
+          public_id: publicId,
+          edit_token: editToken,
+          next_path: nextPath
+        });
+        return;
       }
+
+      if (publicId) {
+        location.href = build_score_tool_url(UPDATE_RESULT_PATH, {
+          user: publicId
+        });
+        return;
+      }
+
+      location.href = build_score_tool_url(FALLBACK_PROFILE_PATH, {
+        id: payload.player.crew_id
+      });
     }, 5000);
 
     window.__score_upload_running__ = false;
