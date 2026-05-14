@@ -98,6 +98,50 @@ window.run_score_upload = async function () {
     throw last_error || new Error('pdata_getdata.html の取得に失敗しました');
   };
 
+  const extract_matching_log_list = (res) => {
+    return to_array(
+      res?.data?.play_data?.matching_log?.log ||
+      res?.data?.matching_log?.log ||
+      res?.play_data?.matching_log?.log ||
+      res?.matching_log?.log ||
+      []
+    );
+  };
+
+  const request_matching_log_data = async ($) => {
+    const candidates = [
+      { service_kind: 'matching_log', pdata_kind: 'matching_log' },
+      { service_kind: 'matching', pdata_kind: 'matching_log' },
+      { service_kind: 'profile', pdata_kind: 'matching_log' },
+      { service_kind: 'playdata', pdata_kind: 'matching_log' }
+    ];
+
+    let last_success = null;
+    let last_error = null;
+
+    for (const data of candidates) {
+      try {
+        const res = await request_pdata($, data);
+        const logs = extract_matching_log_list(res);
+
+        console.log('matching_log candidate success:', data, 'length:', logs.length, res);
+
+        if (logs.length > 0) {
+          return res;
+        }
+
+        last_success = res;
+      } catch (error) {
+        last_error = error;
+        console.log('matching_log candidate failed:', data, error);
+      }
+    }
+
+    console.log('matching_log not found. last_success:', last_success, 'last_error:', last_error);
+
+    return last_success || null;
+  };
+
   const request_common_data = async ($) => {
     const urls = [
       '../json/common_getdata.html',
@@ -417,10 +461,11 @@ window.run_score_upload = async function () {
 
     const $ = await ensure_jquery();
 
-    const [profile_res, music_res, common_res] = await Promise.all([
+    const [profile_res, music_res, common_res, matching_res] = await Promise.all([
       request_pdata($, { service_kind: 'profile', pdata_kind: 'profile' }),
       request_pdata($, { service_kind: 'music_data', pdata_kind: 'music_data' }),
-      request_common_data($)
+      request_common_data($),
+      request_matching_log_data($)
     ]);
 
     const play_data = profile_res?.data?.play_data || {};
@@ -430,11 +475,19 @@ window.run_score_upload = async function () {
 
     const music_list = extract_music_list(music_res);
     const common_music = extract_common_music_list(common_res);
-    const matching_log = build_matching_log_payload(play_data);
+    const matching_play_data =
+      matching_res?.data?.play_data ||
+      matching_res?.play_data ||
+      matching_res?.data ||
+      play_data;
+
+    const matching_log = build_matching_log_payload(matching_play_data);
 
     console.log('music_list length:', music_list.length);
     console.log('common_music length:', common_music.length);
     console.log('music_res sample:', music_res);
+    console.log('matching_res raw:', matching_res);
+    console.log('payload matching_log length:', payload.play_data.matching_log.log.length);
     console.log('common_res raw:', common_res);
     console.log('common_res keys:', Object.keys(common_res || {}));
     console.log('common_res.data keys:', Object.keys((common_res && common_res.data) || {}));
