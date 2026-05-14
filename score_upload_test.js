@@ -109,37 +109,28 @@ window.run_score_upload = async function () {
   };
 
   const request_matching_log_data = async ($) => {
-    const candidates = [
-      { service_kind: 'matching_log', pdata_kind: 'matching_log' },
-      { service_kind: 'matching', pdata_kind: 'matching_log' },
-      { service_kind: 'profile', pdata_kind: 'matching_log' },
-      { service_kind: 'playdata', pdata_kind: 'matching_log' }
-    ];
+    const data = {
+      service_kind: 'matching_log',
+      pdata_kind: 'matching_log'
+    };
 
-    let last_success = null;
-    let last_error = null;
+    try {
+      const res = await request_pdata($, data);
+      const logs = extract_matching_log_list(res);
 
-    for (const data of candidates) {
-      try {
-        const res = await request_pdata($, data);
-        const logs = extract_matching_log_list(res);
+      console.log(
+        'matching_log request success:',
+        data,
+        'length:',
+        logs.length,
+        res
+      );
 
-        console.log('matching_log candidate success:', data, 'length:', logs.length, res);
-
-        if (logs.length > 0) {
-          return res;
-        }
-
-        last_success = res;
-      } catch (error) {
-        last_error = error;
-        console.log('matching_log candidate failed:', data, error);
-      }
+      return res;
+    } catch (error) {
+      console.log('matching_log request failed:', data, error);
+      return null;
     }
-
-    console.log('matching_log not found. last_success:', last_success, 'last_error:', last_error);
-
-    return last_success || null;
   };
 
   const request_common_data = async ($) => {
@@ -487,7 +478,6 @@ window.run_score_upload = async function () {
     console.log('common_music length:', common_music.length);
     console.log('music_res sample:', music_res);
     console.log('matching_res raw:', matching_res);
-    console.log('payload matching_log length:', payload.play_data.matching_log.log.length);
     console.log('common_res raw:', common_res);
     console.log('common_res keys:', Object.keys(common_res || {}));
     console.log('common_res.data keys:', Object.keys((common_res && common_res.data) || {}));
@@ -516,7 +506,7 @@ window.run_score_upload = async function () {
     };
 
     console.log('payload music length:', payload.music.length);
-    console.log('payload common_music length:', payload.common_music.length);
+    console.log('payload matching_log length:', payload.play_data.matching_log.log.length);
     console.log('payload common_music length:', payload.common_music.length);
 
     if (!payload.player.crew_id) {
