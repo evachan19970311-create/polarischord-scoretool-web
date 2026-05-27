@@ -517,7 +517,7 @@ window.run_score_upload = async function () {
         `プレイ済み譜面数: ${
           payload.music.reduce((sum, music) => sum + music.diffs.length, 0)
         }\n` +
-        '5秒後に自動で更新結果ページへ移動します...';
+        '3秒後に自動で更新結果ページへ移動します...';
     }
 
     setTimeout(function () {
@@ -543,7 +543,7 @@ window.run_score_upload = async function () {
       location.href = build_score_tool_url(FALLBACK_PROFILE_PATH, {
         id: payload.player.crew_id
       });
-    }, 5000);
+    }, 3000);
 
     window.__score_upload_running__ = false;
 
