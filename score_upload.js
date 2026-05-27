@@ -10,13 +10,16 @@ window.run_score_upload = async function () {
     }
     return;
   }
+
   window.__score_upload_running__ = true;
 
   const EXPECTED_URL = 'https://p.eagate.573.jp/game/polarischord/pc/playdata/index.html';
   const SCORE_TOOL_BASE_URL = 'https://pc-scoretool-web.com';
   const UPDATE_RESULT_PATH = '/update_result';
   const FALLBACK_PROFILE_PATH = '/profile';
-  const GAS_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxPXzlMOJzizzx9vZTpxO5t7hf-FCwGPm-JQ451fIL_XRq3raZeJZXYRxtIs4-DWdbC/exec';
+
+  const EDGE_FUNCTION_URL =
+    'https://gmoqmxemnmkgjycrjpkx.supabase.co/functions/v1/score-upload';
 
   const DIFF_MAP = {
     0: 'easy',
@@ -133,41 +136,11 @@ window.run_score_upload = async function () {
     }
   };
 
-  const request_common_data = async ($) => {
-    const urls = [
-      '../json/common_getdata.html',
-      './json/common_getdata.html'
-    ];
-
-    let last_error = null;
-
-    for (const url of urls) {
-      try {
-        const res = await $.ajax({
-          url: url,
-          type: 'POST',
-          dataType: 'json',
-          data: {
-            service_kind: 'music_list'
-          }
-        });
-
-        console.log('common_getdata success:', url, res);
-        return res;
-      } catch (error) {
-        last_error = error;
-        console.log('common_getdata failed:', url, error);
-      }
-    }
-
-    throw last_error || new Error('common_getdata.html の取得に失敗しました');
-  };
-
   const post_json = async (payload) => {
-    const res = await fetch(GAS_WEBAPP_URL, {
+    const res = await fetch(EDGE_FUNCTION_URL, {
       method: 'POST',
       headers: {
-        'Content-Type': 'text/plain;charset=utf-8'
+        'Content-Type': 'application/json'
       },
       body: JSON.stringify(payload)
     });
@@ -177,15 +150,15 @@ window.run_score_upload = async function () {
     try {
       result = await res.json();
     } catch (error) {
-      throw new Error('GASからの応答を読み取れませんでした');
+      throw new Error('スコア登録APIからの応答を読み取れませんでした');
     }
 
     if (!res.ok) {
       const message =
         result?.message ||
-        result?.error?.message ||
+        result?.error_detail?.message ||
         result?.error ||
-        `GAS送信に失敗しました (${res.status})`;
+        `スコア登録APIへの送信に失敗しました (${res.status})`;
 
       throw new Error(message);
     }
@@ -198,9 +171,9 @@ window.run_score_upload = async function () {
 
       const message =
         result?.message ||
-        result?.error?.message ||
+        result?.error_detail?.message ||
         result?.error ||
-        'GAS送信に失敗しました';
+        'スコア登録APIへの送信に失敗しました';
 
       if (code === 'USER_BLOCKED' || result?.blocked === true) {
         const blockedError = new Error(message);
@@ -209,7 +182,10 @@ window.run_score_upload = async function () {
         throw blockedError;
       }
 
-      throw new Error(message);
+      const uploadError = new Error(message);
+      uploadError.stage = result?.stage || '';
+      uploadError.detail = result?.error_detail || null;
+      throw uploadError;
     }
 
     return result;
@@ -262,45 +238,60 @@ window.run_score_upload = async function () {
     );
   };
 
-  const extract_common_music_list = (common_res) => {
-    return to_array(
-      common_res?.data?.musiclist?.music ||
-      common_res?.data?.music_list ||
-      common_res?.data?.music_data ||
-      common_res?.data?.music ||
-      []
+  const is_played_chart = (chart) => {
+    const ar = chart?.achievement_rate;
+    const high_score = chart?.highscore;
+    const play_count = chart?.play_count;
+    const perfect_clear_count = chart?.perfect_clear_count;
+    const full_combo_count = chart?.full_combo_count;
+    const clear_count = chart?.clear_count;
+
+    return (
+      ar != null ||
+      high_score != null ||
+      Number(play_count || 0) > 0 ||
+      Number(perfect_clear_count || 0) > 0 ||
+      Number(full_combo_count || 0) > 0 ||
+      Number(clear_count || 0) > 0
     );
   };
 
   const build_music_payload = (music_list) => {
-    return to_array(music_list).map((music, index) => {
-      return {
-        data_index: index,
-        music_id: music.music_id,
-        music_title: music.name || music.music_title || '',
-        diffs: to_array(music?.chart_list?.chart).map((chart) => {
-          return {
-            diff: DIFF_MAP[chart.chart_difficulty_type] ?? String(chart.chart_difficulty_type),
-            level: chart.difficult != null ? Number(chart.difficult) : null,
-            ar: chart.achievement_rate != null ? Number(chart.achievement_rate) : null,
-            clear_status: CLEAR_MAP[chart.clear_status] ?? String(chart.clear_status),
-            high_score: chart.highscore != null ? Number(chart.highscore) : null,
-            maxcombo: chart.maxcombo != null ? Number(chart.maxcombo) : null,
-            combo_rank: chart.combo_rank != null ? Number(chart.combo_rank) : null,
-            score_rank: chart.score_rank != null ? Number(chart.score_rank) : null,
-            play_count: chart.play_count != null ? Number(chart.play_count) : 0,
-            perfect_clear_count: chart.perfect_clear_count != null ? Number(chart.perfect_clear_count) : 0,
-            full_combo_count: chart.full_combo_count != null ? Number(chart.full_combo_count) : 0,
-            clear_count: chart.clear_count != null ? Number(chart.clear_count) : 0,
-            updated_at: chart.updated_at || '',
-            nice_play_rank: chart.nice_play_rank != null ? Number(chart.nice_play_rank) : null
-          };
-        })
-      };
-    });
+    return to_array(music_list)
+      .map((music, index) => {
+        const diffs = to_array(music?.chart_list?.chart)
+          .filter(is_played_chart)
+          .map((chart) => {
+            return {
+              diff: DIFF_MAP[chart.chart_difficulty_type] ?? String(chart.chart_difficulty_type),
+              ar: chart.achievement_rate != null ? Number(chart.achievement_rate) : null,
+              clear_status: CLEAR_MAP[chart.clear_status] ?? String(chart.clear_status),
+              high_score: chart.highscore != null ? Number(chart.highscore) : null,
+              maxcombo: chart.maxcombo != null ? Number(chart.maxcombo) : null,
+              combo_rank: chart.combo_rank != null ? Number(chart.combo_rank) : null,
+              score_rank: chart.score_rank != null ? Number(chart.score_rank) : null,
+              play_count: chart.play_count != null ? Number(chart.play_count) : 0,
+              perfect_clear_count: chart.perfect_clear_count != null ? Number(chart.perfect_clear_count) : 0,
+              full_combo_count: chart.full_combo_count != null ? Number(chart.full_combo_count) : 0,
+              clear_count: chart.clear_count != null ? Number(chart.clear_count) : 0,
+              updated_at: chart.updated_at || '',
+              nice_play_rank: chart.nice_play_rank != null ? Number(chart.nice_play_rank) : null
+            };
+          });
+
+        return {
+          data_index: index,
+          music_id: music.music_id,
+          music_title: music.name || music.music_title || '',
+          diffs
+        };
+      })
+      .filter((music) => {
+        return music.music_id && music.diffs.length > 0;
+      });
   };
 
-    const sanitize_matching_player_result = (player) => {
+  const sanitize_matching_player_result = (player) => {
     return {
       rank: player?.rank != null ? Number(player.rank) : null,
       usr_name: player?.usr_name || '',
@@ -452,10 +443,9 @@ window.run_score_upload = async function () {
 
     const $ = await ensure_jquery();
 
-    const [profile_res, music_res, common_res, matching_res] = await Promise.all([
+    const [profile_res, music_res, matching_res] = await Promise.all([
       request_pdata($, { service_kind: 'profile', pdata_kind: 'profile' }),
       request_pdata($, { service_kind: 'music_data', pdata_kind: 'music_data' }),
-      request_common_data($),
       request_matching_log_data($)
     ]);
 
@@ -465,7 +455,6 @@ window.run_score_upload = async function () {
     const usr_play_info = play_data?.usr_play_info || {};
 
     const music_list = extract_music_list(music_res);
-    const common_music = extract_common_music_list(common_res);
     const matching_play_data =
       matching_res?.data?.play_data ||
       matching_res?.play_data ||
@@ -473,18 +462,16 @@ window.run_score_upload = async function () {
       play_data;
 
     const matching_log = build_matching_log_payload(matching_play_data);
+    const music_payload = build_music_payload(music_list);
 
     console.log('music_list length:', music_list.length);
-    console.log('common_music length:', common_music.length);
+    console.log('played music payload length:', music_payload.length);
     console.log('music_res sample:', music_res);
     console.log('matching_res raw:', matching_res);
-    console.log('common_res raw:', common_res);
-    console.log('common_res keys:', Object.keys(common_res || {}));
-    console.log('common_res.data keys:', Object.keys((common_res && common_res.data) || {}));
-    console.log('common_res.data:', common_res && common_res.data);
+    console.log('payload matching_log length:', matching_log.length);
 
     const payload = {
-      version: 1,
+      version: 2,
       source: 'bookmarklet',
       exported_at: format_jst_iso(),
       player: {
@@ -495,9 +482,7 @@ window.run_score_upload = async function () {
         pa_class: usr_profile.pa_class != null ? Number(usr_profile.pa_class) : null,
         play_count: get_total_play_count(usr_play_info)
       },
-      music: build_music_payload(music_list),
-      common_music: common_music,
-
+      music: music_payload,
       play_data: {
         matching_log: {
           log: matching_log
@@ -507,15 +492,14 @@ window.run_score_upload = async function () {
 
     console.log('payload music length:', payload.music.length);
     console.log('payload matching_log length:', payload.play_data.matching_log.log.length);
-    console.log('payload common_music length:', payload.common_music.length);
 
     if (!payload.player.crew_id) {
       throw new Error('crew_id を取得できませんでした');
     }
 
-    const gasResult = await post_json(payload);
-    const publicId = String(gasResult?.public_id || '');
-    const editToken = String(gasResult?.edit_token || '');
+    const uploadResult = await post_json(payload);
+    const publicId = String(uploadResult?.public_id || '');
+    const editToken = String(uploadResult?.edit_token || '');
 
     const spinner = document.getElementById('loading-spinner');
     const text = document.getElementById('loading-text');
@@ -530,7 +514,10 @@ window.run_score_upload = async function () {
         '送信を実行しました\n' +
         `crew_id: ${payload.player.crew_id}\n` +
         `プレイヤー名: ${payload.player.player_name}\n` +
-        '5秒後に自動で更新結果ページへ移動します...';
+        `プレイ済み譜面数: ${
+          payload.music.reduce((sum, music) => sum + music.diffs.length, 0)
+        }\n` +
+        '3秒後に自動で更新結果ページへ移動します...';
     }
 
     setTimeout(function () {
@@ -556,12 +543,13 @@ window.run_score_upload = async function () {
       location.href = build_score_tool_url(FALLBACK_PROFILE_PATH, {
         id: payload.player.crew_id
       });
-    }, 5000);
+    }, 3000);
 
     window.__score_upload_running__ = false;
 
   } catch (error) {
     console.error(error);
+
     const spinner = document.getElementById('loading-spinner');
     const text = document.getElementById('loading-text');
     const result = document.getElementById('loading-result');
@@ -582,7 +570,14 @@ window.run_score_upload = async function () {
 
     if (result) {
       result.style.display = 'block';
-      result.textContent = error.message || String(error);
+
+      const stageText = error?.stage
+        ? `\nstage: ${error.stage}`
+        : '';
+
+      result.textContent =
+        (error.message || String(error)) +
+        stageText;
     }
 
     window.__score_upload_running__ = false;
