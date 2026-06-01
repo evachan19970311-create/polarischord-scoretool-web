@@ -2,7 +2,7 @@
   'use strict';
 
   const CORE_SCRIPT_URL =
-    'https://cdn.jsdelivr.net/gh/evachan19970311-create/polarischord-scoretool-web@847c84ab70fd7eee391cb325c28060b988fbac29/score_upload_test.js?v=basic-course-dialog-20260601';
+    'https://cdn.jsdelivr.net/gh/evachan19970311-create/polarischord-scoretool-web@847c84ab70fd7eee391cb325c28060b988fbac29/score_upload_test.js?v=basic-course-dialog-hide-loading-20260601';
 
   const BASIC_COURSE_MESSAGE = 'ベーシックコース未加入です';
 
@@ -26,7 +26,35 @@
     );
   }
 
+  function hide_score_upload_status_card() {
+    const ids = [
+      'loading',
+      'loading-overlay',
+      'loading-card',
+      'loading-box',
+      'score-upload-loading',
+      'score-upload-modal',
+      'score-upload-result',
+      'result'
+    ];
+
+    ids.forEach((id) => {
+      const element = document.getElementById(id);
+      if (element) {
+        element.style.display = 'none';
+      }
+    });
+
+    const loading_text = document.getElementById('loading-text');
+    const status_card = loading_text?.closest('div');
+    if (status_card instanceof HTMLElement) {
+      status_card.style.display = 'none';
+    }
+  }
+
   function show_basic_course_dialog() {
+    hide_score_upload_status_card();
+
     const existing = document.getElementById('score-upload-basic-course-dialog');
     if (existing) existing.remove();
 
@@ -110,12 +138,13 @@
       )
       .replace(
         "result.textContent =\n        (error.message || String(error)) +\n        stageText;",
-        "if (error?.code === 'BASIC_COURSE_REQUIRED') {\n        result.style.display = 'none';\n        window.__score_upload_test_show_basic_course_dialog__?.();\n      } else {\n        result.textContent = (error.message || String(error)) + stageText;\n      }"
+        "if (error?.code === 'BASIC_COURSE_REQUIRED') {\n        window.__score_upload_test_hide_status_card__?.();\n        result.style.display = 'none';\n        window.__score_upload_test_show_basic_course_dialog__?.();\n      } else {\n        result.textContent = (error.message || String(error)) + stageText;\n      }"
       );
 
     window.__score_upload_test_is_basic_course_like_error__ = is_basic_course_like_error;
     window.__score_upload_test_build_basic_course_error__ = build_basic_course_error;
     window.__score_upload_test_show_basic_course_dialog__ = show_basic_course_dialog;
+    window.__score_upload_test_hide_status_card__ = hide_score_upload_status_card;
 
     const script = document.createElement('script');
     script.textContent = `${core_script}\n//# sourceURL=score_upload_test_basic_course_check_core.js`;
