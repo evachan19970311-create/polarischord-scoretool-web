@@ -2,7 +2,7 @@
   'use strict';
 
   const CORE_SCRIPT_URL =
-    'https://cdn.jsdelivr.net/gh/evachan19970311-create/polarischord-scoretool-web@847c84ab70fd7eee391cb325c28060b988fbac29/score_upload_test.js?v=basic-course-check-20260601';
+    'https://cdn.jsdelivr.net/gh/evachan19970311-create/polarischord-scoretool-web@847c84ab70fd7eee391cb325c28060b988fbac29/score_upload_test.js?v=basic-course-dialog-20260601';
 
   const BASIC_COURSE_MESSAGE = 'ベーシックコース未加入です';
 
@@ -24,6 +24,68 @@
       response_text.includes('<html') &&
       response_text.includes('404 Notfound')
     );
+  }
+
+  function show_basic_course_dialog() {
+    const existing = document.getElementById('score-upload-basic-course-dialog');
+    if (existing) existing.remove();
+
+    const overlay = document.createElement('div');
+    overlay.id = 'score-upload-basic-course-dialog';
+    overlay.style.position = 'fixed';
+    overlay.style.inset = '0';
+    overlay.style.zIndex = '2147483647';
+    overlay.style.display = 'flex';
+    overlay.style.alignItems = 'center';
+    overlay.style.justifyContent = 'center';
+    overlay.style.padding = '24px';
+    overlay.style.background = 'rgba(0, 0, 0, 0.45)';
+
+    const card = document.createElement('div');
+    card.style.boxSizing = 'border-box';
+    card.style.width = 'min(560px, 100%)';
+    card.style.borderRadius = '20px';
+    card.style.background = '#fff';
+    card.style.padding = '28px 24px 24px';
+    card.style.boxShadow = '0 20px 60px rgba(0, 0, 0, 0.28)';
+    card.style.color = '#333';
+    card.style.textAlign = 'center';
+    card.style.fontFamily = 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+
+    const title = document.createElement('div');
+    title.textContent = BASIC_COURSE_MESSAGE;
+    title.style.fontSize = '20px';
+    title.style.fontWeight = '700';
+    title.style.lineHeight = '1.5';
+    title.style.marginBottom = '14px';
+
+    const body = document.createElement('div');
+    body.textContent = 'e-amusement ベーシックコースに加入した状態で、もう一度スコア登録を実行してください。';
+    body.style.fontSize = '15px';
+    body.style.lineHeight = '1.9';
+    body.style.marginBottom = '22px';
+
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.textContent = '閉じる';
+    button.style.width = '100%';
+    button.style.border = '0';
+    button.style.borderRadius = '999px';
+    button.style.padding = '14px 18px';
+    button.style.background = '#333';
+    button.style.color = '#fff';
+    button.style.fontSize = '16px';
+    button.style.fontWeight = '700';
+    button.style.cursor = 'pointer';
+    button.onclick = function () {
+      overlay.remove();
+    };
+
+    card.appendChild(title);
+    card.appendChild(body);
+    card.appendChild(button);
+    overlay.appendChild(card);
+    document.body.appendChild(overlay);
   }
 
   try {
@@ -48,11 +110,12 @@
       )
       .replace(
         "result.textContent =\n        (error.message || String(error)) +\n        stageText;",
-        "result.textContent = error?.code === 'BASIC_COURSE_REQUIRED'\n        ? 'ベーシックコース未加入です。e-amusement ベーシックコースに加入した状態で、もう一度スコア登録を実行してください。'\n        : ((error.message || String(error)) + stageText);\n\n      if (error?.code === 'BASIC_COURSE_REQUIRED') {\n        alert('ベーシックコース未加入です');\n      }"
+        "if (error?.code === 'BASIC_COURSE_REQUIRED') {\n        result.style.display = 'none';\n        window.__score_upload_test_show_basic_course_dialog__?.();\n      } else {\n        result.textContent = (error.message || String(error)) + stageText;\n      }"
       );
 
     window.__score_upload_test_is_basic_course_like_error__ = is_basic_course_like_error;
     window.__score_upload_test_build_basic_course_error__ = build_basic_course_error;
+    window.__score_upload_test_show_basic_course_dialog__ = show_basic_course_dialog;
 
     const script = document.createElement('script');
     script.textContent = `${core_script}\n//# sourceURL=score_upload_test_basic_course_check_core.js`;
