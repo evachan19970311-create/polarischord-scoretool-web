@@ -11,6 +11,7 @@ const TARGET_DIFF = ["INF"]; // "PLR","HRD","NML","ESY"
 const BG_COLOR = 'rgb(58, 58, 58)';
 
 const AP_DIFF_COLOR = {
+  16: 'rgb(255, 255, 255)',
   15: 'rgb(164, 154, 62)',
   14: 'rgb(216, 216, 216)',
   13: 'rgb(233, 113, 50)',
@@ -29,7 +30,7 @@ const AP_DIFF_COLOR = {
 };
 
 const MAX_OF_COL = 20;
-const MAX_DIFFCULTY_NUM = 15;
+const MAX_DIFFCULTY_NUM = 16;
 
 const HEADER_HEIGHT = 200;
 const HEADER_ALIGN_OUTSIDE_BLANK = 50;
