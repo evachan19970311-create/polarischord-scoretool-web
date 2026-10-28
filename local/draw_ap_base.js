@@ -6,7 +6,7 @@ const GITHUB_REF = "refs/heads/main";
 const MUSIC_DATA_FILE = "pc_apdiff_data.json";
 const MUSIC_JSON = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_REF}/${MUSIC_DATA_FILE}`;
 
-const TARGET_DIFF = ["INF"]; // "PLR","HRD","NML","ESY"
+const TARGET_DIFF = ["POLAR", "INF"]; // "POLAR","HRD","NML","ESY"
 
 const BG_COLOR = 'rgb(58, 58, 58)';
 
