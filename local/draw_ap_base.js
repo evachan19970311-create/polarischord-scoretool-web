@@ -33,7 +33,7 @@ const MAX_OF_COL = 20;
 const MAX_DIFFCULTY_NUM = 16;
 
 const HEADER_HEIGHT = 200;
-const HEADER_ALIGN_OUTSIDE_BLANK = 50;
+const HEADER_ALIGN_OUTSIDE_BLANK = 32;
 const HEADER_VERTICAL_OUTSIDE_BLANK = 0;
 
 const DIFF_AP_WIDTH = 100;
@@ -141,6 +141,7 @@ function filterAndSortMusic(music) {
     }
 
     filtered.push({
+      diff,
       difficulty_ap,
     });
   }
@@ -285,7 +286,10 @@ async function loadAndDraw() {
 }
 
 async function drawHeader(ctx, filtered, ver, date) {
-  const music_count = filtered.length;
+  const influence_count = filtered.filter(item => item.diff === "INF").length;
+  const polar_count = filtered.filter(item => item.diff === "POLAR").length;
+  const influence_color = 'rgb(255, 51, 153)';
+  const polar_color = 'rgb(196, 66, 184)';
   const text_y_1 = HEADER_HEIGHT / 4;
   const text_y_2 = HEADER_HEIGHT * 3 / 4;
 
@@ -295,6 +299,7 @@ async function drawHeader(ctx, filtered, ver, date) {
   const date_value = String(date ?? '');
 
   const title_1 = "INFLUENCE";
+  const polar_title = "POLAR";
   const title_2 = "ALL PERFECT";
   const title_3 = "DIFFICULTY TABLE";
 
@@ -305,7 +310,6 @@ async function drawHeader(ctx, filtered, ver, date) {
   const assistant_value = "ポラリスコードの会";
 
   const song_label = "SONG";
-  const song_value = music_count;
 
   const ver_label = "VER";
   const ver_value = String(ver ?? '');
@@ -350,22 +354,27 @@ async function drawHeader(ctx, filtered, ver, date) {
 
   // TITLE
   ctx.font = "bold 40px copperplate gothic bold";
-  const title_width = ctx.measureText(title_1).width + ctx.measureText(title_2).width;
-  text_x += title_width / 2;
+  const influence_width = ctx.measureText(title_1).width;
+  const left_width = Math.max(influence_width, ctx.measureText(polar_title).width);
+  const top_width = left_width + 24 + ctx.measureText(title_2).width;
+  const title_width = Math.max(top_width, ctx.measureText(title_3).width);
+  const title_center = text_x + title_width / 2;
+  const title_left = title_center - top_width / 2;
 
-  ctx.textAlign = "right";
-  ctx.fillStyle = 'rgb(255, 51, 153)';
-  ctx.fillText(title_1, text_x - 10, text_y_1);
+  ctx.fillStyle = influence_color;
+  ctx.fillText(title_1, title_left + left_width / 2, 48);
+  ctx.fillStyle = polar_color;
+  ctx.fillText(polar_title, title_left + left_width / 2, 98);
 
   ctx.textAlign = "left";
-  ctx.fillStyle = 'rgb(255,255, 0)';
-  ctx.fillText(title_2, text_x + 10, text_y_1);
+  ctx.fillStyle = 'rgb(255, 255, 0)';
+  ctx.fillText(title_2, title_left + left_width + 24, 73);
 
   ctx.textAlign = "center";
-  ctx.fillStyle = 'rgb(0,176, 240)';
-  ctx.fillText(title_3, text_x, text_y_2);
+  ctx.fillStyle = 'rgb(0, 176, 240)';
+  ctx.fillText(title_3, title_center, 150);
 
-  text_x += title_width / 2 + 10 + HEADER_ALIGN_OUTSIDE_BLANK;
+  text_x += title_width + HEADER_ALIGN_OUTSIDE_BLANK;
 
   // CREATOR
   ctx.font = "bold 30px copperplate gothic bold";
@@ -383,7 +392,9 @@ async function drawHeader(ctx, filtered, ver, date) {
   // ASSISTANT
   ctx.font = "bold 30px copperplate gothic bold";
   const assistant_label_width = ctx.measureText(assistant_label).width;
-  const assistant_value_width = ctx.measureText(assistant_value).width;
+  ctx.font = "700 30px Zen Maru Gothic";
+  const assistant_value_width = ctx.measureText(assistant_value).width + 2;
+  ctx.font = "bold 30px copperplate gothic bold";
   const assistant_width = Math.max(assistant_label_width, assistant_value_width);
   text_x += assistant_width / 2;
 
@@ -401,16 +412,30 @@ async function drawHeader(ctx, filtered, ver, date) {
 
   // SONG
   ctx.font = "bold 30px copperplate gothic bold";
-  const song_label_width = ctx.measureText(song_label).width;
-  const song_value_width = ctx.measureText(song_value).width;
-  const song_width = Math.max(song_label_width, song_value_width);
-  text_x += song_width / 2;
+  const song_parts = [
+    [String(influence_count), influence_color],
+    ["+", 'rgb(255, 255, 0)'],
+    [String(polar_count), polar_color],
+  ];
+  const song_part_widths = song_parts.map(([text]) => ctx.measureText(text).width);
+  const song_gap = 8;
+  const song_value_width = song_part_widths.reduce((sum, width) => sum + width, 0)
+    + song_gap * (song_parts.length - 1);
+  const song_width = Math.max(ctx.measureText(song_label).width, song_value_width);
+  const song_center = text_x + song_width / 2;
 
   ctx.fillStyle = 'rgb(255, 255, 0)';
-  ctx.fillText(song_label, text_x, text_y_1);
-  ctx.fillText(song_value, text_x, text_y_2);
+  ctx.fillText(song_label, song_center, text_y_1);
 
-  text_x += song_width / 2 + HEADER_ALIGN_OUTSIDE_BLANK;
+  let part_x = song_center - song_value_width / 2;
+  for (const [index, [text, color]] of song_parts.entries()) {
+    const width = song_part_widths[index];
+    ctx.fillStyle = color;
+    ctx.fillText(text, part_x + width / 2, text_y_2);
+    part_x += width + song_gap;
+  }
+
+  text_x += song_width + HEADER_ALIGN_OUTSIDE_BLANK;
 
   // VER
   ctx.font = "bold 30px copperplate gothic bold";
